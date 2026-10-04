@@ -1,0 +1,50 @@
+{
+  "chunks": 651,
+  "chunks_by_document": {
+    "SY51-HB-P1": 8,
+    "SY51-HB-P2": 8,
+    "SY53-PPT": 56,
+    "GIAN-NIDHI": 579
+  },
+  "entities": 2697,
+  "entities_by_type": {
+    "organisation": 20,
+    "community": 1,
+    "institution": 167,
+    "event": 3,
+    "event_series": 1,
+    "tradition": 2,
+    "publication": 3,
+    "award": 3,
+    "person": 1742,
+    "place": 41,
+    "innovation": 36,
+    "plant": 1,
+    "practice": 19,
+    "product": 1,
+    "traditional_knowledge": 3,
+    "idea": 3,
+    "craft": 6,
+    "art_form": 2,
+    "crop_variety": 1,
+    "traditional_food": 2,
+    "project": 640
+  },
+  "mentions": 3949,
+  "relationships": 3287,
+  "relationships_by_status": {
+    "stated": 3187,
+    "probable": 94,
+    "unverified": 2,
+    "distinct": 4
+  },
+  "cross_document_entities": [
+    "AWD-PADMA-SHRI",
+    "AWD-PRESIDENTIAL-UNSPECIFIED",
+    "EVT-SHODHYATRA-SERIES",
+    "ORG-GIAN",
+    "ORG-HBN",
+    "ORG-SRISTI",
+    "ORG-SRISTI-INNOVATIONS"
+  ]
+}

@@ -1,0 +1,3396 @@
+{
+ "_comment": "Curated entity registry for the two PDFs and the GIAN Nidhi page context. 'aliases' are exact surface forms found in the sources (used for mention detection and query-time entity linking). 'documents' scopes where an alias may be matched, so identical first names in different sources are never merged by string similarity. 'description' only restates what the sources say. GIAN Nidhi institutions, participants and projects are generated programmatically from the cleaned CSV.",
+ "entities": [
+  {
+   "id": "ORG-GIAN",
+   "type": "organisation",
+   "name": "GIAN",
+   "aliases": [
+    "GIAN",
+    "gian",
+    "www.gian.org",
+    "GIANNIDHI"
+   ],
+   "documents": [
+    "SY53-PPT",
+    "SY51-HB-P2",
+    "GIAN-NIDHI",
+    "SY51-HB-P1"
+   ],
+   "description": "Logo on the 53rd Shodhyatra title slide; 'supported by GIAN' (51st Shodhyatra, Honey Bee 35(4) p.2); publisher of the GIAN Nidhi repository. GIAN Nidhi page footer: 'GIAN is the first incubator of grassroots innovations set up in 1997 in collaboration with the Gujarat government and supported by SRISTI and IIMA in addition to the Honey Bee Network.'"
+  },
+  {
+   "id": "ORG-SRISTI",
+   "type": "organisation",
+   "name": "SRISTI",
+   "aliases": [
+    "SRISTI",
+    "www.sristi.org",
+    "सृष्टि संस्था",
+    "सृष्टि"
+   ],
+   "documents": [
+    "SY53-PPT",
+    "SY51-HB-P2",
+    "GIAN-NIDHI"
+   ],
+   "description": "Organised the 51st Shodhyatra (Honey Bee 35(4) p.2). Logo on the 53rd Shodhyatra title slide; 'सृष्टि संस्था के साथियों' worked with Dharmveer on mahua machine demonstrations (slide 60). Named as a supporter of GIAN on the GIAN Nidhi page."
+  },
+  {
+   "id": "ORG-SRISTI-INNOVATIONS",
+   "type": "organisation",
+   "name": "SRISTI Innovations",
+   "aliases": [
+    "SRISTI Innovations",
+    "sristi innovations",
+    "sristiinnovation.com"
+   ],
+   "documents": [
+    "SY53-PPT",
+    "SY51-HB-P2"
+   ],
+   "description": "Logo on the 53rd Shodhyatra title slide and on the 51st Shodhyatra route graphic (sristiinnovation.com). Role not stated."
+  },
+  {
+   "id": "ORG-HBN",
+   "type": "organisation",
+   "name": "Honey Bee Network",
+   "aliases": [
+    "Honey Bee Network",
+    "HONEY BEE NETWORK",
+    "हनी बी"
+   ],
+   "documents": [
+    "SY53-PPT",
+    "SY51-HB-P2",
+    "GIAN-NIDHI"
+   ],
+   "description": "Supported the 51st Shodhyatra (Honey Bee 35(4) p.2). Logo on the 53rd Shodhyatra title slide; slide 90 shows 'promotion and dissemination of the Honey Bee database method'. Mentioned on the GIAN Nidhi page as supporting GIAN."
+  },
+  {
+   "id": "ORG-NIF",
+   "type": "organisation",
+   "name": "nif.org.in (NIF website)",
+   "aliases": [
+    "nif.org.in"
+   ],
+   "documents": [
+    "SY51-HB-P1"
+   ],
+   "description": "Only a URL appears: https://nif.org.in/innovation/wear_a-helmet-to-start_your-two-wheeler/706 (idea competition, Honey Bee 35(3) p.15). The organisation name is not written out in the source."
+  },
+  {
+   "id": "ORG-IIMA",
+   "type": "organisation",
+   "name": "IIMA",
+   "aliases": [
+    "IIMA"
+   ],
+   "documents": [
+    "GIAN-NIDHI"
+   ],
+   "description": "Named on the GIAN Nidhi page as a supporter of GIAN (with SRISTI and the Honey Bee Network)."
+  },
+  {
+   "id": "ORG-GOVT-GUJARAT",
+   "type": "organisation",
+   "name": "Gujarat government",
+   "aliases": [
+    "Gujarat government"
+   ],
+   "documents": [
+    "GIAN-NIDHI"
+   ],
+   "description": "GIAN was set up in 1997 in collaboration with the Gujarat government (GIAN Nidhi page footer)."
+  },
+  {
+   "id": "ORG-GOVT-MP",
+   "type": "organisation",
+   "name": "Government of Madhya Pradesh",
+   "aliases": [
+    "मध्यप्रदेश सरकार",
+    "मध्य प्रदेश सरकार"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Honoured Jhabua's dolls (slide 16); with the local agriculture department, pursuing a GI tag for the Noorjahan mango (slide 49)."
+  },
+  {
+   "id": "ORG-MALI-SAMAJ",
+   "type": "organisation",
+   "name": "Mali Samaj",
+   "aliases": [
+    "Mali Samaj"
+   ],
+   "documents": [
+    "SY51-HB-P1"
+   ],
+   "description": "Members of the Mali Samaj supported the 51st Shodhyatra walk as local volunteers (Honey Bee 35(3) p.13)."
+  },
+  {
+   "id": "ORG-SHUBHANGINI-SPICES",
+   "type": "organisation",
+   "name": "M/s Shubhangini Spices",
+   "aliases": [
+    "M/s Shubhangini Spices",
+    "Shubhangini Spices"
+   ],
+   "documents": [
+    "SY51-HB-P1"
+   ],
+   "description": "Manufacturer processing Kasuri Methi (dried fenugreek leaves) and Pudina (mint) visited during the 51st Shodhyatra; yatris suggested UV light against contamination and discussed a possible GI application (Honey Bee 35(3) p.14)."
+  },
+  {
+   "id": "ORG-SHIV-SHIVAY-FPC",
+   "type": "organisation",
+   "name": "Shri Shiv Shivay Farmer Producer Company Limited",
+   "aliases": [
+    "श्री शिव शिवाय फार्मर प्रोड्यूसर कंपनी लिमिटेड",
+    "शिव शिवाय फार्मर प्रोड्यूसर कंपनी लिमिटेड",
+    "Shiv Shivay Farmer Producer Company",
+    "Shiv Shivay FPC"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Farmer producer company of village Bamaniya, Jhabua (MP), established 2024; aggregates linseed stalks (slides 36-37)."
+  },
+  {
+   "id": "ORG-TRC",
+   "type": "organisation",
+   "name": "TRC",
+   "aliases": [
+    "TRC",
+    "TRC संस्था"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Guided the Shiv Shivay FPC and connected it to a linseed-stalk processing company (slide 37). Full name not given."
+  },
+  {
+   "id": "ORG-BHASHA-SANSTHA",
+   "type": "organisation",
+   "name": "'Bhasha' organisation (भाषा संस्था)",
+   "aliases": [
+    "“भाषा” संस्था",
+    "भाषा संस्था",
+    "Bhasha organisation"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Sejal Rathwa strengthened the banana-fibre diary business together with the 'Bhasha' organisation (slide 39)."
+  },
+  {
+   "id": "ORG-BHASHA-KENDRA",
+   "type": "organisation",
+   "name": "Bhasha Kendra (भाषा केंद्र)",
+   "aliases": [
+    "भाषा केंद्र",
+    "Bhasha Kendra"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Published Dineshbhai Rathwa's Rathwa-dialect word booklet (slide 70)."
+  },
+  {
+   "id": "ORG-SAMPARK",
+   "type": "organisation",
+   "name": "Sampark (Sampark Sanstha / Sampark Sansthan, Petlawad)",
+   "aliases": [
+    "सम्पर्क संस्था",
+    "संपर्क संस्था",
+    "संपर्क संस्थान",
+    "Sampark",
+    "Sampark Sanstha"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Organisation at Petlawad, Jhabua with which Harish Pawar ji works; has conserved 196 native seed varieties including 32 wheat varieties (slides 40-42)."
+  },
+  {
+   "id": "ORG-VYAPARI-MAHASANGH",
+   "type": "organisation",
+   "name": "Vyapari Mahasangh (traders' federation)",
+   "aliases": [
+    "व्यापारी महासंघ",
+    "Vyapari Mahasangh"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "With Kamleshji Patel and others, planted 5000 trees on Hathipav hill, Jhabua (slide 79)."
+  },
+  {
+   "id": "ORG-GOOD-MORNING-CLUB",
+   "type": "organisation",
+   "name": "Good Morning Club",
+   "aliases": [
+    "गुड मॉर्निंग क्लब",
+    "गुडमार्निंग क्लब",
+    "Good Morning Club"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Club through which Mahendra Sharma and Prafulji Sharma raised health awareness among people aged 35-65; a clipping reports its silver jubilee (slide 81). Location not stated."
+  },
+  {
+   "id": "ORG-SHAKTI-EMPORIUM",
+   "type": "organisation",
+   "name": "Shakti Emporium ('Gudiya Ghar')",
+   "aliases": [
+    "शक्ति एम्पोरियम",
+    "गुड़िया घर",
+    "Shakti Emporium",
+    "Gudiya Ghar"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Founded in the 1980s by Shri Uddhav Gidwani, known locally as 'Gudiya Ghar' (doll house), to make tribal women self-reliant and establish doll-making commercially (slide 16)."
+  },
+  {
+   "id": "ORG-ISRO",
+   "type": "organisation",
+   "name": "ISRO",
+   "aliases": [
+    "इसरो",
+    "ISRO"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Anu Bhabhor also did a programme 'in ISRO' (slide 24, wording as given)."
+  },
+  {
+   "id": "ORG-HSRA",
+   "type": "organisation",
+   "name": "Hindustan Socialist Republican Army / Association",
+   "aliases": [
+    "हिन्दुस्तान सोशलिस्ट रिपब्लिकन आर्मी",
+    "हिन्दुस्तान सोशलिस्ट रिपब्लिकन एसोसिएशन",
+    "Hindustan Socialist Republican Army",
+    "HSRA"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Chandrashekhar Azad was its Commander-in-Chief (slide 93)."
+  },
+  {
+   "id": "ORG-NAYAK-BHIL-DHANUK",
+   "type": "community",
+   "name": "Nayak, Bhil and Dhanuk communities (Chhota Udepur)",
+   "aliases": [
+    "नायक, भील और धानुक समुदाय",
+    "Nayak, Bhil and Dhanuk"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Communities of Chhota Udaipur district, Gujarat, who make lac-coated non-stick clay handis (slides 44-45)."
+  },
+  {
+   "id": "ORG-GUNATA-SCHOOL",
+   "type": "institution",
+   "name": "Gunata Primary School",
+   "aliases": [
+    "गुनाटा प्राथमिक शाला",
+    "गुनाटा स्कूल",
+    "Gunata Primary School",
+    "Gunata school"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "School where Jitubhai Patel teaches (400+ students) and student Mehul set up a small art museum (slide 68); the 53rd Shodhyatra halted at Gunata school on 8 June (slide 76); Mehul Rathwa studies at the school of Gunata village (slide 34)."
+  },
+  {
+   "id": "ORG-ROJKUVA-SCHOOL",
+   "type": "institution",
+   "name": "Rojkuva Primary School (Chhota Udaipur, Gujarat)",
+   "aliases": [
+    "रोजकुवा प्राथमिक शाला",
+    "Rojkuva Primary School"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "School of teacher Makwana Jagdishbhai Naranbhai (slide 66)."
+  },
+  {
+   "id": "ORG-HARPALPUR-SCHOOL",
+   "type": "institution",
+   "name": "Harpalpur Primary School (Gujarat)",
+   "aliases": [
+    "हरपालपुर प्राथमिक शाला",
+    "Harpalpur Primary School"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "School of teacher Ramanbhai Rathwa (slide 71)."
+  },
+  {
+   "id": "ORG-RANGPUR-SCHOOL",
+   "type": "institution",
+   "name": "Rangpur Primary School (Chhota Udaipur)",
+   "aliases": [
+    "रंगपुर प्राथमिक विद्यालय",
+    "Rangpur Primary School"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "School of class-6 student Aadesh (slide 75)."
+  },
+  {
+   "id": "ORG-PMC-GIRLS-SCHOOL",
+   "type": "institution",
+   "name": "PMC Girls School",
+   "aliases": [
+    "PMC गर्ल्स स्कूल",
+    "PMC Girls School"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Girls' school led by Seema Trivedi ji; enrolment rose from 1100 to 1450 in 2024 (slide 64). Location not stated."
+  },
+  {
+   "id": "ORG-SOLDIER-ACADEMY-JHABUA",
+   "type": "institution",
+   "name": "Free Soldier Physical Academy, Jhabua",
+   "aliases": [
+    "सोल्जर फिजिकल एकेडमी झाबुआ",
+    "Soldier Physical Academy"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Started free of charge by Uday Bilwal in 2015 (slide 63)."
+  },
+  {
+   "id": "ORG-JHABUA-COLLEGE",
+   "type": "institution",
+   "name": "Jhabua College",
+   "aliases": [
+    "झाबुआ कॉलेज"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Its ground is mentioned in Uday Bilwal's story (slide 63)."
+  },
+  {
+   "id": "ORG-CHAKDHANI-SCHOOL",
+   "type": "institution",
+   "name": "Government Higher Secondary School, Chakdhani (Nagaur)",
+   "aliases": [
+    "राजकीय उच्च माध्यमिक विद्यालय चकढ़ाणी"
+   ],
+   "documents": [
+    "SY51-HB-P1"
+   ],
+   "description": "School wall with an 'Alumni Board' shown in a photo captioned 'Recognising outstanding students' (Honey Bee 35(3) p.15; text read from the photo)."
+  },
+  {
+   "id": "EVT-SY51",
+   "type": "event",
+   "name": "51st Shodhyatra (June 17-23, 2024, Harima to Chak Dhani, Nagaur, Rajasthan)",
+   "aliases": [
+    "51st Shodhyatra",
+    "51 Shodhyatra",
+    "Shodhyatra 51",
+    "SHODHYATRA 51",
+    "51st Shodhyatra",
+    "51st"
+   ],
+   "documents": [
+    "SY51-HB-P1",
+    "SY51-HB-P2"
+   ],
+   "description": "Week-long walk from Harima to Chak Dhani in Nagaur district, Rajasthan, June 17-23, 2024; began with 50 participants from 15 states (Part I, p.13); through nine villages (Part II, p.2); organised by SRISTI, supported by GIAN and the Honey Bee Network (Part II, p.2).",
+   "attributes": {
+    "start_date": "2024-06-17",
+    "end_date": "2024-06-23",
+    "start_place": "Harima",
+    "end_place": "Chak Dhani",
+    "district": "Nagaur",
+    "state": "Rajasthan",
+    "participants_stated": "50 participants from 15 states",
+    "villages_stated": "nine villages"
+   }
+  },
+  {
+   "id": "EVT-SY53",
+   "type": "event",
+   "name": "53rd Shodhyatra (04-10 June 2025, Bhurimati, Jhabua MP to Ambala, Chhota Udepur, Gujarat)",
+   "aliases": [
+    "53rd Shodhyatra",
+    "53 वीं शोधयात्रा",
+    "53वीं शोधयात्रा",
+    "५३ वीं शोधयात्रा",
+    "53rd Shodyatra",
+    "53rd"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "From Bhurimati (Jhabua, MP) to Ambala (Chhota Udepur, Gujarat), 04-10 June 2025 (slide 1); 105+ km through Jhabua and Alirajpur (MP) and Chhota Udaipur (Gujarat) (slide 4); 40+ shodhyatris from 10 states (slide 5); 23 villages - 17 in MP, 6 in Gujarat (slide 6).",
+   "attributes": {
+    "start_date": "2025-06-04",
+    "end_date": "2025-06-10",
+    "start_place": "Bhurimati",
+    "end_place": "Ambala",
+    "districts": [
+     "Jhabua",
+     "Alirajpur",
+     "Chhota Udepur"
+    ],
+    "states": [
+     "Madhya Pradesh",
+     "Gujarat"
+    ],
+    "distance_stated": "105+ km",
+    "participants_stated": "40+ shodhyatris from 10 states",
+    "villages_stated": "23 (17 MP, 6 Gujarat)"
+   }
+  },
+  {
+   "id": "EVT-SHODHYATRA-SERIES",
+   "type": "event_series",
+   "name": "Shodhyatra (series)",
+   "aliases": [
+    "Shodhyatra",
+    "Shodhyatras",
+    "शोधयात्रा",
+    "SHODHYATRA 1 TO 52"
+   ],
+   "documents": [
+    "SY53-PPT",
+    "SY51-HB-P1",
+    "SY51-HB-P2"
+   ],
+   "description": "Series of walks; slide 2 of the 53rd presentation maps Shodhyatras 1-52 (summer and winter) and marks the 53rd as upcoming. Part II describes the Shodhyatra as 'an attempt to reach out to such parts of the country, where hardships and challenges of the natural surroundings motivate people to reproduce and develop frugal solutions'."
+  },
+  {
+   "id": "EVT-ICCIG",
+   "type": "event",
+   "name": "ICCIG",
+   "aliases": [
+    "ICCIG"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Desing Rathwa recently took part in ICCIG with Pithora paintings (slide 33). The acronym is not expanded in the source."
+  },
+  {
+   "id": "EVT-HALMA",
+   "type": "tradition",
+   "name": "Halma (हलमा)",
+   "aliases": [
+    "हलमा",
+    "Halma"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Annual festival at which Ashok used to help people (slide 50); 'Adivasi Halma' is also mentioned on Bharti Soni's slide (slide 17)."
+  },
+  {
+   "id": "EVT-GAMSHAYNI",
+   "type": "tradition",
+   "name": "Gamshayni (गामशायनी)",
+   "aliases": [
+    "गामशायनी",
+    "Gamshayni"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Festival held after 100 years at Moti Dumali to change the generation of the local deity (slide 23)."
+  },
+  {
+   "id": "PUB-HB-35-3",
+   "type": "publication",
+   "name": "Honey Bee Vol 35 (3) July - September 2024",
+   "aliases": [
+    "Honey Bee Vol 35 (3)"
+   ],
+   "documents": [
+    "SY51-HB-P1"
+   ],
+   "description": "Newsletter issue carrying '51st Shodhyatra ... Part-I' on pp. 13-15."
+  },
+  {
+   "id": "PUB-HB-35-4",
+   "type": "publication",
+   "name": "Honey Bee Vol 35 (4) October - December 2024",
+   "aliases": [
+    "Honey Bee Vol 35 (4)"
+   ],
+   "documents": [
+    "SY51-HB-P2"
+   ],
+   "description": "Newsletter issue carrying 'The pain behind the glitter! 51 Shodhyatra ... Part-II' on pp. 2-4."
+  },
+  {
+   "id": "PUB-PATRIKA",
+   "type": "publication",
+   "name": "Patrika (Jhabua-Alirajpur edition clipping)",
+   "aliases": [
+    "पत्रिका",
+    "झाबुआ-आलीराजपुर पत्रिका",
+    "Patrika"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Newspaper clipping in the slide-84 image (Patrika, Indore, Tuesday 03 June 2025) about Sandhya Kulkarni."
+  },
+  {
+   "id": "AWD-PADMA-SHRI",
+   "type": "award",
+   "name": "Padma Shri",
+   "aliases": [
+    "Padma Shri",
+    "पद्मश्री"
+   ],
+   "documents": [
+    "SY51-HB-P1",
+    "SY53-PPT"
+   ],
+   "description": "Sources call Sundaram Ji and Himmat Ram Bhambhuji 'Padma Shri awardee' (no year given); Ramesh and Shanti Parmar were honoured with the Padma Shri in 2023 (slide 14); Bhuri Bai is said to have received the Padma Shri (hidden text, slide 35)."
+  },
+  {
+   "id": "AWD-PRESIDENTIAL-UNSPECIFIED",
+   "type": "award",
+   "name": "Presidential award (specific award not stated)",
+   "aliases": [
+    "Presidential awardee",
+    "राष्ट्रपति पुरस्कार"
+   ],
+   "documents": [
+    "SY51-HB-P1",
+    "SY53-PPT"
+   ],
+   "description": "Santosh Pachar is called 'a Presidential awardee' (Honey Bee 35(3) p.14); Shri Dharmveer of Yamunanagar is 'honoured with the President's award' (slide 60). The sources do not name the specific award or year, so this node does NOT imply the two received the same award."
+  },
+  {
+   "id": "AWD-SHIKHAR-SAMMAN",
+   "type": "award",
+   "name": "Shikhar Samman",
+   "aliases": [
+    "शिखर सम्मान",
+    "Shikhar Samman"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Award received by Bhuri Bai (hidden text, slide 35)."
+  },
+  {
+   "id": "PER-SUNDARAM-VERMA",
+   "type": "person",
+   "name": "Sundaram Verma",
+   "aliases": [
+    "Shri Sundaram Ji",
+    "Sundaram Ji",
+    "Sundaram Vermaji",
+    "Sunda Ram Verma"
+   ],
+   "documents": [
+    "SY51-HB-P1",
+    "SY51-HB-P2"
+   ],
+   "description": "Padma Shri awardee who developed a method to grow trees with just one litre of water; brought apples grown in Rajasthan of a variety originally developed by Hariman Sharma (Part I p.14). Part II p.4 details the one-litre technique (80-85% success rate).",
+   "roles": [
+    "innovator",
+    "farmer"
+   ],
+   "link_note": "Three spellings across Part I and Part II linked because the same unique technique (one litre of water) is attributed to each."
+  },
+  {
+   "id": "PER-HIMMAT-RAM-BHAMBHU",
+   "type": "person",
+   "name": "Himmat Ram Bhambhu",
+   "aliases": [
+    "Shri Himmat Ram Bhambhu",
+    "Himmat Ram Bhambhu",
+    "Himmat Ram Bhambhuji",
+    "Himmat Ramji Bambhu",
+    "Himmatramji Bambhu"
+   ],
+   "documents": [
+    "SY51-HB-P1",
+    "SY51-HB-P2"
+   ],
+   "description": "Created Paryavaran Van, a 36-bigha mini forest at Harima village (Part I p.13); Padma Shri awardee who has planted over 5 lakh trees and fought for wildlife conservation (Part I p.14); helped conserve landscapes and waterscapes for many wildlife species (Part II p.4).",
+   "roles": [
+    "innovator",
+    "conservationist"
+   ],
+   "link_note": "Spellings Bhambhu/Bambhu linked: same village (Harima), same conservation work, same event."
+  },
+  {
+   "id": "PER-RAMESHWAR-KHEJRI",
+   "type": "person",
+   "name": "Rameshwar Lal / Rameshwar Prasad (name differs between Part I and Part II)",
+   "aliases": [
+    "Shri Rameshwar Prasad Ji",
+    "Rameshwar Prasad Ji",
+    "Rameshwar Prasad",
+    "Mr. Rameshwar Lal ji",
+    "Rameshwar Lal ji",
+    "Rameshwar Lal"
+   ],
+   "documents": [
+    "SY51-HB-P1",
+    "SY51-HB-P2"
+   ],
+   "description": "Part I (p.14): 'Shri Rameshwar Prasad Ji' - grafting techniques with the Khejri tree and the discovery of 14 different varieties including a thornless Khejri. Part II (pp.2, 4): 'Rameshwar Lal ji' - developed a thornless variety of Khejri (Prosopis cineraria) through grafting and collected seeds from a tree that flowered in a dry year.",
+   "roles": [
+    "innovator"
+   ],
+   "flags": [
+    "name_conflict"
+   ],
+   "link_note": "Linked as one person with status 'probable': both mentions are tied to the same specific innovation (thornless Khejri via grafting) in the same Shodhyatra; the middle name conflicts (Prasad vs Lal) and is unresolved."
+  },
+  {
+   "id": "PER-HARIMAN-SHARMA",
+   "type": "person",
+   "name": "Hariman Sharma",
+   "aliases": [
+    "Hariman Sharma"
+   ],
+   "documents": [
+    "SY51-HB-P1"
+   ],
+   "description": "Originally developed (in Himachal Pradesh) the apple variety that Sundaram Ji grew in Rajasthan (Part I p.14)."
+  },
+  {
+   "id": "PER-SANTOSH-PACHAR",
+   "type": "person",
+   "name": "Santosh Pachar",
+   "aliases": [
+    "Smt. Santosh Pachar",
+    "Santosh Pachar"
+   ],
+   "documents": [
+    "SY51-HB-P1"
+   ],
+   "description": "Presidential awardee who developed a new carrot variety; met at the innovators' press conference (Part I p.14).",
+   "roles": [
+    "innovator"
+   ]
+  },
+  {
+   "id": "PER-ASHOK-SY51",
+   "type": "person",
+   "name": "Mr. Ashok (51st Shodhyatra)",
+   "aliases": [
+    "Mr. Ashok",
+    "Ashok"
+   ],
+   "documents": [
+    "SY51-HB-P1",
+    "SY51-HB-P2"
+   ],
+   "description": "Entrepreneur who promotes organic farming and gives employment to women (Part I p.14; Part II p.2). No surname given.",
+   "roles": [
+    "entrepreneur"
+   ],
+   "link_note": "Distinct from 'Ashok (farmer)' of the 53rd Shodhyatra (different event, region and story)."
+  },
+  {
+   "id": "PER-PANCHARIYA",
+   "type": "person",
+   "name": "Rawalchand / Rahulchand Panchariya",
+   "aliases": [
+    "Mr. Rahulchand Panchariya",
+    "Rahulchand Panchariya",
+    "Mr. Rawalchand Panchariya",
+    "Rawalchand Panchariya"
+   ],
+   "documents": [
+    "SY51-HB-P1",
+    "SY51-HB-P2"
+   ],
+   "description": "Showcased innovations in organic sweet potato cultivation and millet-based products (Part I p.14; Part II p.2). Part II p.4: spoke about the five varieties of sweet potato he had developed by selection over seven years, needing less water. Part I photo caption (p.15): 'Eight varieties of sweet potatoes, Rahulchand Panchariya'.",
+   "roles": [
+    "innovator",
+    "farmer"
+   ],
+   "flags": [
+    "name_conflict",
+    "conflicting_values"
+   ],
+   "link_note": "Linked as one person with status 'probable': same surname and same innovations; first name spelled Rahulchand (Part I) vs Rawalchand (Part II). Count differs: 'eight varieties' (Part I caption, varieties shown) vs 'five varieties ... he had developed' (Part II)."
+  },
+  {
+   "id": "PER-KAMALJI-BATI",
+   "type": "person",
+   "name": "Kamalji Bati",
+   "aliases": [
+    "Kamalji Bati"
+   ],
+   "documents": [
+    "SY51-HB-P1"
+   ],
+   "description": "Operator of the Likhmidas Temple who shared the temple's story (Part I p.14).",
+   "link_note": "Distinct from Kamalji/Kalamsingh Dawar of the 53rd Shodhyatra."
+  },
+  {
+   "id": "PER-SUNILJI",
+   "type": "person",
+   "name": "Sunilji",
+   "aliases": [
+    "Sunilji"
+   ],
+   "documents": [
+    "SY51-HB-P1"
+   ],
+   "description": "Operator of the Likhmidas Temple (Part I p.14)."
+  },
+  {
+   "id": "PER-RAJARAM-TAK",
+   "type": "person",
+   "name": "Rajaram Tak",
+   "aliases": [
+    "Shri Rajaram Tak",
+    "Rajaram Tak"
+   ],
+   "documents": [
+    "SY51-HB-P1"
+   ],
+   "description": "Teacher who presented a model of the solar system at Atusar village (Part I p.14)."
+  },
+  {
+   "id": "PER-SHRAVAN-KUMAR-SONI",
+   "type": "person",
+   "name": "Shravan Kumar Soni",
+   "aliases": [
+    "Shri Shravan Kumar Soni",
+    "Shravan Kumar Soni"
+   ],
+   "documents": [
+    "SY51-HB-P1"
+   ],
+   "description": "Demonstrated how home spaces could be made greener using bonsai plants (Part I p.14)."
+  },
+  {
+   "id": "PER-KANARAMJI",
+   "type": "person",
+   "name": "Kanaramji (91-year-old)",
+   "aliases": [
+    "Shri Kanaramji",
+    "Shree Kanaramji",
+    "Kanaramji"
+   ],
+   "documents": [
+    "SY51-HB-P1",
+    "SY51-HB-P2"
+   ],
+   "description": "91-year-old innovator; shared tips for staying fit; made a crutch that supported his leg from the thigh, freeing his hands (Part I p.14). Shared traditional animal remedies (Part II p.4).",
+   "roles": [
+    "innovator",
+    "traditional knowledge holder"
+   ]
+  },
+  {
+   "id": "PER-TEJARAM",
+   "type": "person",
+   "name": "Tejaram Ji",
+   "aliases": [
+    "Shri Tejaram Ji",
+    "Tejaram Ji"
+   ],
+   "documents": [
+    "SY51-HB-P1"
+   ],
+   "description": "64-year-old PhD holder in Economics who shared his wisdom (Part I p.14)."
+  },
+  {
+   "id": "PER-ANARAMJI",
+   "type": "person",
+   "name": "Anaramji",
+   "aliases": [
+    "Anaramji"
+   ],
+   "documents": [
+    "SY51-HB-P1"
+   ],
+   "description": "Herbalist for animals and humans, practising traditional knowledge for 40 years (Part I pp.14-15)."
+  },
+  {
+   "id": "PER-SATARAM",
+   "type": "person",
+   "name": "Sataram",
+   "aliases": [
+    "Shri Sataram",
+    "Sataram"
+   ],
+   "documents": [
+    "SY51-HB-P1"
+   ],
+   "description": "The only farmer in the village using camels for farming (Part I p.15)."
+  },
+  {
+   "id": "PER-PHULI-DEVI",
+   "type": "person",
+   "name": "Phuli Devi",
+   "aliases": [
+    "Smt. Phuli Devi",
+    "Phuli Devi"
+   ],
+   "documents": [
+    "SY51-HB-P1"
+   ],
+   "description": "Traditional healer (Part I p.15)."
+  },
+  {
+   "id": "PER-RAMI-DEVI",
+   "type": "person",
+   "name": "Rami Devi",
+   "aliases": [
+    "Rami Devi"
+   ],
+   "documents": [
+    "SY51-HB-P1"
+   ],
+   "description": "Traditional healer (Part I p.15)."
+  },
+  {
+   "id": "PER-BABULALJI",
+   "type": "person",
+   "name": "Babulalji",
+   "aliases": [
+    "Shri Babulalji",
+    "Babulalji"
+   ],
+   "documents": [
+    "SY51-HB-P1"
+   ],
+   "description": "Volunteer helping to organise the yatra in the village (Part I p.15)."
+  },
+  {
+   "id": "PER-PRAHALAD",
+   "type": "person",
+   "name": "Prahalad",
+   "aliases": [
+    "Shri Prahalad"
+   ],
+   "documents": [
+    "SY51-HB-P1"
+   ],
+   "description": "Farmer at Mundwa who kept cultivating Khejri trees despite family resistance and earned a decent income (Part I p.15)."
+  },
+  {
+   "id": "PER-SARJU-DEVI",
+   "type": "person",
+   "name": "Sarju Devi (108-year-old)",
+   "aliases": [
+    "Smt. Sarju Devi Ji",
+    "Sarju Devi Ji",
+    "Sarju Devi ji",
+    "Sarju Devi"
+   ],
+   "documents": [
+    "SY51-HB-P1",
+    "SY51-HB-P2"
+   ],
+   "description": "108-year-old who sang bhajans and replied to every question in poetry (Part I p.15); centenarian who shared stories and tips for a long life (Part II p.3)."
+  },
+  {
+   "id": "PER-DHARAMVEER-KHAMBOJJI",
+   "type": "person",
+   "name": "Dharamveer Khambojji",
+   "aliases": [
+    "Dharamveer Khambojji"
+   ],
+   "documents": [
+    "SY51-HB-P1"
+   ],
+   "description": "Rural entrepreneur who participated (at Kuchera) despite a fractured leg and showed his inventions, an electric wheelchair and fruit juices (Part I p.15); photo caption 'Dharamveer Khambojji interacting with children'.",
+   "roles": [
+    "innovator",
+    "entrepreneur"
+   ],
+   "link_note": "Possibly the same person as 'Shri Dharmveer' of Yamunanagar in the 53rd Shodhyatra presentation, but NOT confirmed by the sources (no surname/place overlap). Kept as a separate entity; relationship status 'unverified'."
+  },
+  {
+   "id": "PER-SATAR-KHAN",
+   "type": "person",
+   "name": "Satar Khan",
+   "aliases": [
+    "Satar Khan"
+   ],
+   "documents": [
+    "SY51-HB-P1"
+   ],
+   "description": "Teacher: the government school had 45 students when he joined, now 320; aims for over 400 (Part I p.15)."
+  },
+  {
+   "id": "PER-RINKU-JEJI",
+   "type": "person",
+   "name": "Rinku Jeji",
+   "aliases": [
+    "Rinku Jeji"
+   ],
+   "documents": [
+    "SY51-HB-P1"
+   ],
+   "description": "Idea in the idea competition: a device to indicate if manure is required in the field (Part I p.15).",
+   "link_note": "Distinct from Rinku Rathwa (53rd Shodhyatra)."
+  },
+  {
+   "id": "PER-SIMRAN",
+   "type": "person",
+   "name": "Simran",
+   "aliases": [
+    "Simran"
+   ],
+   "documents": [
+    "SY51-HB-P1"
+   ],
+   "description": "Idea: a bottle with hot and cold water simultaneously (Part I p.15)."
+  },
+  {
+   "id": "PER-RAM-CHANDRA-SIROHI",
+   "type": "person",
+   "name": "Ram Chandra Sirohi",
+   "aliases": [
+    "Ram Chandra Sirohi"
+   ],
+   "documents": [
+    "SY51-HB-P2"
+   ],
+   "description": "Made study rooms equipped with tables and A/Cs for the village children (Part II p.3)."
+  },
+  {
+   "id": "PER-VISHNU",
+   "type": "person",
+   "name": "Vishnu (teacher)",
+   "aliases": [
+    "Vishnu"
+   ],
+   "documents": [
+    "SY51-HB-P2"
+   ],
+   "description": "Teacher who taught archery to students from tribal communities and helped them compete professionally (Part II p.3); his students are from nomadic communities (Part II p.4)."
+  },
+  {
+   "id": "PER-RAM-RATANJI",
+   "type": "person",
+   "name": "Ram Ratanji",
+   "aliases": [
+    "Ram Ratanji"
+   ],
+   "documents": [
+    "SY51-HB-P2"
+   ],
+   "description": "Sells tractors to farmers at a starting cost of Rs. 50,000, with the rest repaid at ease (Part II p.4)."
+  },
+  {
+   "id": "PER-SRI-KRISHNA",
+   "type": "person",
+   "name": "Sri Krishna",
+   "aliases": [
+    "Sri Krishna"
+   ],
+   "documents": [
+    "SY51-HB-P1"
+   ],
+   "description": "Motivated the team of local volunteers supporting the walk (Part I p.13)."
+  },
+  {
+   "id": "PER-SATISH",
+   "type": "person",
+   "name": "Satish",
+   "aliases": [
+    "Satish"
+   ],
+   "documents": [
+    "SY51-HB-P1"
+   ],
+   "description": "Motivated the team of local volunteers supporting the walk (Part I p.13)."
+  },
+  {
+   "id": "PER-RAMESH-PARMAR",
+   "type": "person",
+   "name": "Ramesh Parmar",
+   "aliases": [
+    "रमेश परमार",
+    "Ramesh Parmar"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Of Jhabua; with Shanti Parmar makes traditional Bhili dolls and tribal toys for 30 years; Padma Shri 2023 (slide 14).",
+   "roles": [
+    "artisan"
+   ]
+  },
+  {
+   "id": "PER-SHANTI-PARMAR",
+   "type": "person",
+   "name": "Shanti Parmar",
+   "aliases": [
+    "शांति परमार",
+    "Shanti Parmar"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Of Jhabua; with Ramesh Parmar makes Bhili dolls; Padma Shri 2023 (slide 14).",
+   "roles": [
+    "artisan"
+   ]
+  },
+  {
+   "id": "PER-SUBHASH-GIDWANI",
+   "type": "person",
+   "name": "Subhash Gidwani",
+   "aliases": [
+    "सुभाष गिदवानी",
+    "Subhash Gidwani"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Jhabua; conservation and promotion of Adivasi Gudiya; 300+ exhibitions; trained about 150-200 women (slides 15-16).",
+   "roles": [
+    "artisan",
+    "entrepreneur"
+   ]
+  },
+  {
+   "id": "PER-UDDHAV-GIDWANI",
+   "type": "person",
+   "name": "Uddhav Gidwani",
+   "aliases": [
+    "उद्धव गिदवानी",
+    "Uddhav Gidwani"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Father of Subhash Gidwani; founded Shakti Emporium ('Gudiya Ghar') in the 1980s (slide 16)."
+  },
+  {
+   "id": "PER-BHARTI-SONI",
+   "type": "person",
+   "name": "Bharti Soni",
+   "aliases": [
+    "भारती सोनी",
+    "Bharti Soni"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Teaches school children to make clay idols (5000 a year) (slide 17)."
+  },
+  {
+   "id": "PER-ARCHANA-RATHWA",
+   "type": "person",
+   "name": "Archana Rathwa",
+   "aliases": [
+    "अर्चना राठवा",
+    "Archana Rathwa"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "From a village in Chhota Udepur district; turned Warli and Pithora art into a business; received Rs 1.25 lakh with an honour (slide 18)."
+  },
+  {
+   "id": "PER-SHIVKUMARJI",
+   "type": "person",
+   "name": "Shivkumarji (Alirajpur)",
+   "aliases": [
+    "शिवकुमरजी",
+    "शिवकुमारजी",
+    "Shivkumarji",
+    "Shivkumar ji"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Made Gatha memory-pillar sculptures; Alirajpur, MP (slides 19-21)."
+  },
+  {
+   "id": "PER-THAVARSINGH-BHURIYA",
+   "type": "person",
+   "name": "Thavarsingh Bhuriya",
+   "aliases": [
+    "थावरसिंग भूरिया",
+    "Thavarsingh Bhuriya"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "With Pema Fatiya, has made much Pithora art; a '55 long' Pithora installed in Bombay (slide 22)."
+  },
+  {
+   "id": "PER-PEMA-FATIYA",
+   "type": "person",
+   "name": "Pema Fatiya",
+   "aliases": [
+    "पेमा फातिया",
+    "Pema Fatiya"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Pithora artist working with Thavarsingh Bhuriya (slide 22)."
+  },
+  {
+   "id": "PER-ANU-BHABHOR",
+   "type": "person",
+   "name": "Anu Bhabhor",
+   "aliases": [
+    "अनु भाभोर",
+    "Anu Bhabhor"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "400+ street plays on social issues; programme at ISRO; state-level gold medal in sport at 62 (slide 24)."
+  },
+  {
+   "id": "PER-SANTOSH-BASOND",
+   "type": "person",
+   "name": "Santosh Basond",
+   "aliases": [
+    "संतोष बसोंड",
+    "Santosh Basond"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Makes bamboo products in Jhabua including a standing-use broom bought by the administration (slide 25).",
+   "link_note": "Distinct from Santosh Pachar (51st Shodhyatra)."
+  },
+  {
+   "id": "PER-RATANBHAI-RATHWA",
+   "type": "person",
+   "name": "Ratanbhai (Pohliya) Rathwa",
+   "aliases": [
+    "रतनभाई राठवा",
+    "रतनभाई पोहलिया राठवा",
+    "Ratanbhai Rathwa"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Folk artist of Kanalwa, Chhota Udepur; traditional wooden sculptures for 10 years (slides 27-28)."
+  },
+  {
+   "id": "PER-BHARAT-VARIYA",
+   "type": "person",
+   "name": "Bharat Variya",
+   "aliases": [
+    "भरत वरिया",
+    "Bharat Variya"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "'Sculptor of tribal faith' (slide 31 caption only)."
+  },
+  {
+   "id": "PER-DESING-RATHWA",
+   "type": "person",
+   "name": "Desing Rathwa",
+   "aliases": [
+    "देसींग राठवा",
+    "Desing Rathwa"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Lakhara (Pithora painter); took part in ICCIG (slides 32-33)."
+  },
+  {
+   "id": "PER-MEHUL-RATHWA",
+   "type": "person",
+   "name": "Mehul Rathwa",
+   "aliases": [
+    "मेहुल राठवा",
+    "मेहुल",
+    "Mehul Rathwa",
+    "Mehul"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Student artist at the school of Gunata village; held a small art exhibition (slide 34). Slide 68: 'student Mehul' set up a small art museum at Gunata Primary School.",
+   "link_note": "Slide 68's 'छात्र मेहुल' linked to Mehul Rathwa (slide 34) with status 'probable' - same first name, same school (Gunata), both about his art."
+  },
+  {
+   "id": "PER-BHURI-BAI",
+   "type": "person",
+   "name": "Bhuri Bai",
+   "aliases": [
+    "भूरी बाई",
+    "Bhuri Bai"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Bhil artist of MP; put Pithora art on paper and acrylic under J. Swaminathan's guidance; Padma Shri and Shikhar Samman (slide 35 - text hidden behind an image).",
+   "flags": [
+    "hidden_text_in_pdf"
+   ]
+  },
+  {
+   "id": "PER-J-SWAMINATHAN",
+   "type": "person",
+   "name": "J. Swaminathan",
+   "aliases": [
+    "जे. स्वामीनाथन",
+    "J. Swaminathan"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Guided Bhuri Bai (slide 35, hidden text)."
+  },
+  {
+   "id": "PER-LEELA-NINAMA",
+   "type": "person",
+   "name": "Leela Ninama",
+   "aliases": [
+    "लीला निनामा",
+    "Leela Ninama"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Named with the Shiv Shivay FPC, Bamaniya (slide 36)."
+  },
+  {
+   "id": "PER-MANJU-VASUNIYA",
+   "type": "person",
+   "name": "Manju Vasuniya",
+   "aliases": [
+    "मंजू वसुनिया",
+    "Manju Vasuniya"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Named with the Shiv Shivay FPC, Bamaniya (slide 36)."
+  },
+  {
+   "id": "PER-LALITA-SINGAD",
+   "type": "person",
+   "name": "Lalita Singad",
+   "aliases": [
+    "ललिता सिंगाड़",
+    "Lalita Singad"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Named with the Shiv Shivay FPC, Bamaniya (slide 36)."
+  },
+  {
+   "id": "PER-SEJAL-RATHWA",
+   "type": "person",
+   "name": "Sejal Rathwa",
+   "aliases": [
+    "सेजल राठवा",
+    "Sejal Rathwa"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Makes diaries from banana fibre sold at Rs 400-600 (slides 38-39)."
+  },
+  {
+   "id": "PER-HARISH-PAWAR",
+   "type": "person",
+   "name": "Harish Pawar",
+   "aliases": [
+    "हरीश पावर",
+    "हरीश पावर जी",
+    "Harish Pawar"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Of Sampark sanstha; motivates farmers to make organic inputs themselves (slides 40-42)."
+  },
+  {
+   "id": "PER-SURENDRAPAL-CHAUHAN",
+   "type": "person",
+   "name": "Surendrapal Singh Chauhan",
+   "aliases": [
+    "सुरेंद्रपालसिंह चौहान",
+    "Surendrapal Singh Chauhan",
+    "Surendrapalsingh Chauhan"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Developed a sunflower variety with more than two flowers per plant over 3-4 years (slide 46)."
+  },
+  {
+   "id": "PER-TERESINGH-BARCHA",
+   "type": "person",
+   "name": "Teresingh Barcha",
+   "aliases": [
+    "तेरेसिंह बारचा",
+    "Teresingh Barcha"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Farmer of the Petlawad area conserving traditional maize and moong varieties (slide 47)."
+  },
+  {
+   "id": "PER-ISAK-MANSURI",
+   "type": "person",
+   "name": "Isak Mansuri",
+   "aliases": [
+    "ईसाक मंसूरी",
+    "Isak Mansuri"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Farmer of Katthiwada who saved, conserved and promoted the Noorjahan mango variety (slide 48)."
+  },
+  {
+   "id": "PER-ASHOK-SY53",
+   "type": "person",
+   "name": "Ashok (farmer, 53rd Shodhyatra)",
+   "aliases": [
+    "अशोक",
+    "अशोक किसान",
+    "Ashok (farmer)",
+    "Ashok"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Young man who switched from chemical to native/organic farming, now a master trainer (slide 50). Village not named.",
+   "link_note": "Distinct from Mr. Ashok of the 51st Shodhyatra."
+  },
+  {
+   "id": "PER-DULESINGH-BHURIYA",
+   "type": "person",
+   "name": "Dulesingh Bhuriya",
+   "aliases": [
+    "दुलेसिंह भूरिया",
+    "दुलेसिंह",
+    "Dulesingh Bhuriya"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Natural farming on 2 bigha for 5 years; earns up to Rs 1 lakh a year (slide 51)."
+  },
+  {
+   "id": "PER-CHETAN-PACHAYA",
+   "type": "person",
+   "name": "Chetan Pachaya",
+   "aliases": [
+    "चेतन पचाया",
+    "चेतन भाई",
+    "Chetan Pachaya"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Planted 1300 banana plants as a first in the area; set up a Gir-cow gaushala (slide 52)."
+  },
+  {
+   "id": "PER-KALAMSINGH-DAWAR",
+   "type": "person",
+   "name": "Kalamsingh Dawar ('Kamalji')",
+   "aliases": [
+    "कलमसिंह डावर",
+    "कमलजी",
+    "Kalamsingh Dawar"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Village Chhoti Pol, tehsil Bhavra, Alirajpur; intercropping with dragon fruit (slide 53).",
+   "flags": [
+    "name_conflict"
+   ]
+  },
+  {
+   "id": "PER-VISHAL-PARMAR",
+   "type": "person",
+   "name": "Vishal Parmar",
+   "aliases": [
+    "विशाल परमार",
+    "Vishal Parmar"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Young innovator who built a welding machine using water and electricity (slides 54-55)."
+  },
+  {
+   "id": "PER-VIJAY",
+   "type": "person",
+   "name": "Vijay",
+   "aliases": [
+    "विजय",
+    "Vijay"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Brought Vishal Parmar to Kareli Mahudi for a demonstration (slide 54)."
+  },
+  {
+   "id": "PER-DHARMVEER-SY53",
+   "type": "person",
+   "name": "Shri Dharmveer (Yamunanagar, Haryana)",
+   "aliases": [
+    "श्री धर्मवीर",
+    "धर्मवीर",
+    "Dharmveer"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "From Yamunanagar (Haryana), honoured with the President's award; built a hand-operated mahua seed breaking machine after seeing the problem during the Shodhyatra (slide 60).",
+   "roles": [
+    "innovator"
+   ],
+   "link_note": "Possibly the same person as 'Dharamveer Khambojji' (51st Shodhyatra) but NOT confirmed by the sources; kept separate (relationship status 'unverified')."
+  },
+  {
+   "id": "PER-UDAY-BILWAL",
+   "type": "person",
+   "name": "Uday Bilwal",
+   "aliases": [
+    "उदय बिलवाल",
+    "Uday Bilwal"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Born in Pipliapada, Jhabua; started the free Soldier Physical Academy Jhabua in 2015; 410+ youth selected (slides 62-63)."
+  },
+  {
+   "id": "PER-SEEMA-TRIVEDI",
+   "type": "person",
+   "name": "Seema Trivedi",
+   "aliases": [
+    "सीमा त्रिवेदी",
+    "सीमा त्रिवेदी जी",
+    "Seema Trivedi"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Leads PMC Girls School (enrolment 1100 to 1450 in 2024) (slide 64)."
+  },
+  {
+   "id": "PER-RENU-KACHHAWA",
+   "type": "person",
+   "name": "Renu Kachhawa",
+   "aliases": [
+    "श्री रेणु कछावा",
+    "रेणु कछावा",
+    "Renu Kachhawa"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Assistant teacher, primary school, village Khandiyakhawal, Jhabua district; made many TLMs (slide 65)."
+  },
+  {
+   "id": "PER-JAGDISHBHAI-MAKWANA",
+   "type": "person",
+   "name": "Makwana Jagdishbhai Naranbhai",
+   "aliases": [
+    "मकवाना जगदीशभाई नाराणभाई",
+    "जगदीशभाई मकवाना",
+    "जगदीशभाई",
+    "Jagdishbhai Makwana"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Teacher at Rojkuva Primary School, Chhota Udaipur (Gujarat); education through Bhavai (slide 66)."
+  },
+  {
+   "id": "PER-JITUBHAI-PATEL",
+   "type": "person",
+   "name": "Jitubhai Patel",
+   "aliases": [
+    "जीतूभाई पटेल",
+    "जीतूभाई",
+    "Jitubhai Patel"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Teacher at Gunata Primary School, former police PSI; linked 450 women to pension schemes (slide 68)."
+  },
+  {
+   "id": "PER-DINESHBHAI-RATHWA",
+   "type": "person",
+   "name": "Dineshbhai Rathwa",
+   "aliases": [
+    "दिनेशभाई राठवा",
+    "दिनेशभाई",
+    "Dineshbhai Rathwa"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Teacher who compiled a Rathwa-dialect word booklet for outside teachers (slides 69-70)."
+  },
+  {
+   "id": "PER-RAMANBHAI-RATHWA",
+   "type": "person",
+   "name": "Ramanbhai Rathwa",
+   "aliases": [
+    "रमणभाई राठवा",
+    "रमणभाई",
+    "Ramanbhai Rathwa"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Teacher at Harpalpur Primary School, Gujarat; spent Rs 2 lakh of personal money on a school (slide 71)."
+  },
+  {
+   "id": "PER-NIKHILBHAI-RATHWA",
+   "type": "person",
+   "name": "Nikhil bhai Rathwa",
+   "aliases": [
+    "निखिल भाई राठवा",
+    "Nikhil bhai Rathwa"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Part of a three-person team delivering supplies to 100+ schools (slide 73)."
+  },
+  {
+   "id": "PER-RITESHBHAI-DARJI",
+   "type": "person",
+   "name": "Riteshbhai Darji",
+   "aliases": [
+    "रितेशभाई दरजी",
+    "Riteshbhai Darji"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Part of the same team (slide 73)."
+  },
+  {
+   "id": "PER-CHAKABHAI",
+   "type": "person",
+   "name": "Chakabhai",
+   "aliases": [
+    "चकाभाई",
+    "Chakabhai"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Part of the same team (slide 73)."
+  },
+  {
+   "id": "PER-AADESH",
+   "type": "person",
+   "name": "Aadesh (class 6 student)",
+   "aliases": [
+    "आदेश",
+    "Aadesh"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Class 6 student at Rangpur Primary School (Chhota Udaipur) (slide 75)."
+  },
+  {
+   "id": "PER-RINKU-RATHWA",
+   "type": "person",
+   "name": "Rinku Rathwa",
+   "aliases": [
+    "रिंकू राठवा",
+    "Rinku Rathwa"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Young girl at Gunata school with outstanding sporting skill (slide 76).",
+   "link_note": "Distinct from Rinku Jeji (51st Shodhyatra)."
+  },
+  {
+   "id": "PER-AKSHAR-VASANI",
+   "type": "person",
+   "name": "Akshar Vasani",
+   "aliases": [
+    "अक्षर वसानी",
+    "Akshar Vasani"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Young shodhyatri on the 53rd Shodhyatra (slide 76)."
+  },
+  {
+   "id": "PER-RAJKUSH",
+   "type": "person",
+   "name": "Rajkush",
+   "aliases": [
+    "राजकुश",
+    "Rajkush"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Quoted on slide 77 about the toy car made in 2.5 minutes."
+  },
+  {
+   "id": "PER-KAMLESHJI-PATEL",
+   "type": "person",
+   "name": "Kamleshji Patel",
+   "aliases": [
+    "कमलेशजी पटेल",
+    "Kamleshji Patel"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "With the Vyapari Mahasangh and others planted 5000 trees on Hathipav hill, Jhabua (slide 79)."
+  },
+  {
+   "id": "PER-MAHENDRA-SHARMA",
+   "type": "person",
+   "name": "Mahendra Sharma",
+   "aliases": [
+    "महेंद्र शर्मा",
+    "Mahendra Sharma"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Good Morning Club health awareness (slide 81)."
+  },
+  {
+   "id": "PER-PRAFULJI-SHARMA",
+   "type": "person",
+   "name": "Prafulji Sharma",
+   "aliases": [
+    "प्रफुलजी शर्मा",
+    "Prafulji Sharma",
+    "Praful Sharma"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Good Morning Club health awareness (slide 81)."
+  },
+  {
+   "id": "PER-RAJENDRA-SHRIVASTAV",
+   "type": "person",
+   "name": "Rajendra Shrivastav (Neeraj)",
+   "aliases": [
+    "राजेन्द्र श्रीवास्त",
+    "राजेंद्र श्रीवास्तव",
+    "राजेंद्रजी",
+    "Rajendra Shrivastav"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "For 20 years has helped mentally ill and helpless people; reunited 500+ with families (slide 83); clipping: lives in Meghnagar, Jhabua district.",
+   "flags": [
+    "name_variant"
+   ]
+  },
+  {
+   "id": "PER-SANDHYA-KULKARNI",
+   "type": "person",
+   "name": "Sandhya Kulkarni",
+   "aliases": [
+    "संध्या कुलकर्णी",
+    "साध्यजी",
+    "Sandhya Kulkarni"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Nature lover and cyclist; 123 km in one day and 25 km in 2 h 25 min (slide 84); clipping: 62 years old, government servant in Jhabua for 40 years."
+  },
+  {
+   "id": "PER-GOPALBHAI-RATHWA",
+   "type": "person",
+   "name": "Gopal bhai Rathwa",
+   "aliases": [
+    "गोपाल भाई राठवा",
+    "गोपाल भाई",
+    "Gopal bhai Rathwa"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Retired from the army; free recruitment training and a small hostel for youth; trains women in organic farming and processing (slide 85)."
+  },
+  {
+   "id": "PER-CHANDRASHEKHAR-AZAD",
+   "type": "person",
+   "name": "Chandrashekhar Azad",
+   "aliases": [
+    "चंद्रशेखर आज़ाद",
+    "Chandrashekhar Azad"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Born 23 July 1906 at Bhavra, district Alirajpur; martyrdom 27 February 1931 (slides 92-93)."
+  },
+  {
+   "id": "PER-SITARAM-TIWARI",
+   "type": "person",
+   "name": "Sitaram Tiwari",
+   "aliases": [
+    "सीताराम तिवारी",
+    "Sitaram Tiwari"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Father of Chandrashekhar Azad (slide 92)."
+  },
+  {
+   "id": "PER-JAGRANI-DEVI",
+   "type": "person",
+   "name": "Jagrani Devi",
+   "aliases": [
+    "जगरानी देवी",
+    "Jagrani Devi"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Mother of Chandrashekhar Azad (slide 92)."
+  },
+  {
+   "id": "PLC-RAJASTHAN",
+   "type": "place",
+   "subtype": "state",
+   "name": "Rajasthan",
+   "aliases": [
+    "Rajasthan"
+   ],
+   "documents": [
+    "SY51-HB-P1",
+    "SY51-HB-P2"
+   ],
+   "description": "State of the 51st Shodhyatra."
+  },
+  {
+   "id": "PLC-NAGAUR",
+   "type": "place",
+   "subtype": "district",
+   "name": "Nagaur (Rajasthan)",
+   "aliases": [
+    "Nagaur"
+   ],
+   "documents": [
+    "SY51-HB-P1",
+    "SY51-HB-P2"
+   ],
+   "description": "District of the 51st Shodhyatra; has 611 gaushalas (Part I p.14); water shortage with reliance on rainwater (Part I p.15)."
+  },
+  {
+   "id": "PLC-HARIMA",
+   "type": "place",
+   "subtype": "village",
+   "name": "Harima",
+   "aliases": [
+    "Harima Village",
+    "Harima"
+   ],
+   "documents": [
+    "SY51-HB-P1",
+    "SY51-HB-P2"
+   ],
+   "description": "Start of the 51st Shodhyatra; Paryavaran Van is at Harima (Part I p.13)."
+  },
+  {
+   "id": "PLC-PARYAVARAN-VAN",
+   "type": "place",
+   "subtype": "forest",
+   "name": "Paryavaran Van (Harima)",
+   "aliases": [
+    "Paryavaran Van"
+   ],
+   "documents": [
+    "SY51-HB-P1"
+   ],
+   "description": "Mini forest over 36 bighas created by Shri Himmat Ram Bhambhu (Part I p.13)."
+  },
+  {
+   "id": "PLC-CHAK-DHANI",
+   "type": "place",
+   "subtype": "village",
+   "name": "Chak Dhani",
+   "aliases": [
+    "Chak Dhani",
+    "Chakdhanii",
+    "Chakdhani",
+    "चकढ़ाणी"
+   ],
+   "documents": [
+    "SY51-HB-P1",
+    "SY51-HB-P2"
+   ],
+   "description": "End of the 51st Shodhyatra; final meeting distributed books on animal disease treatment (Part I p.15)."
+  },
+  {
+   "id": "PLC-ATUSAR",
+   "type": "place",
+   "subtype": "village",
+   "name": "Atusar",
+   "aliases": [
+    "Atusar"
+   ],
+   "documents": [
+    "SY51-HB-P1",
+    "SY51-HB-P2"
+   ],
+   "description": "Village on the route (Part I p.14; route graphic)."
+  },
+  {
+   "id": "PLC-FIROD",
+   "type": "place",
+   "subtype": "village",
+   "name": "Firod",
+   "aliases": [
+    "Firod"
+   ],
+   "documents": [
+    "SY51-HB-P1",
+    "SY51-HB-P2"
+   ],
+   "description": "Village on the route; a gaushala with ~1000 cows was visited on the way (Part I p.14)."
+  },
+  {
+   "id": "PLC-MUNDWA",
+   "type": "place",
+   "subtype": "village",
+   "name": "Mundwa",
+   "aliases": [
+    "Mundwa"
+   ],
+   "documents": [
+    "SY51-HB-P1",
+    "SY51-HB-P2"
+   ],
+   "description": "Stories of agricultural transformation (Part I p.15)."
+  },
+  {
+   "id": "PLC-KUCHERA",
+   "type": "place",
+   "subtype": "village",
+   "name": "Kuchera",
+   "aliases": [
+    "Kuchera"
+   ],
+   "documents": [
+    "SY51-HB-P1",
+    "SY51-HB-P2"
+   ],
+   "description": "Where Dharamveer Khambojji joined the yatra (Part I p.15)."
+  },
+  {
+   "id": "PLC-BHADANA",
+   "type": "place",
+   "subtype": "village",
+   "name": "Bhadana",
+   "aliases": [
+    "Bhadana"
+   ],
+   "documents": [
+    "SY51-HB-P2"
+   ],
+   "description": "On the route graphic (Part II p.3)."
+  },
+  {
+   "id": "PLC-AMANDA-KI-DHANI",
+   "type": "place",
+   "subtype": "village",
+   "name": "Amanda Ki Dhani",
+   "aliases": [
+    "Amanda Ki Dhani"
+   ],
+   "documents": [
+    "SY51-HB-P2"
+   ],
+   "description": "On the route graphic (Part II p.3)."
+  },
+  {
+   "id": "PLC-LIKHMIDAS-TEMPLE",
+   "type": "place",
+   "subtype": "temple",
+   "name": "Likhmidas Temple",
+   "aliases": [
+    "Likhmidas Temple",
+    "Likhimdas Ji Mandir"
+   ],
+   "documents": [
+    "SY51-HB-P1",
+    "SY51-HB-P2"
+   ],
+   "description": "Temple whose operators raised Rs 1.80 crore in one day by offering 1 gaj of temple land for Rs 501 and lend stainless steel glasses (Part I p.14). Spelled 'Likhimdas Ji Mandir' on the route graphic."
+  },
+  {
+   "id": "PLC-RAMDEV-PEER-MANDIR",
+   "type": "place",
+   "subtype": "temple",
+   "name": "Ramdev Peer Mandir",
+   "aliases": [
+    "Ramdev Peer Mandir"
+   ],
+   "documents": [
+    "SY51-HB-P1"
+   ],
+   "description": "A temple and a masjid together in the same building with two adjacent rooms (Part I p.13)."
+  },
+  {
+   "id": "PLC-BUTATI",
+   "type": "place",
+   "subtype": "village",
+   "name": "Butati (Sant Chaturdas Temple)",
+   "aliases": [
+    "Butati",
+    "Sant Chaturdas Temple"
+   ],
+   "documents": [
+    "SY51-HB-P1"
+   ],
+   "description": "Sant Chaturdas Temple at Butati, known for healing paralysis (Part I p.15)."
+  },
+  {
+   "id": "PLC-LOHARPURA",
+   "type": "place",
+   "subtype": "locality",
+   "name": "Loharpura (Nagaur city)",
+   "aliases": [
+    "Loharpura"
+   ],
+   "documents": [
+    "SY51-HB-P2"
+   ],
+   "description": "Home to around 500 blacksmith families crafting precision tools for jewellery-making (Part II p.3)."
+  },
+  {
+   "id": "PLC-HIMACHAL-PRADESH",
+   "type": "place",
+   "subtype": "state",
+   "name": "Himachal Pradesh",
+   "aliases": [
+    "Himachal Pradesh"
+   ],
+   "documents": [
+    "SY51-HB-P1"
+   ],
+   "description": "Where Hariman Sharma originally developed the apple variety (Part I p.14)."
+  },
+  {
+   "id": "PLC-MADHYA-PRADESH",
+   "type": "place",
+   "subtype": "state",
+   "name": "Madhya Pradesh",
+   "aliases": [
+    "मध्यप्रदेश",
+    "मध्य प्रदेश",
+    "Madhya Pradesh"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "State of 17 of the 23 villages of the 53rd Shodhyatra."
+  },
+  {
+   "id": "PLC-GUJARAT",
+   "type": "place",
+   "subtype": "state",
+   "name": "Gujarat",
+   "aliases": [
+    "गुजरात",
+    "Gujarat"
+   ],
+   "documents": [
+    "SY53-PPT",
+    "GIAN-NIDHI"
+   ],
+   "description": "State of 6 of the 23 villages of the 53rd Shodhyatra."
+  },
+  {
+   "id": "PLC-JHABUA",
+   "type": "place",
+   "subtype": "district",
+   "name": "Jhabua (MP)",
+   "aliases": [
+    "झाबुआ",
+    "Jhabua"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "District in Madhya Pradesh on the 53rd Shodhyatra route; described as a tribal region known for culture and handicrafts (slide 16)."
+  },
+  {
+   "id": "PLC-ALIRAJPUR",
+   "type": "place",
+   "subtype": "district",
+   "name": "Alirajpur (MP)",
+   "aliases": [
+    "अलीराजपुर",
+    "आलीराजपुर",
+    "Alirajpur"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "District in Madhya Pradesh on the 53rd Shodhyatra route."
+  },
+  {
+   "id": "PLC-CHHOTA-UDEPUR",
+   "type": "place",
+   "subtype": "district",
+   "name": "Chhota Udepur (Gujarat)",
+   "aliases": [
+    "छोटाउदेपुर",
+    "छोटा उदेपुर",
+    "छोटा उदयपुर",
+    "छोटा उदैपुर",
+    "छोटाउदयपुर",
+    "Chhota Udepur",
+    "Chhota Udaipur"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "District in Gujarat on the 53rd Shodhyatra route (spelled five ways in the slides)."
+  },
+  {
+   "id": "PLC-DAHOD",
+   "type": "place",
+   "subtype": "district",
+   "name": "Dahod",
+   "aliases": [
+    "दाहोद",
+    "Dahod"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Mahua machine demonstrated in Dahod (slide 60)."
+  },
+  {
+   "id": "PLC-BHURIMATI",
+   "type": "place",
+   "subtype": "village",
+   "name": "Bhurimati (Jhabua)",
+   "aliases": [
+    "भूरीमाटी",
+    "Bhurimati"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Starting point of the 53rd Shodhyatra (slide 1); a Gram Panchayat Bhurimati office sign appears in slide 12's photo."
+  },
+  {
+   "id": "PLC-AMBALA-CU",
+   "type": "place",
+   "subtype": "village",
+   "name": "Ambala (Chhota Udepur, Gujarat)",
+   "aliases": [
+    "अंबाला",
+    "Ambala"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "End point of the 53rd Shodhyatra (slide 1)."
+  },
+  {
+   "id": "PLC-PETLAWAD",
+   "type": "place",
+   "subtype": "tehsil",
+   "name": "Petlawad (Jhabua)",
+   "aliases": [
+    "पेटलावद",
+    "Petlawad"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Location of Sampark Sansthan (slide 41); Teresingh Barcha's area (slide 47); dateline of the slide-17 clipping."
+  },
+  {
+   "id": "PLC-MOTI-DUMALI",
+   "type": "place",
+   "subtype": "village",
+   "name": "Moti Dumali (Chhota Udepur)",
+   "aliases": [
+    "मोटी दुमाली",
+    "Moti Dumali"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Village with the Baba Dev shrine (slide 23)."
+  },
+  {
+   "id": "PLC-KANALWA",
+   "type": "place",
+   "subtype": "village",
+   "name": "Kanalwa (Chhota Udepur)",
+   "aliases": [
+    "कनलवा",
+    "कनालवा",
+    "Kanalwa"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Village of Ratanbhai Rathwa (slides 27-28)."
+  },
+  {
+   "id": "PLC-BAMANIYA",
+   "type": "place",
+   "subtype": "village",
+   "name": "Bamaniya (Jhabua)",
+   "aliases": [
+    "बामनिया",
+    "Bamaniya"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Village of the Shiv Shivay FPC (slides 36-37)."
+  },
+  {
+   "id": "PLC-KATTHIWADA",
+   "type": "place",
+   "subtype": "area",
+   "name": "Katthiwada (Alirajpur)",
+   "aliases": [
+    "कट्ठीवाड़ा",
+    "Katthiwada"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Area where the Noorjahan mango is grown (slide 48)."
+  },
+  {
+   "id": "PLC-CHHOTI-POL",
+   "type": "place",
+   "subtype": "village",
+   "name": "Chhoti Pol (Bhavra, Alirajpur)",
+   "aliases": [
+    "छोटी पोल",
+    "Chhoti Pol"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Village of Kalamsingh Dawar (slide 53)."
+  },
+  {
+   "id": "PLC-BHAVRA",
+   "type": "place",
+   "subtype": "tehsil",
+   "name": "Bhavra (Alirajpur)",
+   "aliases": [
+    "भावरा",
+    "Bhavra",
+    "Bhabra"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Tehsil of Chhoti Pol (slide 53); birthplace of Chandrashekhar Azad (slide 92)."
+  },
+  {
+   "id": "PLC-KADWAL",
+   "type": "place",
+   "subtype": "village",
+   "name": "Kadwal",
+   "aliases": [
+    "कदवाल",
+    "Kadwal"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Village meeting where Vishal Parmar's welding machine was discussed (slide 54)."
+  },
+  {
+   "id": "PLC-KARELI-MAHUDI",
+   "type": "place",
+   "subtype": "village",
+   "name": "Kareli Mahudi",
+   "aliases": [
+    "करेली महुदी",
+    "Kareli Mahudi"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Where Vishal Parmar demonstrated the welding machine (slide 54)."
+  },
+  {
+   "id": "PLC-GUNATA",
+   "type": "place",
+   "subtype": "village",
+   "name": "Gunata",
+   "aliases": [
+    "गुनाटा",
+    "Gunata"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Village with Gunata Primary School; 53rd Shodhyatra halted at Gunata school on 8 June (slide 76)."
+  },
+  {
+   "id": "PLC-PIPLIAPADA",
+   "type": "place",
+   "subtype": "village",
+   "name": "Pipliapada (Jhabua)",
+   "aliases": [
+    "पिपलीपाड़ा",
+    "Pipliapada"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Birthplace of Uday Bilwal (slide 63)."
+  },
+  {
+   "id": "PLC-KHANDIYAKHAWAL",
+   "type": "place",
+   "subtype": "village",
+   "name": "Khandiyakhawal (Jhabua)",
+   "aliases": [
+    "खंडियाखावल",
+    "Khandiyakhawal"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Village of Renu Kachhawa's primary school (slide 65)."
+  },
+  {
+   "id": "PLC-HATHIPAV",
+   "type": "place",
+   "subtype": "hill",
+   "name": "Hathipav (Jhabua)",
+   "aliases": [
+    "हाथीपाव",
+    "Hathipav"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Hill/valley in Jhabua where 5000 trees were planted (slide 79)."
+  },
+  {
+   "id": "PLC-MEGHNAGAR",
+   "type": "place",
+   "subtype": "town",
+   "name": "Meghnagar (Jhabua)",
+   "aliases": [
+    "मेघनगर",
+    "Meghnagar"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Where Rajendra Shrivastav lives (slide 83 clipping)."
+  },
+  {
+   "id": "PLC-YAMUNANAGAR",
+   "type": "place",
+   "subtype": "district",
+   "name": "Yamunanagar (Haryana)",
+   "aliases": [
+    "यमुनानगर",
+    "Yamunanagar"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Home of Shri Dharmveer (slide 60)."
+  },
+  {
+   "id": "PLC-VADODARA",
+   "type": "place",
+   "subtype": "city",
+   "name": "Vadodara",
+   "aliases": [
+    "वडोदरा",
+    "Vadodara"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Bank employees and chartered accountants of Vadodara fund the school-supplies team (slide 73)."
+  },
+  {
+   "id": "PLC-BOMBAY",
+   "type": "place",
+   "subtype": "city",
+   "name": "Bombay",
+   "aliases": [
+    "बॉम्बे",
+    "Bombay"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Where a long Pithora by Thavarsingh Bhuriya and Pema Fatiya is installed (slide 22)."
+  },
+  {
+   "id": "INN-ONE-LITRE-TREE",
+   "type": "innovation",
+   "subtype": "technique",
+   "name": "Growing trees with one litre of water (Sundaram Verma)",
+   "aliases": [
+    "one litre of water",
+    "one-litre",
+    "1 litre water tree"
+   ],
+   "documents": [
+    "SY51-HB-P1",
+    "SY51-HB-P2"
+   ],
+   "description": "Part I p.14: grow trees with just one litre of water, ensuring survival without further watering. Part II p.4: deep plough at first rain; plank and ladder after the last rain to break capillaries; plant saplings in 4x4x10 inch pits, cover with soil, add one litre of water once; Oct-Nov planting; 80-85% success rate."
+  },
+  {
+   "id": "PLT-KHEJRI",
+   "type": "plant",
+   "name": "Khejri tree (Prosopis cineraria)",
+   "aliases": [
+    "Khejri",
+    "khejri",
+    "Prosopis cineraria"
+   ],
+   "documents": [
+    "SY51-HB-P1",
+    "SY51-HB-P2"
+   ],
+   "description": "Tree species of the region. Prahalad cultivated Khejri trees at Mundwa (Part I p.15); thornless Khejri was developed through grafting (see INN-THORNLESS-KHEJRI)."
+  },
+  {
+   "id": "INN-THORNLESS-KHEJRI",
+   "type": "innovation",
+   "subtype": "plant variety / grafting",
+   "name": "Thornless Khejri through grafting",
+   "aliases": [
+    "thornless Khejri",
+    "thornless khejri",
+    "thornless variety of the Khejri tree",
+    "grafting khejri",
+    "grafting techniques with the Khejri tree"
+   ],
+   "documents": [
+    "SY51-HB-P1",
+    "SY51-HB-P2"
+   ],
+   "description": "Grafting techniques with Khejri (Prosopis cineraria) and discovery of 14 varieties including a thornless Khejri (Part I p.14); thornless variety via grafting; seeds collected from a tree that flowered in a dry year (Part II pp.2, 4)."
+  },
+  {
+   "id": "INN-KHEJRI-SEED-STORAGE",
+   "type": "practice",
+   "name": "Khejri seed storage (cow dung, cow urine, ash)",
+   "aliases": [
+    "store the khejri seeds"
+   ],
+   "documents": [
+    "SY51-HB-P2"
+   ],
+   "description": "Seeds washed with cow dung and cow urine, then stored in ash to prevent insect attacks (Part II p.4). The practitioner is not explicitly named."
+  },
+  {
+   "id": "INN-SWEET-POTATO-VARIETIES",
+   "type": "innovation",
+   "subtype": "crop varieties",
+   "name": "Organic, low-water sweet potato varieties (Panchariya)",
+   "aliases": [
+    "sweet potato",
+    "sweet potatoes"
+   ],
+   "documents": [
+    "SY51-HB-P1",
+    "SY51-HB-P2"
+   ],
+   "description": "Organic sweet potato cultivation (Part I p.14); 'Eight varieties of sweet potatoes' (Part I p.15 caption); five varieties developed by selection over seven years, needing less water, some with deep red hue (Part II p.4).",
+   "flags": [
+    "conflicting_values"
+   ]
+  },
+  {
+   "id": "INN-MILLET-PRODUCTS",
+   "type": "innovation",
+   "subtype": "value-added product",
+   "name": "Millet-based products (Panchariya)",
+   "aliases": [
+    "millet-based products",
+    "snacks from millets"
+   ],
+   "documents": [
+    "SY51-HB-P1",
+    "SY51-HB-P2"
+   ],
+   "description": "Showcased by Rahulchand/Rawalchand Panchariya (Part I p.14; Part II p.2)."
+  },
+  {
+   "id": "INN-CARROT-VARIETY",
+   "type": "innovation",
+   "subtype": "crop variety",
+   "name": "New carrot variety (Santosh Pachar)",
+   "aliases": [
+    "carrot variety",
+    "new carrot variety"
+   ],
+   "documents": [
+    "SY51-HB-P1"
+   ],
+   "description": "Developed by Smt. Santosh Pachar (Part I p.14)."
+  },
+  {
+   "id": "INN-RAJASTHAN-APPLE",
+   "type": "practice",
+   "name": "Apples grown in Rajasthan (variety originally developed by Hariman Sharma)",
+   "aliases": [
+    "apples",
+    "apple"
+   ],
+   "documents": [
+    "SY51-HB-P1"
+   ],
+   "description": "Sundaram Ji brought apples grown in Rajasthan of a variety originally developed by Hariman Sharma in Himachal Pradesh (Part I p.14)."
+  },
+  {
+   "id": "INN-TEMPLE-STEEL-GLASSES",
+   "type": "innovation",
+   "subtype": "social",
+   "name": "Stainless-steel glass lending (Likhmidas Temple)",
+   "aliases": [
+    "stainless steel glasses",
+    "plastic glasses"
+   ],
+   "documents": [
+    "SY51-HB-P1"
+   ],
+   "description": "Steel glasses lent for events like marriages on condition that 20 per cent more glasses are returned, to reduce plastic glasses (Part I p.14)."
+  },
+  {
+   "id": "INN-TEMPLE-LAND-DONATION",
+   "type": "innovation",
+   "subtype": "social",
+   "name": "Temple fundraising: 1 gaj of land for Rs 501 (Rs 1.80 crore in one day)",
+   "aliases": [
+    "1 Gaj",
+    "Rs 501",
+    "1.80 Crore"
+   ],
+   "documents": [
+    "SY51-HB-P1"
+   ],
+   "description": "Likhmidas Temple received donations worth Rs 1.80 crore in one day by offering 1 gaj of temple land for Rs 501 (Part I p.14)."
+  },
+  {
+   "id": "INN-KASURI-METHI",
+   "type": "product",
+   "name": "Kasuri Methi processing (Nagaur)",
+   "aliases": [
+    "Kasuri Methi",
+    "Methi",
+    "fenugreek"
+   ],
+   "documents": [
+    "SY51-HB-P1"
+   ],
+   "description": "Selection, manual cleaning and grading of dried fenugreek leaves; Nagaur's water said to contribute to superior quality; UV-light suggestion; possible GI application discussed (Part I p.14)."
+  },
+  {
+   "id": "INN-SOLAR-SYSTEM-MODEL",
+   "type": "innovation",
+   "subtype": "educational",
+   "name": "Model of the solar system (Rajaram Tak)",
+   "aliases": [
+    "model of the solar system"
+   ],
+   "documents": [
+    "SY51-HB-P1"
+   ],
+   "description": "Presented by teacher Rajaram Tak at Atusar (Part I p.14)."
+  },
+  {
+   "id": "INN-BONSAI-GREENING",
+   "type": "practice",
+   "name": "Greening homes with bonsai (Shravan Kumar Soni)",
+   "aliases": [
+    "bonsai"
+   ],
+   "documents": [
+    "SY51-HB-P1"
+   ],
+   "description": "Demonstration of making home spaces greener with bonsai plants (Part I p.14)."
+  },
+  {
+   "id": "INN-THIGH-CRUTCH",
+   "type": "innovation",
+   "subtype": "assistive device",
+   "name": "Thigh-supported crutch (Kanaramji)",
+   "aliases": [
+    "crutch"
+   ],
+   "documents": [
+    "SY51-HB-P1"
+   ],
+   "description": "Crutch that supported his leg from the thigh, freeing his hands (Part I p.14)."
+  },
+  {
+   "id": "INN-ANIMAL-REMEDIES-KANARAM",
+   "type": "traditional_knowledge",
+   "name": "Traditional animal remedies (Kanaramji)",
+   "aliases": [
+    "traditional remedies for animals",
+    "isabgol"
+   ],
+   "documents": [
+    "SY51-HB-P2"
+   ],
+   "description": "Retained umbilical cord after calving: old bamboo ground, boiled in water, strained through cloth and given cooled; loose motion: isabgol soaked in cold water (Part II p.4)."
+  },
+  {
+   "id": "INN-CAMEL-FARMING",
+   "type": "practice",
+   "name": "Farming with camels (Sataram)",
+   "aliases": [
+    "camels for farming"
+   ],
+   "documents": [
+    "SY51-HB-P1"
+   ],
+   "description": "The only farmer in the village using camels for farming (Part I p.15)."
+  },
+  {
+   "id": "INN-ELECTRIC-WHEELCHAIR",
+   "type": "innovation",
+   "subtype": "assistive device",
+   "name": "Electric wheelchair (Dharamveer Khambojji)",
+   "aliases": [
+    "electric wheelchair"
+   ],
+   "documents": [
+    "SY51-HB-P1"
+   ],
+   "description": "Invention shown by Dharamveer Khambojji (Part I p.15)."
+  },
+  {
+   "id": "INN-FRUIT-JUICES",
+   "type": "innovation",
+   "subtype": "product",
+   "name": "Fruit juices (Dharamveer Khambojji)",
+   "aliases": [
+    "fruit juices"
+   ],
+   "documents": [
+    "SY51-HB-P1"
+   ],
+   "description": "Shown by Dharamveer Khambojji as his inventions (Part I p.15)."
+  },
+  {
+   "id": "INN-HELMET-IGNITION-IDEA",
+   "type": "idea",
+   "name": "Scooter that starts only when the helmet is worn",
+   "aliases": [
+    "helmet is worn",
+    "wear a helmet to start"
+   ],
+   "documents": [
+    "SY51-HB-P1"
+   ],
+   "description": "Idea received in the idea competitions; linked URL https://nif.org.in/innovation/wear_a-helmet-to-start_your-two-wheeler/706 (Part I p.15). Innovator not named in the article."
+  },
+  {
+   "id": "INN-MANURE-INDICATOR-IDEA",
+   "type": "idea",
+   "name": "Device indicating whether a field needs manure (Rinku Jeji)",
+   "aliases": [
+    "requirement of manure"
+   ],
+   "documents": [
+    "SY51-HB-P1"
+   ],
+   "description": "Idea competition entry (Part I p.15)."
+  },
+  {
+   "id": "INN-HOT-COLD-BOTTLE-IDEA",
+   "type": "idea",
+   "name": "Bottle with hot and cold water simultaneously (Simran)",
+   "aliases": [
+    "hot and cold water"
+   ],
+   "documents": [
+    "SY51-HB-P1"
+   ],
+   "description": "Idea competition entry (Part I p.15)."
+  },
+  {
+   "id": "INN-STUDY-ROOMS",
+   "type": "innovation",
+   "subtype": "social",
+   "name": "Village study rooms with tables and A/Cs (Ram Chandra Sirohi)",
+   "aliases": [
+    "study rooms"
+   ],
+   "documents": [
+    "SY51-HB-P2"
+   ],
+   "description": "Reflected in the number of academic toppers, most of them girls (Part II p.3)."
+  },
+  {
+   "id": "INN-STUDENT-ROBOT",
+   "type": "innovation",
+   "name": "Rudimentary robot by two school students",
+   "aliases": [
+    "rudimentary robot"
+   ],
+   "documents": [
+    "SY51-HB-P2"
+   ],
+   "description": "Made by two students in the 8th and 10th grade (Part II p.3); students not named."
+  },
+  {
+   "id": "INN-FOUR-TREE-PLANTATION",
+   "type": "practice",
+   "name": "Four tree types side by side so fruit is always available for birds and animals",
+   "aliases": [
+    "four types of trees"
+   ],
+   "documents": [
+    "SY51-HB-P2"
+   ],
+   "description": "Seen on some farms (Part II p.4); farmers not named."
+  },
+  {
+   "id": "INN-TRACTOR-CREDIT",
+   "type": "innovation",
+   "subtype": "business model",
+   "name": "Tractors from Rs 50,000 with flexible repayment (Ram Ratanji)",
+   "aliases": [
+    "tractors"
+   ],
+   "documents": [
+    "SY51-HB-P2"
+   ],
+   "description": "Part II p.4."
+  },
+  {
+   "id": "INN-SATHIKA-MOTH",
+   "type": "traditional_knowledge",
+   "subtype": "crop",
+   "name": "Sathika moth ki daal (Vigna aconitifolia / turkish gram)",
+   "aliases": [
+    "Sathika moth ki daal",
+    "Vigna aconitifolia",
+    "turkish gram"
+   ],
+   "documents": [
+    "SY51-HB-P2"
+   ],
+   "description": "Ready in 60 days, grows with only two or three rains; taste reportedly decreased; similar for moong dal (Part II p.4)."
+  },
+  {
+   "id": "INN-KER",
+   "type": "traditional_knowledge",
+   "subtype": "wild food",
+   "name": "Ker (medicinal plant / delicacy)",
+   "aliases": [
+    "Ker"
+   ],
+   "documents": [
+    "SY51-HB-P1"
+   ],
+   "description": "Plucked from thorny trees; medicinal; costs around Rs 1800-2000/kg; a delicacy at marriages (Part I p.14)."
+  },
+  {
+   "id": "INN-LOHARPURA-TOOLS",
+   "type": "craft",
+   "name": "Precision tools for jewellery-making (Loharpura blacksmiths)",
+   "aliases": [
+    "precision tools",
+    "blacksmith"
+   ],
+   "documents": [
+    "SY51-HB-P2"
+   ],
+   "description": "~500 blacksmith families; challenges: small coal furnaces, non-ergonomic positions, poorly ventilated workshops, inadequate eye protection (Part II p.3)."
+  },
+  {
+   "id": "INN-PAAN-METHI",
+   "type": "practice",
+   "name": "Paan methi cultivation (farmer not named)",
+   "aliases": [
+    "paan methi"
+   ],
+   "documents": [
+    "SY51-HB-P1"
+   ],
+   "description": "Another farmer at Mundwa spoke of an innovative approach to cultivating paan methi (Part I p.15)."
+  },
+  {
+   "id": "INN-BHILI-DOLLS",
+   "type": "craft",
+   "name": "Bhili dolls and tribal toys (Ramesh and Shanti Parmar)",
+   "aliases": [
+    "भीली गुड़िया",
+    "Bhili dolls",
+    "Bhili doll"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Slide 14."
+  },
+  {
+   "id": "INN-ADIVASI-GUDIYA",
+   "type": "craft",
+   "name": "Adivasi Gudiya - Jhabua tribal doll",
+   "aliases": [
+    "आदिवासी गुड़िया",
+    "झाबुआ की गुड़िया",
+    "Adivasi Gudiya",
+    "Jhabua doll",
+    "tribal doll"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Hand-made from cloth, wood and natural colours; dressed like tribal women (slides 15-16)."
+  },
+  {
+   "id": "INN-CLAY-IDOL-TRAINING",
+   "type": "practice",
+   "name": "Teaching children to make clay idols (Bharti Soni)",
+   "aliases": [
+    "मिट्टी की मूर्ति",
+    "clay idols"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Slide 17."
+  },
+  {
+   "id": "INN-WARLI-PITHORA-BUSINESS",
+   "type": "innovation",
+   "subtype": "enterprise",
+   "name": "Warli and Pithora art as a business (Archana Rathwa)",
+   "aliases": [
+    "वार्ली और पिठोरा कला"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Slide 18."
+  },
+  {
+   "id": "ART-PITHORA",
+   "type": "art_form",
+   "name": "Pithora art",
+   "aliases": [
+    "पिठोरा",
+    "पिथोरा",
+    "Pithora"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Tribal painting tradition mentioned for Archana Rathwa (slide 18), Thavarsingh Bhuriya and Pema Fatiya (slide 22), Desing Rathwa (slide 33) and Bhuri Bai (slide 35, hidden text). Spelled पिठोरा and पिथोरा."
+  },
+  {
+   "id": "ART-WARLI",
+   "type": "art_form",
+   "name": "Warli art",
+   "aliases": [
+    "वार्ली",
+    "Warli"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Slide 18."
+  },
+  {
+   "id": "INN-GATHA-MEMORY-PILLARS",
+   "type": "craft",
+   "name": "Gatha smriti-phalak (memory pillars)",
+   "aliases": [
+    "गाथा स्मृति-फलक",
+    "स्मृति-फलक",
+    "Memory Pillar",
+    "memory pillars",
+    "Gatha"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Stone memorial pillars of tribal communities; sculptures by Shivkumarji (slides 19-21)."
+  },
+  {
+   "id": "INN-NUKKAD-NATAK",
+   "type": "practice",
+   "name": "Street plays for social awareness (Anu Bhabhor)",
+   "aliases": [
+    "नुक्कड नाटक",
+    "street plays"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "400+ street plays (slide 24)."
+  },
+  {
+   "id": "INN-BAMBOO-BROOM",
+   "type": "innovation",
+   "subtype": "product",
+   "name": "Standing-use bamboo broom (Santosh Basond)",
+   "aliases": [
+    "झाडू",
+    "broom",
+    "बांस"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Lasts 6 months; administration buys 500 every two months (slide 25)."
+  },
+  {
+   "id": "INN-WOODEN-SCULPTURES",
+   "type": "craft",
+   "name": "Traditional wooden sculptures incl. Pali/Puvali grain-weighing tools (Ratanbhai Rathwa)",
+   "aliases": [
+    "लकड़ी से पारंपरिक मूर्तियाँ",
+    "पाली",
+    "पुवाली",
+    "wooden sculptures"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "5 days per sculpture; no machine or electricity (slide 28)."
+  },
+  {
+   "id": "INN-TRIBAL-FAITH-SCULPTURE",
+   "type": "craft",
+   "name": "Sculpture of tribal faith (Bharat Variya)",
+   "aliases": [
+    "आदिवासी आस्था के मूर्तिकार"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Slide 31 caption."
+  },
+  {
+   "id": "INN-LINSEED-STALK-AGGREGATION",
+   "type": "innovation",
+   "subtype": "enterprise",
+   "name": "Linseed (alsi) stalk aggregation and sale (Shiv Shivay FPC)",
+   "aliases": [
+    "अलसी के डंठल",
+    "अलसी डंठल",
+    "linseed stalks",
+    "alsi"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "2000 quintals sold in 2024-25; buy Rs 5/kg, sell Rs 13/kg; processed in Gujarat into fibre/boards (slide 37)."
+  },
+  {
+   "id": "INN-BANANA-FIBRE-DIARY",
+   "type": "innovation",
+   "subtype": "product",
+   "name": "Banana-fibre diaries (Sejal Rathwa)",
+   "aliases": [
+    "केले के फाइबर",
+    "Banana Fiber",
+    "banana fibre diary",
+    "डायरी"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Sold at Rs 400-600 (slide 39)."
+  },
+  {
+   "id": "INN-PARTICIPATORY-WHEAT-SELECTION",
+   "type": "practice",
+   "name": "Farmers choose wheat varieties by tying threads (Sampark)",
+   "aliases": [
+    "धागा",
+    "गेहूं की वैरायटी"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Variety with most threads chosen for next crop (slide 41)."
+  },
+  {
+   "id": "INN-SAMPARK-SEED-CONSERVATION",
+   "type": "practice",
+   "name": "Conservation of 196 native seed varieties incl. 32 wheat (Sampark, Petlawad)",
+   "aliases": [
+    "196 प्रकार की देशी बीजों",
+    "196 native seed varieties"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Slide 41."
+  },
+  {
+   "id": "INN-ORGANIC-INPUTS",
+   "type": "practice",
+   "name": "Farmer-made organic inputs (decentralised) - Harish Pawar / Sampark",
+   "aliases": [
+    "जैविक उत्पाद"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Slide 42."
+  },
+  {
+   "id": "INN-HARIYALI-HANDI",
+   "type": "innovation",
+   "subtype": "traditional technology",
+   "name": "Hariyali Handi - lac-coated non-stick clay pots",
+   "aliases": [
+    "हरियाली हांडी",
+    "हांडी",
+    "Hariyali Handi",
+    "non-stick clay pot",
+    "lac-coated"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Lac from insects on Pohim trees, boiled twice, applied to hot pots (slide 45)."
+  },
+  {
+   "id": "INN-SUNFLOWER-VARIETY",
+   "type": "innovation",
+   "subtype": "crop variety",
+   "name": "Sunflower variety with more than two flowers per plant (Surendrapal Singh Chauhan)",
+   "aliases": [
+    "सूरजमुखी",
+    "सुरजमुखी",
+    "sunflower"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "3-4 years of traditional selection (slide 46)."
+  },
+  {
+   "id": "INN-TRADITIONAL-MAIZE-MOONG-SEEDS",
+   "type": "practice",
+   "name": "Conserving traditional maize and moong varieties (Teresingh Barcha)",
+   "aliases": [
+    "मक्का और मूंग"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Slide 47."
+  },
+  {
+   "id": "INN-NOORJAHAN-MANGO",
+   "type": "crop_variety",
+   "name": "Noorjahan mango",
+   "aliases": [
+    "नूरजहां",
+    "नूरजहां आम",
+    "Noorjahan Mango",
+    "Noorjahan",
+    "Nurjahan"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Grown in Katthiwada, Alirajpur; weight stated as 2-4 kg, 2-4.5 kg (slide 48) and 3-4 kg (slide 49); price up to Rs 2000 per fruit; ripens end-June/early-July; no GI tag yet (slides 48-49).",
+   "flags": [
+    "conflicting_values"
+   ]
+  },
+  {
+   "id": "INN-ORGANIC-TRANSITION-ASHOK",
+   "type": "practice",
+   "name": "Ashok's switch to native/organic farming (jeevamrut, vermicompost)",
+   "aliases": [
+    "जीवामृत",
+    "जैविक खेती"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Slide 50."
+  },
+  {
+   "id": "INN-NATURAL-FARMING-DULESINGH",
+   "type": "practice",
+   "name": "Natural farming with mulching and drip (Dulesingh Bhuriya)",
+   "aliases": [
+    "प्राकृतिक खेती",
+    "मलचिंग"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "2 bigha; up to Rs 1 lakh/year (slide 51)."
+  },
+  {
+   "id": "INN-BANANA-CULTIVATION-CHETAN",
+   "type": "practice",
+   "name": "First banana cultivation in the area (Chetan Pachaya)",
+   "aliases": [
+    "केले की खेती",
+    "1300 केले"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "1300 plants (slide 52)."
+  },
+  {
+   "id": "INN-GIR-GAUSHALA",
+   "type": "practice",
+   "name": "Gir-breed cow gaushala (Chetan Pachaya)",
+   "aliases": [
+    "गिर नस्ल",
+    "Gir"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Slide 52."
+  },
+  {
+   "id": "INN-INTERCROPPING-DRAGON-FRUIT",
+   "type": "practice",
+   "name": "Intercropping with dragon fruit (Kalamsingh Dawar)",
+   "aliases": [
+    "ड्रेगन फ्रूट",
+    "आंतर फसल",
+    "dragon fruit",
+    "intercropping"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Five combinations listed (slide 53)."
+  },
+  {
+   "id": "INN-WATER-ELECTRIC-WELDING",
+   "type": "innovation",
+   "subtype": "machine",
+   "name": "Welding machine using water and electricity (Vishal Parmar)",
+   "aliases": [
+    "वेल्डिंग मशीन",
+    "welding machine"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Slides 54-55."
+  },
+  {
+   "id": "INN-MOBILE-AIR-PUMP",
+   "type": "innovation",
+   "subtype": "machine",
+   "name": "Mobile air pump (innovator not named)",
+   "aliases": [
+    "हवाई पंप",
+    "air pump"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Slide 56 title only."
+  },
+  {
+   "id": "INN-MAHUA-DECORTICATOR",
+   "type": "innovation",
+   "subtype": "machine",
+   "name": "Hand-operated mahua seed breaking machine (Shri Dharmveer)",
+   "aliases": [
+    "महुआ बीज तोड़ने की मशीन",
+    "महुआ",
+    "महुवा",
+    "mahua",
+    "mahua seed"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Electric version first, then a hand-operated machine; ~80% success in demonstrations in Chhota Udepur, Alirajpur and Dahod; villagers' suggestions for a second model (slides 57-60)."
+  },
+  {
+   "id": "INN-FREE-PHYSICAL-TRAINING",
+   "type": "innovation",
+   "subtype": "educational",
+   "name": "Free physical training for uniformed-service recruitment (Uday Bilwal)",
+   "aliases": [
+    "फिजिकल टेस्ट"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "410+ selected (slide 63)."
+  },
+  {
+   "id": "INN-ACTIVITY-BASED-LEARNING",
+   "type": "practice",
+   "name": "Activity-based learning at PMC Girls School",
+   "aliases": [
+    "एक्टिविटी-बेस्ड लर्निंग"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Slide 64."
+  },
+  {
+   "id": "INN-TLM-KACHHAWA",
+   "type": "innovation",
+   "subtype": "educational",
+   "name": "Teaching-learning materials for play-based learning (Renu Kachhawa)",
+   "aliases": [
+    "TLM"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Slide 65."
+  },
+  {
+   "id": "INN-BHAVAI-EDUCATION",
+   "type": "innovation",
+   "subtype": "educational",
+   "name": "Education through Bhavai folk theatre (Jagdishbhai Makwana)",
+   "aliases": [
+    "भवाई",
+    "Bhavai"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Slide 66."
+  },
+  {
+   "id": "INN-SCHOOL-ART-MUSEUM",
+   "type": "innovation",
+   "subtype": "educational",
+   "name": "Student art exhibition / small art museum at Gunata school (Mehul)",
+   "aliases": [
+    "कलाम्यूज़ियम",
+    "कला प्रदर्शनी"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Slides 34 and 68."
+  },
+  {
+   "id": "INN-PENSION-LINKAGE",
+   "type": "innovation",
+   "subtype": "social",
+   "name": "Linking 450 women to old-age and widow pensions (Jitubhai Patel)",
+   "aliases": [
+    "वृद्धावस्था पेंशन",
+    "विधवा पेंशन"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Slide 68."
+  },
+  {
+   "id": "INN-RATHWA-WORD-BOOKLET",
+   "type": "innovation",
+   "subtype": "educational",
+   "name": "Rathwa-dialect word booklet for teachers (Dineshbhai Rathwa)",
+   "aliases": [
+    "शब्द-सहायिका",
+    "बुकलेट",
+    "Rathwa dialect"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Published by Bhasha Kendra; distributed with the Collector's support (slide 70)."
+  },
+  {
+   "id": "INN-HARPALPUR-SCHOOL-BUILDING",
+   "type": "innovation",
+   "subtype": "social",
+   "name": "School built with Rs 2 lakh of a teacher's own money (Ramanbhai Rathwa)",
+   "aliases": [
+    "2 लाख रुपये"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Slide 71."
+  },
+  {
+   "id": "INN-SCHOOL-SUPPLIES-NETWORK",
+   "type": "innovation",
+   "subtype": "social",
+   "name": "School-supplies delivery to 100+ schools (Rs 1.13 crore+)",
+   "aliases": [
+    "स्कूल बैग"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Slide 73."
+  },
+  {
+   "id": "INN-TOY-CAR-GUNATA",
+   "type": "innovation",
+   "name": "Toy car made from waste in 2.5 minutes by two Gunata children",
+   "aliases": [
+    "खिलौना गाड़ी",
+    "toy car"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Slide 77; children not named."
+  },
+  {
+   "id": "INN-HATHIPAV-PLANTATION",
+   "type": "innovation",
+   "subtype": "institutional",
+   "name": "5000-tree plantation on Hathipav hill with water/food for animals and birds",
+   "aliases": [
+    "5000 पेड़"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Slide 79."
+  },
+  {
+   "id": "INN-REUNIFICATION-RAJENDRA",
+   "type": "innovation",
+   "subtype": "social",
+   "name": "Finding and reuniting mentally ill/destitute people with families (Rajendra Shrivastav)",
+   "aliases": [
+    "परिवार के साथ मिलाया"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Slide 83."
+  },
+  {
+   "id": "INN-CYCLING-SANDHYA",
+   "type": "practice",
+   "name": "Cycling for health; records (Sandhya Kulkarni)",
+   "aliases": [
+    "साइकलिंग",
+    "cycling"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Slide 84."
+  },
+  {
+   "id": "INN-FREE-RECRUITMENT-TRAINING-GOPAL",
+   "type": "innovation",
+   "subtype": "social",
+   "name": "Free army/police recruitment training and hostel (Gopal bhai Rathwa)",
+   "aliases": [
+    "भर्ती की निःशुल्क ट्रेनिंग"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Slide 85."
+  },
+  {
+   "id": "INN-WOMEN-ORGANIC-PROCESSING-TRAINING",
+   "type": "innovation",
+   "subtype": "social",
+   "name": "Training women in organic farming and processing (Gopal bhai Rathwa)",
+   "aliases": [
+    "अचार",
+    "मसाले",
+    "औषधीय पौधों"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Slide 85."
+  },
+  {
+   "id": "INN-DAL-PANIYA",
+   "type": "traditional_food",
+   "name": "Dal Paniya",
+   "aliases": [
+    "दाल पनिया",
+    "Dal Paniya"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Traditional tribal dish of Jhabua and Alirajpur (slide 86)."
+  },
+  {
+   "id": "INN-KULIYARI-BHAJI",
+   "type": "traditional_food",
+   "name": "Kuliyari ki bhaji",
+   "aliases": [
+    "कुलियारी की भाजी",
+    "Kuliyari"
+   ],
+   "documents": [
+    "SY53-PPT"
+   ],
+   "description": "Monsoon greens dish of tribal/rural areas (slide 87)."
+  }
+ ]
+}

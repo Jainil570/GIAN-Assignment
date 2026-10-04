@@ -1,0 +1,18 @@
+{
+  "source_url": "https://gian.org/gian-nidhi/",
+  "endpoint": "https://gian.org/wp-admin/admin-ajax.php",
+  "retrieved_at": "2026-10-03T21:12:53+00:00",
+  "table_name": "gian_nidhi",
+  "publication_id": "2",
+  "columns": [
+    "column_id",
+    "column_status",
+    "sr_no",
+    "project_name",
+    "participants",
+    "abstracts",
+    "college_status"
+  ],
+  "records_total_reported": 1280,
+  "rows_received": 1280
+}

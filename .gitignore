@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.streamlit/secrets.toml
+# source documents belong to GIAN; download them from the Drive links in sources/README.md
+sources/*.pdf

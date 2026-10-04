@@ -1,0 +1,119 @@
+{
+ "_comment": "Known conflicts: one fact stated with different values in the sources. Every value is kept exactly as stated with its locator; nothing is resolved. 'keywords' decide when an answer is about this attribute; 'value_terms' are the strings that show a value was reported.",
+ "conflicts": [
+  {
+   "conflict_id": "CF-01",
+   "entity_ids": [
+    "INN-NOORJAHAN-MANGO"
+   ],
+   "attribute": "the weight of one Noorjahan mango",
+   "keywords": [
+    "weigh",
+    "kg",
+    "kilo",
+    "वजन",
+    "किलो"
+   ],
+   "values": [
+    {
+     "value": "2 to 4 kilos",
+     "value_terms": [
+      "2 to 4 kilo",
+      "2 से 4 किलो",
+      "2-4 kilo"
+     ],
+     "doc": "SY53-PPT",
+     "slide": 48,
+     "where": "slide 48 (description)"
+    },
+    {
+     "value": "2 to 4.5 kilograms",
+     "value_terms": [
+      "4.5"
+     ],
+     "doc": "SY53-PPT",
+     "slide": 48,
+     "where": "slide 48 ('features' list)"
+    },
+    {
+     "value": "3 to 4 kilograms",
+     "value_terms": [
+      "3 to 4",
+      "3 से 4",
+      "3-4"
+     ],
+     "doc": "SY53-PPT",
+     "slide": 49,
+     "where": "slide 49"
+    }
+   ]
+  },
+  {
+   "conflict_id": "CF-02",
+   "entity_ids": [
+    "PER-PANCHARIYA",
+    "INN-SWEET-POTATO-VARIETIES"
+   ],
+   "attribute": "the number of sweet potato varieties linked to Panchariya",
+   "keywords": [
+    "variet"
+   ],
+   "values": [
+    {
+     "value": "eight varieties (photo caption 'Eight varieties of sweet potatoes, Rahulchand Panchariya')",
+     "value_terms": [
+      "eight",
+      "8 varieties"
+     ],
+     "doc": "SY51-HB-P1",
+     "page": 15,
+     "where": "Honey Bee Vol 35 (3), p. 15"
+    },
+    {
+     "value": "five varieties that he had developed",
+     "value_terms": [
+      "five",
+      "5 varieties"
+     ],
+     "doc": "SY51-HB-P2",
+     "page": 4,
+     "where": "Honey Bee Vol 35 (4), p. 4"
+    }
+   ]
+  },
+  {
+   "conflict_id": "CF-03",
+   "entity_ids": [
+    "PER-SANDHYA-KULKARNI"
+   ],
+   "attribute": "the distance Sandhya Kulkarni cycled in one day",
+   "keywords": [
+    "one day",
+    "a day",
+    "km",
+    "cycl"
+   ],
+   "values": [
+    {
+     "value": "123 km in one day (slide text)",
+     "value_terms": [
+      "123"
+     ],
+     "doc": "SY53-PPT",
+     "slide": 84,
+     "where": "slide 84 (slide text)"
+    },
+    {
+     "value": "118 km in one day in a cycle yatra in Ujjain (newspaper clipping on the slide)",
+     "value_terms": [
+      "118"
+     ],
+     "doc": "SY53-PPT",
+     "slide": 84,
+     "where": "slide 84 (newspaper clipping in the image)"
+    }
+   ],
+   "note": "Possibly different events; both kept as stated."
+  }
+ ]
+}

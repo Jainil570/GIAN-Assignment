@@ -1,0 +1,16 @@
+# Python 3.10+ (developed on 3.12)
+pymupdf>=1.26
+beautifulsoup4>=4.12
+lxml>=5
+requests>=2.31
+ftfy>=6.2
+rapidfuzz>=3.9
+psycopg[binary]>=3.2
+pgvector>=0.3
+python-dotenv>=1.0
+numpy>=1.26
+pandas>=2.2
+streamlit>=1.40
+markdown>=3.6
+# optional: screenshots of the UI (examples/capture_screenshots.py)
+# selenium>=4.20
