@@ -8,7 +8,7 @@ This project builds a queryable, source-attributed knowledge base from three GIA
 
 The sources are analysed, linked and cleaned, then structured into chunks, entities, relationships and known conflicts. They are embedded with **BAAI/bge-m3** into **PostgreSQL + pgvector**. A RAG system answers questions **only** from retrieved sources, with page-, slide- or record-level attribution, and says *"The available sources do not provide sufficient information to answer this."* when it cannot.
 
-**Demo video:** [VIDEO](https://drive.google.com/drive/folders/1zdsOBzecotO1SLdw9mmomBYVea8Yga1_?usp=sharing)
+**Demo video:** [SCREEN VIDEO/PHOTO](https://drive.google.com/drive/folders/1zdsOBzecotO1SLdw9mmomBYVea8Yga1_?usp=sharing)
 
 ## For evaluators: start here
 1. **Report:** [`docs/DATA_ANALYSIS_REPORT.pdf`](docs/DATA_ANALYSIS_REPORT.pdf): structure, cross-source entities, gaps, linking fields, cleaning decisions.
