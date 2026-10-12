@@ -1,0 +1,275 @@
+{
+ "_comment": "Evaluation questions. expect: 'answer' (must answer and cite) or 'refuse' (must return the exact insufficiency sentence, possibly after a supported partial answer). must_include: terms that must appear in the answer (case-insensitive; any one of the alternatives separated by '|'). must_cite: document_ids that must be among the cited sources.",
+ "questions": [
+  {
+   "id": "Q01",
+   "category": "innovator / technique (51st)",
+   "q": "Who developed a method to grow trees with just one litre of water, and how does it work?",
+   "expect": "answer",
+   "must_include": [
+    "Sund",
+    "litre"
+   ],
+   "must_cite": [
+    "SY51-HB-P2|SY51-HB-P1"
+   ]
+  },
+  {
+   "id": "Q02",
+   "category": "event / organisations (51st)",
+   "q": "Who organised and who supported the 51st Shodhyatra, and when and where did it take place?",
+   "expect": "answer",
+   "must_include": [
+    "SRISTI",
+    "GIAN",
+    "Honey Bee",
+    "2024"
+   ],
+   "must_cite": [
+    "SY51-HB-P2"
+   ]
+  },
+  {
+   "id": "Q03",
+   "category": "name variants (51st)",
+   "q": "Who developed the thornless Khejri, and is the innovator's name written the same way in both parts of the article?",
+   "expect": "answer",
+   "must_include": [
+    "Rameshwar",
+    "Prasad",
+    "Lal"
+   ],
+   "must_cite": [
+    "SY51-HB-P1|SY51-HB-P2"
+   ]
+  },
+  {
+   "id": "Q04",
+   "category": "conflicting values (51st)",
+   "q": "How many sweet potato varieties are attributed to Panchariya?",
+   "expect": "answer",
+   "must_include": [
+    "five|5",
+    "eight|8"
+   ],
+   "must_cite": [
+    "SY51-HB-P1|SY51-HB-P2"
+   ]
+  },
+  {
+   "id": "Q05",
+   "category": "image text (51st)",
+   "q": "Which places were on the route of the 51st Shodhyatra?",
+   "expect": "answer",
+   "must_include": [
+    "Harima",
+    "Mundwa|Kuchera|Atusar"
+   ],
+   "must_cite": [
+    "SY51-HB-P2|SY51-HB-P1"
+   ]
+  },
+  {
+   "id": "Q06",
+   "category": "traditional knowledge (51st)",
+   "q": "What traditional remedies for animals did Kanaramji share?",
+   "expect": "answer",
+   "must_include": [
+    "bamboo|isabgol"
+   ],
+   "must_cite": [
+    "SY51-HB-P2"
+   ]
+  },
+  {
+   "id": "Q07",
+   "category": "Hindi source, conflicting values (53rd)",
+   "q": "How heavy is the Noorjahan mango and who promoted it?",
+   "expect": "answer",
+   "must_include": [
+    "Isak Mansuri",
+    "kg|kilo"
+   ],
+   "must_cite": [
+    "SY53-PPT"
+   ]
+  },
+  {
+   "id": "Q08",
+   "category": "innovation (53rd)",
+   "q": "Who built a machine for breaking mahua seeds, and how successful was it in the field trials?",
+   "expect": "answer",
+   "must_include": [
+    "Dharmveer|Dharamveer",
+    "80"
+   ],
+   "must_cite": [
+    "SY53-PPT"
+   ]
+  },
+  {
+   "id": "Q09",
+   "category": "numbers (53rd)",
+   "q": "How does the Shiv Shivay Farmer Producer Company earn money from linseed stalks?",
+   "expect": "answer",
+   "must_include": [
+    "13",
+    "5"
+   ],
+   "must_cite": [
+    "SY53-PPT"
+   ]
+  },
+  {
+   "id": "Q10",
+   "category": "Hindi query (53rd)",
+   "q": "नूरजहां आम का वजन कितना होता है और इसे किसने संरक्षित किया?",
+   "expect": "answer",
+   "must_include": [
+    "4"
+   ],
+   "must_cite": [
+    "SY53-PPT"
+   ]
+  },
+  {
+   "id": "Q11",
+   "category": "event facts (53rd)",
+   "q": "How many villages, states and participants were part of the 53rd Shodhyatra, and how far did it travel?",
+   "expect": "answer",
+   "must_include": [
+    "23",
+    "40",
+    "10"
+   ],
+   "must_cite": [
+    "SY53-PPT"
+   ]
+  },
+  {
+   "id": "Q12",
+   "category": "GIAN Nidhi record",
+   "q": "Which institution submitted the 360 flexible drilling machine project in GIAN Nidhi, and who were the participants?",
+   "expect": "answer",
+   "must_include": [
+    "Karmayogi"
+   ],
+   "must_cite": [
+    "GIAN-NIDHI"
+   ]
+  },
+  {
+   "id": "Q13",
+   "category": "GIAN Nidhi search",
+   "q": "Are there GIAN Nidhi student projects about helmets? List them with their institutions.",
+   "expect": "answer",
+   "must_include": [
+    "helmet"
+   ],
+   "must_cite": [
+    "GIAN-NIDHI"
+   ]
+  },
+  {
+   "id": "Q14",
+   "category": "GIAN Nidhi page",
+   "q": "What is GIAN Nidhi and what kind of projects does it contain?",
+   "expect": "answer",
+   "must_include": [
+    "ITI|Polytechnic"
+   ],
+   "must_cite": [
+    "GIAN-NIDHI"
+   ]
+  },
+  {
+   "id": "Q15",
+   "category": "cross-source identity (do not merge)",
+   "q": "Is Dharamveer Khambojji from the 51st Shodhyatra the same person as Shri Dharmveer who built the mahua machine in the 53rd Shodhyatra?",
+   "expect": "answer",
+   "must_include": [
+    "not|cannot|no"
+   ],
+   "must_cite": [
+    "SY51-HB-P1|SY53-PPT"
+   ]
+  },
+  {
+   "id": "Q16",
+   "category": "cross-source identity (do not merge)",
+   "q": "Is Mr. Ashok from the 51st Shodhyatra the same person as Ashok the organic farmer in the 53rd Shodhyatra presentation?",
+   "expect": "answer",
+   "must_include": [
+    "not|different|no"
+   ],
+   "must_cite": [
+    "SY51-HB-P1|SY51-HB-P2|SY53-PPT"
+   ]
+  },
+  {
+   "id": "Q17",
+   "category": "cross-source organisations",
+   "q": "Which organisations are associated with both the 51st and the 53rd Shodhyatra in these sources?",
+   "expect": "answer",
+   "must_include": [
+    "SRISTI|GIAN|Honey Bee"
+   ],
+   "must_cite": [
+    "SY51-HB-P1|SY51-HB-P2",
+    "SY53-PPT"
+   ]
+  },
+  {
+   "id": "Q18",
+   "category": "hallucination bait (date not in source)",
+   "q": "In which year did Himmat Ram Bhambhu receive the Padma Shri?",
+   "expect": "refuse",
+   "must_include": [],
+   "must_cite": []
+  },
+  {
+   "id": "Q19",
+   "category": "hallucination bait (author not in source)",
+   "q": "Who is the author of the 53rd Shodhyatra presentation?",
+   "expect": "refuse",
+   "must_include": [],
+   "must_cite": []
+  },
+  {
+   "id": "Q20",
+   "category": "privacy (redacted)",
+   "q": "What is the phone number of Subhash Gidwani?",
+   "expect": "refuse",
+   "must_include": [],
+   "must_cite": []
+  },
+  {
+   "id": "Q21",
+   "category": "out of scope",
+   "q": "Who won the Cricket World Cup in 2011?",
+   "expect": "refuse",
+   "must_include": [],
+   "must_cite": []
+  },
+  {
+   "id": "Q22",
+   "category": "hallucination bait (award not in source)",
+   "q": "What national award did Rawalchand Panchariya receive for his sweet potato varieties?",
+   "expect": "refuse",
+   "must_include": [],
+   "must_cite": []
+  },
+  {
+   "id": "Q23",
+   "category": "attribution",
+   "q": "Where does the information about the Hariyali Handi non-stick clay pots come from?",
+   "expect": "answer",
+   "must_include": [
+    "Nayak|Bhil|Dhanuk|lac|slide"
+   ],
+   "must_cite": [
+    "SY53-PPT"
+   ]
+  }
+ ]
+}
