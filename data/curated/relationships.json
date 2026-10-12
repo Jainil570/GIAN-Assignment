@@ -1,0 +1,1993 @@
+{
+ "_comment": "Curated relationships. status: 'stated' = explicitly said in the cited source; 'probable' = strong contextual evidence but not literally stated (e.g. two spellings of one name tied to the same unique innovation); 'unverified' = plausible link that the sources do NOT establish - must never be presented as fact; 'distinct' = explicitly reviewed and judged to be different entities despite similar names. Evidence locators are resolved to chunk IDs by the build step (doc + printed page / slide / record).",
+ "relationships": [
+  {
+   "s": "EVT-SY51",
+   "p": "organised_by",
+   "o": "ORG-SRISTI",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY51-HB-P2",
+     "page": 2
+    }
+   ]
+  },
+  {
+   "s": "EVT-SY51",
+   "p": "supported_by",
+   "o": "ORG-GIAN",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY51-HB-P2",
+     "page": 2
+    }
+   ]
+  },
+  {
+   "s": "EVT-SY51",
+   "p": "supported_by",
+   "o": "ORG-HBN",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY51-HB-P2",
+     "page": 2
+    }
+   ]
+  },
+  {
+   "s": "EVT-SY51",
+   "p": "described_in",
+   "o": "PUB-HB-35-3",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY51-HB-P1",
+     "page": 13
+    }
+   ]
+  },
+  {
+   "s": "EVT-SY51",
+   "p": "described_in",
+   "o": "PUB-HB-35-4",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY51-HB-P2",
+     "page": 2
+    }
+   ]
+  },
+  {
+   "s": "EVT-SY51",
+   "p": "part_of_series",
+   "o": "EVT-SHODHYATRA-SERIES",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY51-HB-P1",
+     "page": 13
+    }
+   ]
+  },
+  {
+   "s": "EVT-SY53",
+   "p": "part_of_series",
+   "o": "EVT-SHODHYATRA-SERIES",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 2
+    }
+   ]
+  },
+  {
+   "s": "EVT-SY53",
+   "p": "logo_shown",
+   "o": "ORG-HBN",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 1
+    }
+   ],
+   "note": "Logo on title slide; organiser/supporter role not stated."
+  },
+  {
+   "s": "EVT-SY53",
+   "p": "logo_shown",
+   "o": "ORG-SRISTI",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 1
+    }
+   ],
+   "note": "Logo on title slide; slide 60 also mentions SRISTI colleagues working with Dharmveer."
+  },
+  {
+   "s": "EVT-SY53",
+   "p": "logo_shown",
+   "o": "ORG-SRISTI-INNOVATIONS",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 1
+    }
+   ]
+  },
+  {
+   "s": "EVT-SY53",
+   "p": "logo_shown",
+   "o": "ORG-GIAN",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 1
+    }
+   ]
+  },
+  {
+   "s": "ORG-SRISTI",
+   "p": "supports",
+   "o": "ORG-GIAN",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "GIAN-NIDHI",
+     "record": "page"
+    }
+   ]
+  },
+  {
+   "s": "ORG-IIMA",
+   "p": "supports",
+   "o": "ORG-GIAN",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "GIAN-NIDHI",
+     "record": "page"
+    }
+   ]
+  },
+  {
+   "s": "ORG-HBN",
+   "p": "supports",
+   "o": "ORG-GIAN",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "GIAN-NIDHI",
+     "record": "page"
+    }
+   ]
+  },
+  {
+   "s": "ORG-GIAN",
+   "p": "set_up_in_collaboration_with",
+   "o": "ORG-GOVT-GUJARAT",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "GIAN-NIDHI",
+     "record": "page"
+    }
+   ],
+   "note": "Set up in 1997."
+  },
+  {
+   "s": "EVT-SY51",
+   "p": "route_includes",
+   "o": "PLC-HARIMA",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY51-HB-P1",
+     "page": 13
+    },
+    {
+     "doc": "SY51-HB-P2",
+     "page": 3
+    }
+   ]
+  },
+  {
+   "s": "EVT-SY51",
+   "p": "route_includes",
+   "o": "PLC-LIKHMIDAS-TEMPLE",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY51-HB-P1",
+     "page": 14
+    },
+    {
+     "doc": "SY51-HB-P2",
+     "page": 3
+    }
+   ]
+  },
+  {
+   "s": "EVT-SY51",
+   "p": "route_includes",
+   "o": "PLC-ATUSAR",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY51-HB-P1",
+     "page": 14
+    },
+    {
+     "doc": "SY51-HB-P2",
+     "page": 3
+    }
+   ]
+  },
+  {
+   "s": "EVT-SY51",
+   "p": "route_includes",
+   "o": "PLC-FIROD",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY51-HB-P1",
+     "page": 14
+    },
+    {
+     "doc": "SY51-HB-P2",
+     "page": 3
+    }
+   ]
+  },
+  {
+   "s": "EVT-SY51",
+   "p": "route_includes",
+   "o": "PLC-AMANDA-KI-DHANI",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY51-HB-P2",
+     "page": 3
+    }
+   ]
+  },
+  {
+   "s": "EVT-SY51",
+   "p": "route_includes",
+   "o": "PLC-MUNDWA",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY51-HB-P1",
+     "page": 15
+    },
+    {
+     "doc": "SY51-HB-P2",
+     "page": 3
+    }
+   ]
+  },
+  {
+   "s": "EVT-SY51",
+   "p": "route_includes",
+   "o": "PLC-BHADANA",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY51-HB-P2",
+     "page": 3
+    }
+   ]
+  },
+  {
+   "s": "EVT-SY51",
+   "p": "route_includes",
+   "o": "PLC-KUCHERA",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY51-HB-P1",
+     "page": 15
+    },
+    {
+     "doc": "SY51-HB-P2",
+     "page": 3
+    }
+   ]
+  },
+  {
+   "s": "EVT-SY51",
+   "p": "route_includes",
+   "o": "PLC-CHAK-DHANI",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY51-HB-P1",
+     "page": 15
+    },
+    {
+     "doc": "SY51-HB-P2",
+     "page": 3
+    }
+   ]
+  },
+  {
+   "s": "EVT-SY51",
+   "p": "visited",
+   "o": "PLC-BUTATI",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY51-HB-P1",
+     "page": 15
+    }
+   ]
+  },
+  {
+   "s": "EVT-SY51",
+   "p": "visited",
+   "o": "PLC-LOHARPURA",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY51-HB-P2",
+     "page": 3
+    }
+   ],
+   "note": "Visited by a few yatris after the sixth day."
+  },
+  {
+   "s": "EVT-SY53",
+   "p": "starts_at",
+   "o": "PLC-BHURIMATI",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 1
+    }
+   ]
+  },
+  {
+   "s": "EVT-SY53",
+   "p": "ends_at",
+   "o": "PLC-AMBALA-CU",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 1
+    }
+   ]
+  },
+  {
+   "s": "EVT-SY53",
+   "p": "route_includes",
+   "o": "PLC-JHABUA",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 4
+    }
+   ]
+  },
+  {
+   "s": "EVT-SY53",
+   "p": "route_includes",
+   "o": "PLC-ALIRAJPUR",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 4
+    }
+   ]
+  },
+  {
+   "s": "EVT-SY53",
+   "p": "route_includes",
+   "o": "PLC-CHHOTA-UDEPUR",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 4
+    }
+   ]
+  },
+  {
+   "s": "EVT-SY53",
+   "p": "visited",
+   "o": "PLC-GUNATA",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 76
+    }
+   ],
+   "note": "Halt at Gunata school on 8 June."
+  },
+  {
+   "s": "EVT-SY53",
+   "p": "visited",
+   "o": "PLC-MOTI-DUMALI",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 23
+    }
+   ]
+  },
+  {
+   "s": "PER-SUNDARAM-VERMA",
+   "p": "innovator_of",
+   "o": "INN-ONE-LITRE-TREE",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY51-HB-P1",
+     "page": 14
+    },
+    {
+     "doc": "SY51-HB-P2",
+     "page": 4
+    }
+   ]
+  },
+  {
+   "s": "PER-SUNDARAM-VERMA",
+   "p": "received_award",
+   "o": "AWD-PADMA-SHRI",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY51-HB-P1",
+     "page": 14
+    }
+   ],
+   "note": "Year not stated."
+  },
+  {
+   "s": "PER-SUNDARAM-VERMA",
+   "p": "grew",
+   "o": "INN-RAJASTHAN-APPLE",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY51-HB-P1",
+     "page": 14
+    }
+   ]
+  },
+  {
+   "s": "PER-HARIMAN-SHARMA",
+   "p": "originally_developed",
+   "o": "INN-RAJASTHAN-APPLE",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY51-HB-P1",
+     "page": 14
+    }
+   ],
+   "note": "The apple variety was originally developed by Hariman Sharma in Himachal Pradesh."
+  },
+  {
+   "s": "PER-HIMMAT-RAM-BHAMBHU",
+   "p": "created",
+   "o": "PLC-PARYAVARAN-VAN",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY51-HB-P1",
+     "page": 13
+    }
+   ]
+  },
+  {
+   "s": "PER-HIMMAT-RAM-BHAMBHU",
+   "p": "received_award",
+   "o": "AWD-PADMA-SHRI",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY51-HB-P1",
+     "page": 14
+    }
+   ],
+   "note": "Year not stated."
+  },
+  {
+   "s": "PER-RAMESHWAR-KHEJRI",
+   "p": "innovator_of",
+   "o": "INN-THORNLESS-KHEJRI",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY51-HB-P1",
+     "page": 14
+    },
+    {
+     "doc": "SY51-HB-P2",
+     "page": 2
+    },
+    {
+     "doc": "SY51-HB-P2",
+     "page": 4
+    }
+   ]
+  },
+  {
+   "s": "PER-SANTOSH-PACHAR",
+   "p": "innovator_of",
+   "o": "INN-CARROT-VARIETY",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY51-HB-P1",
+     "page": 14
+    }
+   ]
+  },
+  {
+   "s": "PER-SANTOSH-PACHAR",
+   "p": "received_award",
+   "o": "AWD-PRESIDENTIAL-UNSPECIFIED",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY51-HB-P1",
+     "page": 14
+    }
+   ],
+   "note": "Source: 'a Presidential awardee'; award name and year not stated."
+  },
+  {
+   "s": "PER-PANCHARIYA",
+   "p": "innovator_of",
+   "o": "INN-SWEET-POTATO-VARIETIES",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY51-HB-P1",
+     "page": 14
+    },
+    {
+     "doc": "SY51-HB-P1",
+     "page": 15
+    },
+    {
+     "doc": "SY51-HB-P2",
+     "page": 4
+    }
+   ]
+  },
+  {
+   "s": "PER-PANCHARIYA",
+   "p": "innovator_of",
+   "o": "INN-MILLET-PRODUCTS",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY51-HB-P1",
+     "page": 14
+    },
+    {
+     "doc": "SY51-HB-P2",
+     "page": 2
+    }
+   ]
+  },
+  {
+   "s": "PER-KAMALJI-BATI",
+   "p": "operates",
+   "o": "PLC-LIKHMIDAS-TEMPLE",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY51-HB-P1",
+     "page": 14
+    }
+   ]
+  },
+  {
+   "s": "PER-SUNILJI",
+   "p": "operates",
+   "o": "PLC-LIKHMIDAS-TEMPLE",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY51-HB-P1",
+     "page": 14
+    }
+   ]
+  },
+  {
+   "s": "PLC-LIKHMIDAS-TEMPLE",
+   "p": "runs",
+   "o": "INN-TEMPLE-STEEL-GLASSES",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY51-HB-P1",
+     "page": 14
+    }
+   ]
+  },
+  {
+   "s": "PLC-LIKHMIDAS-TEMPLE",
+   "p": "runs",
+   "o": "INN-TEMPLE-LAND-DONATION",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY51-HB-P1",
+     "page": 14
+    }
+   ]
+  },
+  {
+   "s": "ORG-SHUBHANGINI-SPICES",
+   "p": "processes",
+   "o": "INN-KASURI-METHI",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY51-HB-P1",
+     "page": 14
+    }
+   ]
+  },
+  {
+   "s": "PER-RAJARAM-TAK",
+   "p": "innovator_of",
+   "o": "INN-SOLAR-SYSTEM-MODEL",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY51-HB-P1",
+     "page": 14
+    }
+   ]
+  },
+  {
+   "s": "PER-SHRAVAN-KUMAR-SONI",
+   "p": "demonstrated",
+   "o": "INN-BONSAI-GREENING",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY51-HB-P1",
+     "page": 14
+    }
+   ]
+  },
+  {
+   "s": "PER-KANARAMJI",
+   "p": "innovator_of",
+   "o": "INN-THIGH-CRUTCH",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY51-HB-P1",
+     "page": 14
+    }
+   ]
+  },
+  {
+   "s": "PER-KANARAMJI",
+   "p": "knowledge_holder_of",
+   "o": "INN-ANIMAL-REMEDIES-KANARAM",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY51-HB-P2",
+     "page": 4
+    }
+   ]
+  },
+  {
+   "s": "PER-SATARAM",
+   "p": "practises",
+   "o": "INN-CAMEL-FARMING",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY51-HB-P1",
+     "page": 15
+    }
+   ]
+  },
+  {
+   "s": "PER-DHARAMVEER-KHAMBOJJI",
+   "p": "innovator_of",
+   "o": "INN-ELECTRIC-WHEELCHAIR",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY51-HB-P1",
+     "page": 15
+    }
+   ]
+  },
+  {
+   "s": "PER-DHARAMVEER-KHAMBOJJI",
+   "p": "innovator_of",
+   "o": "INN-FRUIT-JUICES",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY51-HB-P1",
+     "page": 15
+    }
+   ]
+  },
+  {
+   "s": "PER-DHARAMVEER-KHAMBOJJI",
+   "p": "participated_in",
+   "o": "EVT-SY51",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY51-HB-P1",
+     "page": 15
+    }
+   ]
+  },
+  {
+   "s": "PER-RINKU-JEJI",
+   "p": "idea_of",
+   "o": "INN-MANURE-INDICATOR-IDEA",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY51-HB-P1",
+     "page": 15
+    }
+   ]
+  },
+  {
+   "s": "PER-SIMRAN",
+   "p": "idea_of",
+   "o": "INN-HOT-COLD-BOTTLE-IDEA",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY51-HB-P1",
+     "page": 15
+    }
+   ]
+  },
+  {
+   "s": "INN-HELMET-IGNITION-IDEA",
+   "p": "documented_at",
+   "o": "ORG-NIF",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY51-HB-P1",
+     "page": 15
+    }
+   ],
+   "note": "Only the nif.org.in URL is given."
+  },
+  {
+   "s": "PER-RAM-CHANDRA-SIROHI",
+   "p": "innovator_of",
+   "o": "INN-STUDY-ROOMS",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY51-HB-P2",
+     "page": 3
+    }
+   ]
+  },
+  {
+   "s": "PER-RAM-RATANJI",
+   "p": "innovator_of",
+   "o": "INN-TRACTOR-CREDIT",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY51-HB-P2",
+     "page": 4
+    }
+   ]
+  },
+  {
+   "s": "PER-PRAHALAD",
+   "p": "cultivates",
+   "o": "PLT-KHEJRI",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY51-HB-P1",
+     "page": 15
+    }
+   ],
+   "note": "Ordinary Khejri cultivation; the source does NOT say these are the thornless/grafted Khejri."
+  },
+  {
+   "s": "INN-THORNLESS-KHEJRI",
+   "p": "variety_of",
+   "o": "PLT-KHEJRI",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY51-HB-P1",
+     "page": 14
+    },
+    {
+     "doc": "SY51-HB-P2",
+     "page": 2
+    }
+   ]
+  },
+  {
+   "s": "PER-RAMESH-PARMAR",
+   "p": "innovator_of",
+   "o": "INN-BHILI-DOLLS",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 14
+    }
+   ]
+  },
+  {
+   "s": "PER-SHANTI-PARMAR",
+   "p": "innovator_of",
+   "o": "INN-BHILI-DOLLS",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 14
+    }
+   ]
+  },
+  {
+   "s": "PER-RAMESH-PARMAR",
+   "p": "received_award",
+   "o": "AWD-PADMA-SHRI",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 14
+    }
+   ],
+   "note": "2023."
+  },
+  {
+   "s": "PER-SHANTI-PARMAR",
+   "p": "received_award",
+   "o": "AWD-PADMA-SHRI",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 14
+    }
+   ],
+   "note": "2023."
+  },
+  {
+   "s": "PER-SUBHASH-GIDWANI",
+   "p": "promotes",
+   "o": "INN-ADIVASI-GUDIYA",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 16
+    }
+   ]
+  },
+  {
+   "s": "PER-UDDHAV-GIDWANI",
+   "p": "founded",
+   "o": "ORG-SHAKTI-EMPORIUM",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 16
+    }
+   ],
+   "note": "1980s."
+  },
+  {
+   "s": "PER-UDDHAV-GIDWANI",
+   "p": "parent_of",
+   "o": "PER-SUBHASH-GIDWANI",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 16
+    }
+   ]
+  },
+  {
+   "s": "PER-BHARTI-SONI",
+   "p": "teaches",
+   "o": "INN-CLAY-IDOL-TRAINING",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 17
+    }
+   ]
+  },
+  {
+   "s": "PER-ARCHANA-RATHWA",
+   "p": "innovator_of",
+   "o": "INN-WARLI-PITHORA-BUSINESS",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 18
+    }
+   ]
+  },
+  {
+   "s": "PER-SHIVKUMARJI",
+   "p": "made",
+   "o": "INN-GATHA-MEMORY-PILLARS",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 21
+    }
+   ]
+  },
+  {
+   "s": "PER-THAVARSINGH-BHURIYA",
+   "p": "practises",
+   "o": "ART-PITHORA",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 22
+    }
+   ]
+  },
+  {
+   "s": "PER-PEMA-FATIYA",
+   "p": "practises",
+   "o": "ART-PITHORA",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 22
+    }
+   ]
+  },
+  {
+   "s": "PER-DESING-RATHWA",
+   "p": "practises",
+   "o": "ART-PITHORA",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 33
+    }
+   ]
+  },
+  {
+   "s": "PER-DESING-RATHWA",
+   "p": "participated_in",
+   "o": "EVT-ICCIG",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 33
+    }
+   ]
+  },
+  {
+   "s": "PER-BHURI-BAI",
+   "p": "practises",
+   "o": "ART-PITHORA",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 35
+    }
+   ],
+   "note": "Hidden text on slide 35."
+  },
+  {
+   "s": "PER-BHURI-BAI",
+   "p": "received_award",
+   "o": "AWD-PADMA-SHRI",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 35
+    }
+   ],
+   "note": "Hidden text; year not stated."
+  },
+  {
+   "s": "PER-BHURI-BAI",
+   "p": "received_award",
+   "o": "AWD-SHIKHAR-SAMMAN",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 35
+    }
+   ],
+   "note": "Hidden text."
+  },
+  {
+   "s": "PER-J-SWAMINATHAN",
+   "p": "guided",
+   "o": "PER-BHURI-BAI",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 35
+    }
+   ],
+   "note": "Hidden text."
+  },
+  {
+   "s": "PER-ARCHANA-RATHWA",
+   "p": "practises",
+   "o": "ART-PITHORA",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 18
+    }
+   ]
+  },
+  {
+   "s": "PER-ANU-BHABHOR",
+   "p": "practises",
+   "o": "INN-NUKKAD-NATAK",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 24
+    }
+   ]
+  },
+  {
+   "s": "PER-SANTOSH-BASOND",
+   "p": "innovator_of",
+   "o": "INN-BAMBOO-BROOM",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 25
+    }
+   ]
+  },
+  {
+   "s": "PER-RATANBHAI-RATHWA",
+   "p": "innovator_of",
+   "o": "INN-WOODEN-SCULPTURES",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 28
+    }
+   ]
+  },
+  {
+   "s": "PER-BHARAT-VARIYA",
+   "p": "practises",
+   "o": "INN-TRIBAL-FAITH-SCULPTURE",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 31
+    }
+   ]
+  },
+  {
+   "s": "PER-LEELA-NINAMA",
+   "p": "associated_with",
+   "o": "ORG-SHIV-SHIVAY-FPC",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 36
+    }
+   ],
+   "note": "Named under the FPC heading; exact role not stated."
+  },
+  {
+   "s": "PER-MANJU-VASUNIYA",
+   "p": "associated_with",
+   "o": "ORG-SHIV-SHIVAY-FPC",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 36
+    }
+   ],
+   "note": "Exact role not stated."
+  },
+  {
+   "s": "PER-LALITA-SINGAD",
+   "p": "associated_with",
+   "o": "ORG-SHIV-SHIVAY-FPC",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 36
+    }
+   ],
+   "note": "Exact role not stated."
+  },
+  {
+   "s": "ORG-SHIV-SHIVAY-FPC",
+   "p": "runs",
+   "o": "INN-LINSEED-STALK-AGGREGATION",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 37
+    }
+   ]
+  },
+  {
+   "s": "ORG-TRC",
+   "p": "guided",
+   "o": "ORG-SHIV-SHIVAY-FPC",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 37
+    }
+   ]
+  },
+  {
+   "s": "PER-SEJAL-RATHWA",
+   "p": "innovator_of",
+   "o": "INN-BANANA-FIBRE-DIARY",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 39
+    }
+   ]
+  },
+  {
+   "s": "PER-SEJAL-RATHWA",
+   "p": "works_with",
+   "o": "ORG-BHASHA-SANSTHA",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 39
+    }
+   ]
+  },
+  {
+   "s": "PER-HARISH-PAWAR",
+   "p": "member_of",
+   "o": "ORG-SAMPARK",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 40
+    },
+    {
+     "doc": "SY53-PPT",
+     "slide": 42
+    }
+   ]
+  },
+  {
+   "s": "ORG-SAMPARK",
+   "p": "runs",
+   "o": "INN-SAMPARK-SEED-CONSERVATION",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 41
+    }
+   ]
+  },
+  {
+   "s": "ORG-SAMPARK",
+   "p": "runs",
+   "o": "INN-PARTICIPATORY-WHEAT-SELECTION",
+   "status": "probable",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 41
+    }
+   ],
+   "note": "The 'process' is described on the same slide as Sampark's seed collection; the slide does not explicitly say Sampark runs it."
+  },
+  {
+   "s": "PER-HARISH-PAWAR",
+   "p": "promotes",
+   "o": "INN-ORGANIC-INPUTS",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 42
+    }
+   ]
+  },
+  {
+   "s": "ORG-NAYAK-BHIL-DHANUK",
+   "p": "makes",
+   "o": "INN-HARIYALI-HANDI",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 45
+    }
+   ]
+  },
+  {
+   "s": "PER-SURENDRAPAL-CHAUHAN",
+   "p": "innovator_of",
+   "o": "INN-SUNFLOWER-VARIETY",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 46
+    }
+   ]
+  },
+  {
+   "s": "PER-TERESINGH-BARCHA",
+   "p": "conserves",
+   "o": "INN-TRADITIONAL-MAIZE-MOONG-SEEDS",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 47
+    }
+   ]
+  },
+  {
+   "s": "PER-ISAK-MANSURI",
+   "p": "conserved_and_promoted",
+   "o": "INN-NOORJAHAN-MANGO",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 48
+    }
+   ]
+  },
+  {
+   "s": "INN-NOORJAHAN-MANGO",
+   "p": "grown_in",
+   "o": "PLC-KATTHIWADA",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 48
+    }
+   ]
+  },
+  {
+   "s": "PER-ASHOK-SY53",
+   "p": "practises",
+   "o": "INN-ORGANIC-TRANSITION-ASHOK",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 50
+    }
+   ]
+  },
+  {
+   "s": "PER-DULESINGH-BHURIYA",
+   "p": "practises",
+   "o": "INN-NATURAL-FARMING-DULESINGH",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 51
+    }
+   ]
+  },
+  {
+   "s": "PER-CHETAN-PACHAYA",
+   "p": "practises",
+   "o": "INN-BANANA-CULTIVATION-CHETAN",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 52
+    }
+   ]
+  },
+  {
+   "s": "PER-CHETAN-PACHAYA",
+   "p": "established",
+   "o": "INN-GIR-GAUSHALA",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 52
+    }
+   ]
+  },
+  {
+   "s": "PER-KALAMSINGH-DAWAR",
+   "p": "practises",
+   "o": "INN-INTERCROPPING-DRAGON-FRUIT",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 53
+    }
+   ]
+  },
+  {
+   "s": "PER-VISHAL-PARMAR",
+   "p": "innovator_of",
+   "o": "INN-WATER-ELECTRIC-WELDING",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 54
+    }
+   ]
+  },
+  {
+   "s": "PER-DHARMVEER-SY53",
+   "p": "innovator_of",
+   "o": "INN-MAHUA-DECORTICATOR",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 60
+    }
+   ]
+  },
+  {
+   "s": "PER-DHARMVEER-SY53",
+   "p": "received_award",
+   "o": "AWD-PRESIDENTIAL-UNSPECIFIED",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 60
+    }
+   ],
+   "note": "Source: 'राष्ट्रपति पुरस्कार से सम्मानित'; award name and year not stated."
+  },
+  {
+   "s": "PER-DHARMVEER-SY53",
+   "p": "worked_with",
+   "o": "ORG-SRISTI",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 60
+    }
+   ]
+  },
+  {
+   "s": "PER-DHARMVEER-SY53",
+   "p": "from",
+   "o": "PLC-YAMUNANAGAR",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 60
+    }
+   ]
+  },
+  {
+   "s": "PER-UDAY-BILWAL",
+   "p": "founded",
+   "o": "ORG-SOLDIER-ACADEMY-JHABUA",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 63
+    }
+   ],
+   "note": "2015."
+  },
+  {
+   "s": "PER-SEEMA-TRIVEDI",
+   "p": "leads",
+   "o": "ORG-PMC-GIRLS-SCHOOL",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 64
+    }
+   ]
+  },
+  {
+   "s": "PER-RENU-KACHHAWA",
+   "p": "innovator_of",
+   "o": "INN-TLM-KACHHAWA",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 65
+    }
+   ]
+  },
+  {
+   "s": "PER-JAGDISHBHAI-MAKWANA",
+   "p": "teaches_at",
+   "o": "ORG-ROJKUVA-SCHOOL",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 66
+    }
+   ]
+  },
+  {
+   "s": "PER-JAGDISHBHAI-MAKWANA",
+   "p": "innovator_of",
+   "o": "INN-BHAVAI-EDUCATION",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 66
+    }
+   ]
+  },
+  {
+   "s": "PER-JITUBHAI-PATEL",
+   "p": "teaches_at",
+   "o": "ORG-GUNATA-SCHOOL",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 68
+    }
+   ]
+  },
+  {
+   "s": "PER-JITUBHAI-PATEL",
+   "p": "innovator_of",
+   "o": "INN-PENSION-LINKAGE",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 68
+    }
+   ]
+  },
+  {
+   "s": "PER-MEHUL-RATHWA",
+   "p": "studies_at",
+   "o": "ORG-GUNATA-SCHOOL",
+   "status": "probable",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 34
+    },
+    {
+     "doc": "SY53-PPT",
+     "slide": 68
+    }
+   ],
+   "note": "Slide 34: 'school of Gunata village'; slide 68: 'student Mehul' at Gunata Primary School."
+  },
+  {
+   "s": "PER-MEHUL-RATHWA",
+   "p": "innovator_of",
+   "o": "INN-SCHOOL-ART-MUSEUM",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 34
+    },
+    {
+     "doc": "SY53-PPT",
+     "slide": 68
+    }
+   ]
+  },
+  {
+   "s": "PER-JITUBHAI-PATEL",
+   "p": "inspired",
+   "o": "PER-MEHUL-RATHWA",
+   "status": "probable",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 68
+    }
+   ],
+   "note": "Slide 68 says 'student Mehul' was inspired by Jitubhai; identity with Mehul Rathwa is probable."
+  },
+  {
+   "s": "PER-DINESHBHAI-RATHWA",
+   "p": "innovator_of",
+   "o": "INN-RATHWA-WORD-BOOKLET",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 70
+    }
+   ]
+  },
+  {
+   "s": "ORG-BHASHA-KENDRA",
+   "p": "published",
+   "o": "INN-RATHWA-WORD-BOOKLET",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 70
+    }
+   ]
+  },
+  {
+   "s": "PER-RAMANBHAI-RATHWA",
+   "p": "teaches_at",
+   "o": "ORG-HARPALPUR-SCHOOL",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 71
+    }
+   ]
+  },
+  {
+   "s": "PER-RAMANBHAI-RATHWA",
+   "p": "innovator_of",
+   "o": "INN-HARPALPUR-SCHOOL-BUILDING",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 71
+    }
+   ]
+  },
+  {
+   "s": "PER-NIKHILBHAI-RATHWA",
+   "p": "runs",
+   "o": "INN-SCHOOL-SUPPLIES-NETWORK",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 73
+    }
+   ]
+  },
+  {
+   "s": "PER-RITESHBHAI-DARJI",
+   "p": "runs",
+   "o": "INN-SCHOOL-SUPPLIES-NETWORK",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 73
+    }
+   ]
+  },
+  {
+   "s": "PER-CHAKABHAI",
+   "p": "runs",
+   "o": "INN-SCHOOL-SUPPLIES-NETWORK",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 73
+    }
+   ]
+  },
+  {
+   "s": "PER-AADESH",
+   "p": "studies_at",
+   "o": "ORG-RANGPUR-SCHOOL",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 75
+    }
+   ]
+  },
+  {
+   "s": "PER-RINKU-RATHWA",
+   "p": "met_during",
+   "o": "EVT-SY53",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 76
+    }
+   ]
+  },
+  {
+   "s": "PER-AKSHAR-VASANI",
+   "p": "participated_in",
+   "o": "EVT-SY53",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 76
+    }
+   ]
+  },
+  {
+   "s": "PER-KAMLESHJI-PATEL",
+   "p": "led",
+   "o": "INN-HATHIPAV-PLANTATION",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 79
+    }
+   ]
+  },
+  {
+   "s": "ORG-VYAPARI-MAHASANGH",
+   "p": "partner_in",
+   "o": "INN-HATHIPAV-PLANTATION",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 79
+    }
+   ]
+  },
+  {
+   "s": "PER-MAHENDRA-SHARMA",
+   "p": "runs",
+   "o": "ORG-GOOD-MORNING-CLUB",
+   "status": "probable",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 81
+    }
+   ],
+   "note": "Source: 'through the Good Morning Club'; exact role not stated."
+  },
+  {
+   "s": "PER-PRAFULJI-SHARMA",
+   "p": "runs",
+   "o": "ORG-GOOD-MORNING-CLUB",
+   "status": "probable",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 81
+    }
+   ],
+   "note": "Exact role not stated."
+  },
+  {
+   "s": "PER-RAJENDRA-SHRIVASTAV",
+   "p": "innovator_of",
+   "o": "INN-REUNIFICATION-RAJENDRA",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 83
+    }
+   ]
+  },
+  {
+   "s": "PER-SANDHYA-KULKARNI",
+   "p": "practises",
+   "o": "INN-CYCLING-SANDHYA",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 84
+    }
+   ]
+  },
+  {
+   "s": "PER-GOPALBHAI-RATHWA",
+   "p": "runs",
+   "o": "INN-FREE-RECRUITMENT-TRAINING-GOPAL",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 85
+    }
+   ]
+  },
+  {
+   "s": "PER-GOPALBHAI-RATHWA",
+   "p": "runs",
+   "o": "INN-WOMEN-ORGANIC-PROCESSING-TRAINING",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 85
+    }
+   ]
+  },
+  {
+   "s": "PER-CHANDRASHEKHAR-AZAD",
+   "p": "born_in",
+   "o": "PLC-BHAVRA",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 92
+    }
+   ]
+  },
+  {
+   "s": "PER-DHARAMVEER-KHAMBOJJI",
+   "p": "possible_same_as",
+   "o": "PER-DHARMVEER-SY53",
+   "status": "unverified",
+   "evidence": [
+    {
+     "doc": "SY51-HB-P1",
+     "page": 15
+    },
+    {
+     "doc": "SY53-PPT",
+     "slide": 60
+    }
+   ],
+   "note": "Same first name (Dharamveer/Dharmveer), both inventors who took part in Shodhyatras. NOT established: the 53rd deck gives no surname; the 51st article gives no hometown or award; inventions described differ (electric wheelchair, fruit juices vs mahua seed machine). Requires external verification before merging."
+  },
+  {
+   "s": "PER-ASHOK-SY51",
+   "p": "distinct_from",
+   "o": "PER-ASHOK-SY53",
+   "status": "distinct",
+   "evidence": [
+    {
+     "doc": "SY51-HB-P1",
+     "page": 14
+    },
+    {
+     "doc": "SY53-PPT",
+     "slide": 50
+    }
+   ],
+   "note": "Same first name and both linked to organic farming, but different event (51st, Rajasthan 2024 vs 53rd, MP/Gujarat 2025) and different profiles (entrepreneur employing women vs young farmer turned master trainer)."
+  },
+  {
+   "s": "PER-RINKU-JEJI",
+   "p": "distinct_from",
+   "o": "PER-RINKU-RATHWA",
+   "status": "distinct",
+   "evidence": [
+    {
+     "doc": "SY51-HB-P1",
+     "page": 15
+    },
+    {
+     "doc": "SY53-PPT",
+     "slide": 76
+    }
+   ],
+   "note": "Different surnames, events and regions."
+  },
+  {
+   "s": "PER-SANTOSH-PACHAR",
+   "p": "distinct_from",
+   "o": "PER-SANTOSH-BASOND",
+   "status": "distinct",
+   "evidence": [
+    {
+     "doc": "SY51-HB-P1",
+     "page": 14
+    },
+    {
+     "doc": "SY53-PPT",
+     "slide": 25
+    }
+   ],
+   "note": "Different surnames, events and work (carrot variety vs bamboo broom)."
+  },
+  {
+   "s": "PER-KAMALJI-BATI",
+   "p": "distinct_from",
+   "o": "PER-KALAMSINGH-DAWAR",
+   "status": "distinct",
+   "evidence": [
+    {
+     "doc": "SY51-HB-P1",
+     "page": 14
+    },
+    {
+     "doc": "SY53-PPT",
+     "slide": 53
+    }
+   ],
+   "note": "Both called 'Kamalji' in places; different surnames, events and roles (temple operator vs farmer)."
+  },
+  {
+   "s": "ORG-BHASHA-SANSTHA",
+   "p": "possible_same_as",
+   "o": "ORG-BHASHA-KENDRA",
+   "status": "unverified",
+   "evidence": [
+    {
+     "doc": "SY53-PPT",
+     "slide": 39
+    },
+    {
+     "doc": "SY53-PPT",
+     "slide": 70
+    }
+   ],
+   "note": "'भाषा संस्था' (slide 39) and 'भाषा केंद्र' (slide 70) may be the same organisation, but the deck does not say so."
+  },
+  {
+   "s": "PER-RAMESHWAR-KHEJRI",
+   "p": "name_conflict",
+   "o": "PER-RAMESHWAR-KHEJRI",
+   "status": "probable",
+   "evidence": [
+    {
+     "doc": "SY51-HB-P1",
+     "page": 14
+    },
+    {
+     "doc": "SY51-HB-P2",
+     "page": 2
+    }
+   ],
+   "note": "'Rameshwar Prasad Ji' (Part I) and 'Rameshwar Lal ji' (Part II) treated as one person because both are credited with the thornless Khejri by grafting; the name conflict is unresolved."
+  },
+  {
+   "s": "PER-PANCHARIYA",
+   "p": "name_conflict",
+   "o": "PER-PANCHARIYA",
+   "status": "probable",
+   "evidence": [
+    {
+     "doc": "SY51-HB-P1",
+     "page": 14
+    },
+    {
+     "doc": "SY51-HB-P2",
+     "page": 4
+    }
+   ],
+   "note": "'Rahulchand' (Part I) vs 'Rawalchand' (Part II) Panchariya, same innovations; variety count 8 (caption) vs 5 (Part II)."
+  },
+  {
+   "s": "EVT-SY51",
+   "p": "logo_shown",
+   "o": "ORG-HBN",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY51-HB-P2",
+     "page": 3
+    }
+   ],
+   "note": "Logo printed on the 51st Shodhyatra route graphic (Honey Bee 35(4) p.3)."
+  },
+  {
+   "s": "EVT-SY51",
+   "p": "logo_shown",
+   "o": "ORG-SRISTI",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY51-HB-P2",
+     "page": 3
+    }
+   ],
+   "note": "Logo printed on the 51st Shodhyatra route graphic (Honey Bee 35(4) p.3)."
+  },
+  {
+   "s": "EVT-SY51",
+   "p": "logo_shown",
+   "o": "ORG-SRISTI-INNOVATIONS",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY51-HB-P2",
+     "page": 3
+    }
+   ],
+   "note": "Logo printed on the 51st Shodhyatra route graphic (Honey Bee 35(4) p.3)."
+  },
+  {
+   "s": "EVT-SY51",
+   "p": "logo_shown",
+   "o": "ORG-GIAN",
+   "status": "stated",
+   "evidence": [
+    {
+     "doc": "SY51-HB-P2",
+     "page": 3
+    }
+   ],
+   "note": "Logo printed on the 51st Shodhyatra route graphic (Honey Bee 35(4) p.3)."
+  }
+ ]
+}
