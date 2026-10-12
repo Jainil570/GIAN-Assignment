@@ -1,0 +1,17 @@
+{
+  "_comment": "Text that exists only inside images of assignment PDF 2 (51st Shodhyatra), transcribed by reading the images at 3x zoom. Stored as separate 'image_text' chunks so answers can say the information comes from a graphic, not the article body.",
+  "items": [
+    {
+      "id": "IMG01", "document_id": "SY51-HB-P2", "pdf_page": 5, "printed_page": 3,
+      "caption": "Shodhyatra route",
+      "text": "Graphic captioned 'Shodhyatra route' (Honey Bee Vol 35 (4), p. 3): a signpost listing, from bottom to top, Harima, Likhimdas Ji Mandir, Atusar, Firod, Amanda Ki Dhani, Mundwa, Bhadana, Kuchera and Chakdhanii. Logos printed on the graphic: Honey Bee Network, www.sristi.org, sristiinnovation.com and www.gian.org.",
+      "entities": ["EVT-SY51", "PLC-HARIMA", "PLC-LIKHMIDAS-TEMPLE", "PLC-ATUSAR", "PLC-FIROD", "PLC-AMANDA-KI-DHANI", "PLC-MUNDWA", "PLC-BHADANA", "PLC-KUCHERA", "PLC-CHAK-DHANI", "ORG-HBN", "ORG-SRISTI", "ORG-SRISTI-INNOVATIONS", "ORG-GIAN"]
+    },
+    {
+      "id": "IMG02", "document_id": "SY51-HB-P1", "pdf_page": 3, "printed_page": 15,
+      "caption": "Recognising outstanding students",
+      "text": "Photo captioned 'Recognising outstanding students' (Honey Bee Vol 35 (3), p. 15): a painted school wall board headed 'राजकीय उच्च माध्यमिक विद्यालय चकढ़ाणी नागौर - एल्यूमनी बोर्ड' (Government Higher Secondary School Chakdhani, Nagaur - Alumni Board), with columns for serial number, name, father's name, post and department. The individual names are not transcribed.",
+      "entities": ["ORG-CHAKDHANI-SCHOOL", "PLC-CHAK-DHANI", "PLC-NAGAUR"]
+    }
+  ]
+}

@@ -1,0 +1,450 @@
+{
+  "_comment": "Manual curation of the 53rd Shodhyatra presentation (assignment PDF 1). Hindi text comes from the PDF text layer after deterministic encoding repair (gian_kb/devanagari.py) plus the documented text_fixes below. Every unit was checked against the rendered slide images. English translations are faithful renderings produced during preprocessing (LLM-assisted, reviewed against the slides); the Hindi original remains the authoritative text. Unclear source wording is marked [unclear in source]. Pronouns are avoided where the source does not make them explicit.",
+  "document_id": "SY53-PPT",
+  "text_fixes": [
+    {"slides": [16], "find": "एकआदिवासीक्षेत्रहै, जोअपनीसमृद्धसांस्कृतिक, विरासतऔरहस्तशिल्प", "replace": "एक आदिवासी क्षेत्र है, जो अपनी समृद्ध सांस्कृतिक, विरासत और हस्तशिल्प", "reason": "PDF text layer has no word spaces on this line; spacing restored as rendered on the slide"},
+    {"slides": [39, 63], "find": "फें क", "replace": "फेंक", "reason": "stray space inside word in text layer"},
+    {"slides": [42], "find": "विकें द्रित", "replace": "विकेंद्रित", "reason": "stray space inside word in text layer"},
+    {"slides": [70], "find": "कें द्र", "replace": "केंद्र", "reason": "stray space inside word in text layer"},
+    {"slides": [70, 85], "find": "सकें ।", "replace": "सकें।", "reason": "stray space before danda"}
+  ],
+  "pii_policy": "Personal/organisational phone numbers present on slides 15 and 37 (and in the slide-37 banner image) are removed from all KB text and replaced with a redaction marker. They remain in the original PDF.",
+  "sections": [
+    {"name": "Introduction / yatra overview", "divider_slide": null, "first_slide": 1, "last_slide": 12},
+    {"name": "Cultural Innovation", "divider_slide": 13, "first_slide": 13, "last_slide": 34},
+    {"name": "Technological Innovations & Traditional Practice", "divider_slide": 35, "first_slide": 35, "last_slide": 60},
+    {"name": "Educational Innovations", "divider_slide": 61, "first_slide": 61, "last_slide": 77},
+    {"name": "Institutional Innovation", "divider_slide": 78, "first_slide": 78, "last_slide": 81},
+    {"name": "Social Innovations", "divider_slide": 82, "first_slide": 82, "last_slide": 94}
+  ],
+  "excluded_slides": [
+    {"slide": 13, "reason": "section divider ('Cultural Innovation') - used as section metadata"},
+    {"slide": 26, "reason": "photo only (decorated objects), no text; content cannot be attributed without guessing"},
+    {"slide": 61, "reason": "section divider ('Educational Innovations') - used as section metadata"},
+    {"slide": 78, "reason": "section divider ('Institutional Innovation') - used as section metadata"},
+    {"slide": 82, "reason": "section divider ('Social Innovations') - used as section metadata"},
+    {"slide": 94, "reason": "photo only (goats on a cot), no text"}
+  ],
+  "units": [
+    {
+      "unit_id": "U01", "slides": [1],
+      "title_en": "53rd Shodhyatra - title slide",
+      "image_text": [{"slide": 1, "lang": "hi", "text": "प्रयोगधर्मी अन्वेषक तथा पारम्परिक ज्ञान सम्पन्न लोगों की आवाज़ | ५३ वीं शोधयात्रा | भूरीमाटी, जिला-झाबुआ, मध्यप्रदेश से अंबाला, जिला-छोटाउदेपुर, गुजरात | दिनांक: 04 से 10 जून, 2025 | Logos: HONEY BEE NETWORK; www.sristi.org; sristi INNOVATIONS; gian www.gian.org"}],
+      "text_en": "[Slide 1 - all text is part of the slide image] 'Voice of experimenting innovators and people rich in traditional knowledge'. 53rd Shodhyatra. From Bhurimati, District Jhabua, Madhya Pradesh to Ambala, District Chhota Udepur, Gujarat. Dates: 04 to 10 June 2025. Logos shown: Honey Bee Network, SRISTI (www.sristi.org), SRISTI Innovations, GIAN (www.gian.org).",
+      "entities": ["EVT-SY53", "PLC-BHURIMATI", "PLC-JHABUA", "PLC-MADHYA-PRADESH", "PLC-AMBALA-CU", "PLC-CHHOTA-UDEPUR", "PLC-GUJARAT", "ORG-HBN", "ORG-SRISTI", "ORG-SRISTI-INNOVATIONS", "ORG-GIAN"],
+      "flags": ["visual_transcription"]
+    },
+    {
+      "unit_id": "U02", "slides": [2],
+      "title_en": "Map of Shodhyatras 1 to 52",
+      "image_text": [{"slide": 2, "lang": "en", "text": "INDIA | SHODHYATRA 1 TO 52 | legend: red = Summer Shodhyatra, green = Winter Shodhyatra | numbered markers 1-52 | pin labelled 'Upcoming Shodhyatra' at 53"}],
+      "text_en": "[Slide 2 - map; text is part of the image] An India map titled 'SHODHYATRA 1 TO 52' with numbered markers for Shodhyatras 1 to 52 (legend: red = Summer Shodhyatra, green = Winter Shodhyatra) and a pin labelled 'Upcoming Shodhyatra' at marker 53.",
+      "entities": ["EVT-SHODHYATRA-SERIES", "EVT-SY53"],
+      "flags": ["visual_transcription"]
+    },
+    {
+      "unit_id": "U03", "slides": [3, 4, 5, 6],
+      "title_en": "53rd Shodhyatra overview: distance, districts, participants, villages",
+      "text_en": "[Slide 3] \"We did walk, but could not make a road...\" [Slide 4] During this Shodhyatra we all together travelled 105+ kilometres; the yatra passed through the Jhabua and Alirajpur districts of Madhya Pradesh and the Chhota Udaipur district of Gujarat. [Slide 5] More than 40 shodhyatris, coming from 10 states of the country, joined this Shodhyatra. [Slide 6] During the 53rd Shodhyatra our team visited a total of 23 villages: 17 villages of Madhya Pradesh and 6 villages of Gujarat.",
+      "entities": ["EVT-SY53", "PLC-JHABUA", "PLC-ALIRAJPUR", "PLC-MADHYA-PRADESH", "PLC-CHHOTA-UDEPUR", "PLC-GUJARAT"],
+      "flags": []
+    },
+    {
+      "unit_id": "U04", "slides": [7, 8, 9, 10, 11, 12],
+      "title_en": "Yatra activities: village visits, women's play, dialogues with innovators, farmers and villagers",
+      "image_text": [{"slide": 12, "lang": "hi", "text": "Sign visible in photo: कार्यालय ग्राम पंचायत भूरीमाटी"}],
+      "text_en": "[Slide 7] Photographs of villages along the route (no text). [Slide 8] \"Local women explained the message of the Shodhyatra to local people and the shodhyatris through a play.\" [Slide 9] Dialogue with local innovators of Jhabua. [Slide 10] \"The village's farmers and artisans held a dialogue on innovation (sanshodhan).\" [Slide 11] Dialogue with villagers in a night-time meeting. [Slide 12] Dialogue with the shodhyatris (a sign in the photo reads 'Office, Gram Panchayat Bhurimati').",
+      "entities": ["EVT-SY53", "PLC-JHABUA", "PLC-BHURIMATI"],
+      "flags": ["visual_transcription"]
+    },
+    {
+      "unit_id": "U05", "slides": [14],
+      "title_en": "Ramesh and Shanti Parmar - Bhili dolls",
+      "text_en": "[Slide 14] Ramesh and Shanti Parmar - Bhili dolls. Ramesh Parmar and Shanti Parmar of Jhabua have been making traditional Bhili dolls and tribal toys for 30 years, and were honoured with the Padma Shri in 2023. Their art has given employment to women and has brought world-level recognition to Jhabua's dolls.",
+      "entities": ["PER-RAMESH-PARMAR", "PER-SHANTI-PARMAR", "INN-BHILI-DOLLS", "AWD-PADMA-SHRI", "PLC-JHABUA"],
+      "flags": []
+    },
+    {
+      "unit_id": "U06", "slides": [15, 16],
+      "title_en": "Subhash Gidwani - Adivasi Gudiya (tribal dolls) of Jhabua",
+      "image_text": [{"slide": 15, "lang": "hi", "text": "Newspaper clipping (headline, partially legible): विदेशों तक छाई झाबुआ की आदिवासी गुड़िया | sub-heading: 1500 लोगों को बटुए बनाने की सिखाई कारीगरी"}],
+      "text_en": "[Slide 15] \"Adivasi Gudiya\" (tribal doll) - Subhash Gidwani - Jhabua. [phone numbers removed] A newspaper clipping on the slide is headlined 'Jhabua's tribal doll has spread even abroad' (sub-heading: 'taught 1500 people the craft of making purses'). [Slide 16] Jhabua in Madhya Pradesh is a tribal region known for its rich cultural heritage and handicrafts. Jhabua's doll, called \"Adivasi Gudiya\" in the local language, is a symbol of the region's tradition and way of life. It is made by hand from cloth, wood and natural colours. Its special feature is the traditional dress, which reflects the clothing, jewellery and adornment of tribal women. Jhabua's doll is not just a toy but also a way of showing the identity, folk culture and craftsmanship of tribal society. The doll is sold especially at festivals, fairs and cultural events and is very popular with tourists; local artisans earn their livelihood by making it. The craft also gives women self-employment, which boosts the rural economy. Jhabua's doll is a unique heritage of Indian handicraft. Subhash Gidwani has played an important role in the conservation, development and global recognition of Jhabua's traditional tribal doll art. His father, Shri Uddhav Gidwani, founded 'Shakti Emporium' in the 1980s, known locally as 'Gudiya Ghar' (doll house); the aim of this initiative was to make tribal women self-reliant and to establish the art commercially. Carrying this legacy forward, Subhash Gidwani innovated in doll-making techniques and exhibited the dolls in India and abroad. He has taken part in more than 300 national and international exhibitions, which brought wide recognition to Jhabua's doll. In addition, he has trained about 150 to 200 women and given them self-employment opportunities. Through his efforts Jhabua's doll has also been honoured by the Government of Madhya Pradesh. Through Subhash Gidwani's contribution this traditional art has been preserved and has also found a new identity and market.",
+      "entities": ["PER-SUBHASH-GIDWANI", "PER-UDDHAV-GIDWANI", "ORG-SHAKTI-EMPORIUM", "INN-ADIVASI-GUDIYA", "PLC-JHABUA", "PLC-MADHYA-PRADESH", "ORG-GOVT-MP"],
+      "flags": ["pii_redacted", "visual_transcription"],
+      "notes": "Source uses masculine grammar for Subhash Gidwani ('his father'), so 'his' follows the source."
+    },
+    {
+      "unit_id": "U07", "slides": [17],
+      "title_en": "Bharti Soni - clay idol making with school children",
+      "image_text": [{"slide": 17, "lang": "hi", "text": "Newspaper clipping: स्कूली बच्चो को ईको फ्रेंडली मिट्टी के गणेश बनाना सिखाया | 7 हजार से अधिक बच्चो को दिया निःशुल्क प्रशिक्षण | dateline: पेटलावद"}],
+      "text_en": "[Slide 17] Bharti Soni. Every year Bharti Soni goes to schools and teaches children to make 5000 clay idols. Bharti Soni has brought forward (encouraged) many women to date, and has also moved ahead by learning from art and music. Made a 'paint' [painting] that is a call for 'Adivasi Halma' [unclear in source]. Has encouraged 4300 girls by 'writing quotes on them' [unclear in source: 'कोट लिखर']. A newspaper clipping on the slide (dateline Petlawad) is headlined 'Taught school children to make eco-friendly clay Ganesh idols' with the sub-heading 'Free training given to more than 7 thousand children'.",
+      "entities": ["PER-BHARTI-SONI", "INN-CLAY-IDOL-TRAINING", "EVT-HALMA", "PLC-PETLAWAD"],
+      "flags": ["unclear_wording", "visual_transcription"],
+      "notes": "Slide text says 5000 idols per year; the clipping headline says free training to more than 7000 children - different measures, not necessarily a conflict."
+    },
+    {
+      "unit_id": "U08", "slides": [18],
+      "title_en": "Archana Rathwa - empowerment through art (Warli and Pithora)",
+      "text_en": "[Slide 18] Archana Rathwa - empowerment through art. Archana Rathwa is from a village in Chhota Udepur district, where Warli and Pithora art has been turned into an innovative business. Through this initiative rural women have been empowered, and for this Archana Rathwa has also received Rs 1.25 lakh along with an honour.",
+      "entities": ["PER-ARCHANA-RATHWA", "INN-WARLI-PITHORA-BUSINESS", "ART-PITHORA", "ART-WARLI", "PLC-CHHOTA-UDEPUR"],
+      "flags": []
+    },
+    {
+      "unit_id": "U09", "slides": [19, 20, 21],
+      "title_en": "Shivkumarji (Alirajpur) - Gatha smriti-phalak (memory pillars)",
+      "text_en": "[Slide 19] Shivkumarji, Alirajpur, Madhya Pradesh. Gatha smriti-phalak are stone pillars installed by tribal communities in memory of the deceased, which tell the story of their life and contribution. [Slide 20] Photographs of painted memory pillars (no text). [Slide 21] The Gatha smriti-phalak (Memory Pillar) is a kind of memorial pillar installed in India, especially by tribal communities such as the Bhil, Gond and Santhal, in memory of the deceased. The pillar is made of stone and shows scenes, deeds and social contributions related to the life of the dead person. The purpose of these pillars is not only remembrance; they carry the story of the deceased's life to future generations. They often show images of warriors, hunters, farmers or social leaders, reflecting the person's role. Some memory plaques are also decorated with religious symbols and images of deities, expressing the wish to honour the departed soul and guide it towards moksha. When a memory plaque is installed there is a special ceremony that includes singing and music, traditional dance, a feast and sometimes rites such as sacrifice. It is a way of honouring the dead and also a symbol of community unity and the preservation of tradition. Gatha memory plaques are an integral part of tribal folk culture and philosophy of life. These sculptures were made by Shivkumarji; Shivkumarji's art is being discussed all over Madhya Pradesh. Video link: https://www.youtube.com/live/-ku7xXprzSw?si=0qFvikNbfBjrgGw-",
+      "entities": ["PER-SHIVKUMARJI", "INN-GATHA-MEMORY-PILLARS", "PLC-ALIRAJPUR", "PLC-MADHYA-PRADESH"],
+      "flags": ["name_variant"],
+      "notes": "Name spelled 'शिवकुमरजी' (slide 19) and 'शिवकुमारजी' (slide 21)."
+    },
+    {
+      "unit_id": "U10", "slides": [22],
+      "title_en": "Thavarsingh Bhuriya and Pema Fatiya - Pithora art",
+      "text_en": "[Slide 22] Thavarsingh Bhuriya. Thavarsingh Bhuriya and Pema Fatiya ji have together made a lot of Pithora art. They made a Pithora '55 long' [unit not stated in source], which is installed in Bombay today.",
+      "entities": ["PER-THAVARSINGH-BHURIYA", "PER-PEMA-FATIYA", "ART-PITHORA", "PLC-BOMBAY"],
+      "flags": ["missing_unit"]
+    },
+    {
+      "unit_id": "U11", "slides": [23],
+      "title_en": "Baba Dev shrine at Moti Dumali village (Chhota Udepur) - Gamshayni tradition",
+      "text_en": "[Slide 23] In Moti Dumali village of Chhota Udepur we saw the devsthan (shrine) of Baba Dev. In this tradition, after 100 years, a festival is celebrated there to change the generation of the local deity; it is celebrated under the name 'Gamshayni'. We did not see that occasion, but the consecration (pratishtha) of the goddess impressed us.",
+      "entities": ["PLC-MOTI-DUMALI", "PLC-CHHOTA-UDEPUR", "EVT-GAMSHAYNI"],
+      "flags": []
+    },
+    {
+      "unit_id": "U12", "slides": [24],
+      "title_en": "Anu Bhabhor - 400+ street plays; state-level gold medal at 62",
+      "text_en": "[Slide 24] Anu Bhabhor. Anu Bhabhor has worked to make society aware of different social issues through more than 400 street plays (nukkad natak), and has also done a programme at ISRO [as written: 'इस इसरो में']. Now, at the age of 62, Anu Bhabhor has won a gold medal playing sport at state level.",
+      "entities": ["PER-ANU-BHABHOR", "INN-NUKKAD-NATAK", "ORG-ISRO"],
+      "flags": ["unclear_wording"]
+    },
+    {
+      "unit_id": "U13", "slides": [25],
+      "title_en": "Santosh Basond - bamboo products and a standing broom",
+      "text_en": "[Slide 25] Santosh Basond. Santosh Basond makes various products from bamboo in Jhabua, including a special broom that is used while standing and reduces fatigue. This durable broom lasts up to 6 months and cleans deeply, and the administration buys 500 brooms every two months.",
+      "entities": ["PER-SANTOSH-BASOND", "INN-BAMBOO-BROOM", "PLC-JHABUA"],
+      "flags": []
+    },
+    {
+      "unit_id": "U14", "slides": [27, 28],
+      "title_en": "Ratanbhai (Pohliya) Rathwa of Kanalwa - wooden sculptures",
+      "text_en": "[Slide 27] Ratanbhai Rathwa, Kanalwa, Chhota Udepur. [Slide 28] 'The soul of culture coming alive in wood'. Ratanbhai Pohliya Rathwa of Kanalwa village in Chhota Udepur district is no ordinary craftsman. He is a folk artist who has not only shaped wood with his hands but has also carved his culture, tradition and soul into it. For the last 10 years he has been making traditional sculptures from wood - without any machine and without electricity, using only a few simple tools and a lot of dedication. His sculptures show lively figures such as Birsa Munda, Giriya Rani, Kajal Mata, children going to school, and the old-time grain-weighing tools 'Pali' and 'Puvali'. This art is not just craft but living history: there was a time when villages had no weighing scales and people weighed grain with these wooden tools; by making those forgotten tools again he is reviving forgotten knowledge. Ratanbhai is not highly educated, but his art has deep understanding, sensitivity and innovation. One sculpture takes him 5 days to make, and he sells it as a decorative showpiece. His story shows that innovation is born not only from technology but also from tradition and heartfelt hard work.",
+      "entities": ["PER-RATANBHAI-RATHWA", "INN-WOODEN-SCULPTURES", "PLC-KANALWA", "PLC-CHHOTA-UDEPUR"],
+      "flags": ["name_variant"],
+      "notes": "Village spelled 'कनलवा' (slide 27) and 'कनालवा' (slide 28); name given as 'रतनभाई राठवा' and 'रतनभाई पोहलिया राठवा'. Source uses masculine grammar."
+    },
+    {
+      "unit_id": "U15", "slides": [29, 30],
+      "title_en": "Wall art along the route",
+      "text_en": "[Slide 29] At every step we saw such a confluence of colour, line and culture, as if we had entered a wonderful city of art. [Slide 30] Photographs of painted house walls (no text).",
+      "entities": ["EVT-SY53"],
+      "flags": []
+    },
+    {
+      "unit_id": "U16", "slides": [31],
+      "title_en": "Bharat Variya - sculptor of tribal faith",
+      "text_en": "[Slide 31] Bharat Variya - sculptor of tribal faith (caption on a photo collage of clay figures; no further text).",
+      "entities": ["PER-BHARAT-VARIYA", "INN-TRIBAL-FAITH-SCULPTURE"],
+      "flags": []
+    },
+    {
+      "unit_id": "U17", "slides": [32, 33],
+      "title_en": "Desing Rathwa - Pithora painter (lakhara); took part in ICCIG",
+      "text_en": "[Slide 32] Desing Rathwa (photo of a Pithora wall painting). [Slide 33] 'Desing Rathwa: a life steeped in the colours of Pithora'. Desing Rathwa is a dedicated lakhara (Pithora painter) who not only paints with amazing artistry but keeps Pithora alive as a living tradition. The art is not just painting but a script of the community's diversity, cultural depth and faith that speaks on walls. Desing Rathwa also inspires the young generation to take interest in this art, and the art has begun to re-emerge among young people under this guidance. Recently Desing Rathwa took part in ICCIG and enchanted everyone with Pithora paintings; the presentation showed that Pithora is not just traditional painting but a way of thinking, a philosophy and a living tradition. At a time when this tribal art is slowly disappearing, Desing Rathwa is making tireless efforts to save it; the work preserves the art and also helps the new generation connect with its roots.",
+      "entities": ["PER-DESING-RATHWA", "ART-PITHORA", "EVT-ICCIG"],
+      "flags": []
+    },
+    {
+      "unit_id": "U18", "slides": [34],
+      "title_en": "Mehul Rathwa - emerging student artist of Gunata",
+      "text_en": "[Slide 34] Mehul Rathwa - 'the emerging artist of Gunata who became a source of inspiration'. Mehul Rathwa, who studies in the school of Gunata village, is a talented student building self-confidence through painting. Mehul recently put up a small art exhibition in the school, which brought recognition to the art and also inspired other students to show their creativity. The initiative made the school environment creative and showed that if talent gets a platform it can make way for others. The school also supported Mehul's initiative and did commendable work in promoting the works. This example shows that when a school and a student do something creative together, it affects the whole community.",
+      "entities": ["PER-MEHUL-RATHWA", "INN-SCHOOL-ART-MUSEUM", "PLC-GUNATA", "ORG-GUNATA-SCHOOL"],
+      "flags": []
+    },
+    {
+      "unit_id": "U19", "slides": [35],
+      "title_en": "Bhuri Bai - Bhil artist (hidden text) / section divider 'Technological Innovations & Traditional Practice'",
+      "text_en": "[Slide 35 - visible: section divider 'Technological Innovations & Traditional Practice'. The following text exists in the PDF text layer of slide 35 but is covered by the slide's image and is NOT visible in the rendered slide] Bhuri Bai - Bhil artist. The Bhil artist Bhuri Bai of Madhya Pradesh put the traditional Pithora art onto paper and acrylic under the guidance of J. Swaminathan, becoming the first woman of her community to do so. She has been honoured with several awards such as the Padma Shri and the Shikhar Samman.",
+      "entities": ["PER-BHURI-BAI", "PER-J-SWAMINATHAN", "ART-PITHORA", "AWD-PADMA-SHRI", "AWD-SHIKHAR-SAMMAN", "PLC-MADHYA-PRADESH"],
+      "flags": ["hidden_text_in_pdf"],
+      "notes": "Detected by drawing-order analysis (text drawn first, then covered >90% by an image). Kept, but flagged so answers can say it is not visible on the slide."
+    },
+    {
+      "unit_id": "U20", "slides": [36, 37],
+      "title_en": "Shri Shiv Shivay Farmer Producer Company Ltd (Bamaniya, Jhabua) - linseed stalk aggregation",
+      "image_text": [{"slide": 36, "lang": "hi", "text": "Banner in photo: अलसी ठंडल खरीदी/बिक्री केन्द्र; ...महिला आर्थिक सशक्तिकरण एवं लखपति महिला पहल ... कृषि एवं आजीविका के क्षेत्र में एक साझा पहल"}],
+      "text_en": "[Slide 36] Shri Shiv Shivay Farmer Producer Company Limited, village Bamaniya, district Jhabua (Madhya Pradesh). Leela Ninama, Manju Vasuniya and Lalita Singad. Our farmer producer company (FPC) 'Shri Shiv Shivay Farmer Producer Company Limited' was established in 2024. Its aim is to unite farmers and increase income through value addition to farm produce, especially agricultural waste. (A banner in the photo reads 'Linseed stalk purchase/sale centre'.) [Slide 37] Collection and sale of linseed (alsi) stalks. After forming the company we received guidance from the TRC organisation; with TRC's support we were connected to a processing company that buys linseed stalks, and we began collecting linseed stalks from farmers through our FPC. Achievements in 2024-25: this year we sold a total of 2000 quintals of linseed stalks in the market; at present we have about 50 quintals left. Based on value, this year we will earn income of lakhs of rupees; our goal is for this income to reach crores in the coming years. Pricing and profit: we buy stalks from farmers at Rs 5 per kilogram and sell them to the processing company at Rs 13 per kilogram. We get an average profit (margin) of Rs 7 per kilogram; collection, transport and labour costs are separate, but the net profit is still good. Processing and marketing: all the material we collect is sent to Gujarat, where it is processed into fibre, boards or other value-added products. Shiv Shivay Farmer Producer Company Limited, village Bamaniya, district Jhabua, Madhya Pradesh, mobile: [phone number removed].",
+      "entities": ["ORG-SHIV-SHIVAY-FPC", "PER-LEELA-NINAMA", "PER-MANJU-VASUNIYA", "PER-LALITA-SINGAD", "ORG-TRC", "INN-LINSEED-STALK-AGGREGATION", "PLC-BAMANIYA", "PLC-JHABUA", "PLC-GUJARAT"],
+      "flags": ["pii_redacted", "visual_transcription"],
+      "notes": "Buy Rs 5/kg and sell Rs 13/kg (difference Rs 8/kg) while the slide states an average margin of Rs 7/kg - stated as given; costs are said to be separate."
+    },
+    {
+      "unit_id": "U21", "slides": [38, 39],
+      "title_en": "Sejal Rathwa - banana-fibre diaries",
+      "text_en": "[Slide 38] 'Sejal Rathwa: an innovation that began with banana fibre and is becoming a path to employment for women'. [Slide 39] Sejal Rathwa started a unique initiative - making beautiful and durable diaries from banana fibre. Where people throw away banana stems, Sejal saw an opportunity and stepped towards environment-friendly innovation. Today the diaries made by Sejal sell for between Rs 400 and Rs 600. Sejal has strengthened the business together with the 'Bhasha' organisation. Hard work and vision have turned Sejal from a local entrepreneur into a source of inspiration for women. The next goal is to take this business to a larger scale and give employment to many other women. Sejal believes: 'there is no shortage of resources; what is needed is the flight of thought.' This effort benefits the environment and is also a strong step towards the economic empowerment of rural women.",
+      "entities": ["PER-SEJAL-RATHWA", "INN-BANANA-FIBRE-DIARY", "ORG-BHASHA-SANSTHA"],
+      "flags": []
+    },
+    {
+      "unit_id": "U22", "slides": [40, 41, 42, 43],
+      "title_en": "Harish Pawar ji (Sampark sanstha, Petlawad) - participatory seed selection, 196 native seed varieties, organic inputs",
+      "text_en": "[Slide 40] Harish Pawar ji - Sampark sanstha (photos of a seed collection). [Slide 41] Process: after different wheat varieties are grown, a meeting is called and samples of all varieties are placed on a table. Farmers are given thread, which they tie on their favourite variety; the variety with the most threads is chosen for the coming crop. Sampark Sansthan, Petlawad, Jhabua has conserved 196 kinds of native seed varieties, including 32 kinds of wheat varieties and many varieties of vegetables (traditional varieties of tomato, okra, brinjal, bottle gourd, chilli, etc.), pulses (desi varieties of moong, urad, arhar, chana, etc.) and millets (coarse grains). This is not only a large store of agricultural biodiversity but also a big contribution towards climate-resilient farming, nutrition security and agricultural self-reliance. [Slide 42] Harish Pawar ji - organic motivator. In preparation for the 53rd Shodhyatra we met Harish Pawar ji of Sampark sanstha, who is motivating farmers to make organic inputs themselves through organic production and a decentralised system. During the Shodhyatra we got the opportunity to meet these innovative farmers, who are reducing their farming costs this way. [Slide 43] Photographs of farmers preparing organic inputs (no text).",
+      "entities": ["PER-HARISH-PAWAR", "ORG-SAMPARK", "INN-PARTICIPATORY-WHEAT-SELECTION", "INN-SAMPARK-SEED-CONSERVATION", "INN-ORGANIC-INPUTS", "PLC-PETLAWAD", "PLC-JHABUA", "EVT-SY53"],
+      "flags": ["name_variant"],
+      "notes": "Organisation written 'सम्पर्क संस्था' (slide 40), 'संपर्क संस्थान, पेटलावद, झाबुआ' (slide 41) and 'संपर्क संस्था' (slide 42) - treated as one organisation (same slide group, same person)."
+    },
+    {
+      "unit_id": "U23", "slides": [44, 45],
+      "title_en": "Hariyali Handi - lac-coated non-stick clay pots of the Nayak, Bhil and Dhanuk communities",
+      "text_en": "[Slide 44] 'Hariyali Handi: a story of clay, hard work and innovation'. [Slide 45] The Nayak, Bhil and Dhanuk communities of Chhota Udaipur district in Gujarat have given clay pots a new identity. They make handis (pots) in the traditional way and turn them into non-stick vessels by coating them with natural lac - without any chemical. The lac is obtained from insects found on 'Pohim' trees; it is boiled twice by a traditional method to prepare a coating that is applied to the hot pots. The solution soaks into the clay and makes the pot shiny, scratch-free and completely toxin-free. Tasty food cooks in these handis with little oil, and no chemical coating is needed; the technique is safe for health and beneficial for the environment. When a customer holds a handi and says 'This is real non-stick!', the artisans' eyes shine with pride and self-respect. During the Shodhyatra, when our shodhyatris bought these pots, they took home not just a product but a tradition, an innovation and a living culture. This story is an example of a revolution born of clay - the meeting of folk knowledge and modern thinking. Nayak, Bhil and Dhanuk communities.",
+      "entities": ["INN-HARIYALI-HANDI", "ORG-NAYAK-BHIL-DHANUK", "PLC-CHHOTA-UDEPUR", "PLC-GUJARAT"],
+      "flags": []
+    },
+    {
+      "unit_id": "U24", "slides": [46],
+      "title_en": "Surendrapal Singh Chauhan - sunflower variety with more than two flowers per plant",
+      "text_en": "[Slide 46] 'Innovation in sunflower seed' - the special variety of Surendrapal Singh Chauhan ji. Surendrapal Singh Chauhan ji has presented a unique example of hard work and innovation in farming: a special sunflower variety in which a single plant bears more than two flowers. The speciality of this variety is that it has notably increased yield. Chauhan ji worked continuously for 3 to 4 years to develop this variety, preparing it through traditional methods of selection and breeding. This effort is an inspiration for farmers: with dedication and patience, innovation is possible even in traditional farming.",
+      "entities": ["PER-SURENDRAPAL-CHAUHAN", "INN-SUNFLOWER-VARIETY"],
+      "flags": []
+    },
+    {
+      "unit_id": "U25", "slides": [47],
+      "title_en": "Teresingh Barcha (Petlawad) - conserving traditional maize and moong seeds",
+      "text_en": "[Slide 47] 'The resolve of Teresingh Barcha ji'. Teresingh Barcha is a dedicated farmer of the Petlawad area of Madhya Pradesh who has preserved farming not just as a livelihood but as tradition and heritage. While most farmers are moving towards hybrid seeds in the race for higher production, Teresingh ji has saved traditional varieties of maize and moong. In Teresingh's words: \"The traditional seeds I have are not only better in taste but also give a good yield even with less rain. These are the real seeds that have been the identity of our fields for generations.\" These seeds have been kept safe for years, preserving a heritage of farming culture for coming generations.",
+      "entities": ["PER-TERESINGH-BARCHA", "INN-TRADITIONAL-MAIZE-MOONG-SEEDS", "PLC-PETLAWAD", "PLC-MADHYA-PRADESH"],
+      "flags": []
+    },
+    {
+      "unit_id": "U26", "slides": [48, 49],
+      "title_en": "Noorjahan mango of Katthiwada (Alirajpur) - Isak Mansuri",
+      "text_en": "[Slide 48] The 'Noorjahan' mango variety is grown in the Katthiwada area of Alirajpur district, Madhya Pradesh. It is a special mango known for its huge size (one mango weighs from 2 to 4 kilos) and royal taste. Credit for giving this mango special recognition and popularity goes to Isak Mansuri, a farmer of Katthiwada, who saved, conserved and promoted this variety and has worked for years on its care and improvement. Today the 'Noorjahan' mango has become a topic of discussion not only in Madhya Pradesh but across the country. Features of the Noorjahan mango - weight: one mango can weigh from 2 to 4.5 kilograms; taste: sweet, juicy and royal. [Slide 49] 'Noorjahan mango - the country's rarest and heaviest mango'. Place: Alirajpur, Madhya Pradesh. Price: up to Rs 2000 per fruit. Weight: 3 to 4 kilograms per mango. Production is limited, hence premium demand in the market; it ripens at the end of June or beginning of July. So far the Noorjahan Mango has not received a GI (Geographical Indication) tag; however, the Madhya Pradesh government and the local agriculture department are engaged in the process for its GI tag, so that it can get geographical identity and international recognition.",
+      "entities": ["INN-NOORJAHAN-MANGO", "PER-ISAK-MANSURI", "PLC-KATTHIWADA", "PLC-ALIRAJPUR", "PLC-MADHYA-PRADESH", "ORG-GOVT-MP"],
+      "flags": ["conflicting_values"],
+      "notes": "Weight is given three ways on the same two slides: '2 से 4 किलो' and '2 से 4.5 किलोग्राम' (slide 48), '3 से 4 किलोग्राम' (slide 49). All values are kept and reported as stated."
+    },
+    {
+      "unit_id": "U27", "slides": [50],
+      "title_en": "Ashok (farmer) - from 'madness' to transformation through organic farming",
+      "text_en": "[Slide 50] 'Ashok the farmer: a journey from madness to transformation'. Ashok, an ordinary young man of the village, used to help people at the Halma festival held every year. That planted a seed: \"If we can help each other, why not our soil too?\" Ashok decided to give up chemical farming and adopt desi (native) and organic farming. The path was not easy: people mocked Ashok and even told the parents that 'Ashok has gone mad'. Ashok was given a separate, barren field to carry on experiments there - but did not stop. Using jeevamrut made from cow dung, native seeds, vermicompost and natural methods, Ashok made that land fertile. Slowly the field flourished, and people's thinking also began to change. Now Ashok gets better prices than Ashok's father, has become a master trainer, and many students, farmers and youth come to learn. Ashok's dream is that the poor do not eat poison, farmers do not fall ill and every field lives again with the fragrance of soil. Today the village is the same and the field is the same, but the thinking has changed.",
+      "entities": ["PER-ASHOK-SY53", "INN-ORGANIC-TRANSITION-ASHOK", "EVT-HALMA"],
+      "flags": [],
+      "notes": "No village or district is named for Ashok on this slide. NOT the same person as 'Mr. Ashok' of the 51st Shodhyatra (Nagaur, Rajasthan)."
+    },
+    {
+      "unit_id": "U28", "slides": [51],
+      "title_en": "Dulesingh Bhuriya - natural farming on 2 bigha",
+      "text_en": "[Slide 51] Dulesingh Bhuriya. For the last 5 years Dulesingh has been doing natural farming on 2 bigha, growing many kinds of vegetables with mulching, drip irrigation and organic methods, and earning up to Rs 1 lakh a year. At first the family opposed it, but now there is full support, and Dulesingh is also inspiring other farmers.",
+      "entities": ["PER-DULESINGH-BHURIYA", "INN-NATURAL-FARMING-DULESINGH"],
+      "flags": []
+    },
+    {
+      "unit_id": "U29", "slides": [52],
+      "title_en": "Chetan Pachaya - experimental farmer: first banana crop in the area, Gir cow gaushala",
+      "text_en": "[Slide 52] 'Experimenting farmer Chetan Pachaya'. Chetan Pachaya is a farmer who always tries something new beyond the bounds of traditional farming. In an area where bananas had never been grown before, Chetan planted 1300 banana plants as a first-time experiment - a bold step that is now becoming a harvest of hope. Chetan bhai is not limited to crops: a gaushala of Gir-breed cows from Gujarat has been set up in the area, whereas the local desi cows gave very little milk; this increased milk production and gave local people a new example. Various fruit trees have also been planted on the farm, giving diversity and economic stability. Most of Chetan's time is spent on the farm, in the belief that real solutions come from staying connected to the land.",
+      "entities": ["PER-CHETAN-PACHAYA", "INN-BANANA-CULTIVATION-CHETAN", "INN-GIR-GAUSHALA"],
+      "flags": []
+    },
+    {
+      "unit_id": "U30", "slides": [53],
+      "title_en": "Kalamsingh Dawar (Chhoti Pol, Bhavra, Alirajpur) - intercropping with dragon fruit",
+      "text_en": "[Slide 53] Kalamsingh Dawar, village: Chhoti Pol, tehsil: Bhavra, Alirajpur. We visited Kamalji's farm: a garden has been made in a small space. Kamalji had gone to Gujarat to do farming and, after seeing the farming there, started horticulture here. Use of the intercropping method: (1) dragon fruit, nenua (sponge gourd) and arhar; (2) dragon fruit, nenua and sandalwood (chandan); (3) dragon fruit, okra and choli (cowpea); (4) mango, nenua and maize; (5) lemon and nenua; jackfruit and coconut planted on the border.",
+      "entities": ["PER-KALAMSINGH-DAWAR", "INN-INTERCROPPING-DRAGON-FRUIT", "PLC-CHHOTI-POL", "PLC-BHAVRA", "PLC-ALIRAJPUR", "PLC-GUJARAT"],
+      "flags": ["name_variant"],
+      "notes": "Title says 'कलमसिंह डावर', body says 'कमलजी' - treated as the same person (same slide, same farm) but the exact first name is uncertain."
+    },
+    {
+      "unit_id": "U31", "slides": [54, 55],
+      "title_en": "Vishal Parmar - welding machine using water and electricity",
+      "text_en": "[Slide 54] \"Vishal Parmar is a talented young innovator with full potential to become a scientist. Vishal has built a welding machine with the help of water and electricity. This innovation was discussed at a meeting held in Kadwal village, after which Vijay brought Vishal to Kareli Mahudi, where Vishal gave a practical demonstration of this innovation.\" [The slide then repeats the same information in a shorter version, preceded by a leftover chatbot-style sentence 'If you want it in an even shorter form, here it is'.] Vishal Parmar - welding machine using water and electricity. [Slide 55] Prototype of the welding machine.",
+      "entities": ["PER-VISHAL-PARMAR", "PER-VIJAY", "INN-WATER-ELECTRIC-WELDING", "PLC-KADWAL", "PLC-KARELI-MAHUDI"],
+      "flags": ["editorial_artifact"],
+      "notes": "Slide 54 contains the sentence 'अगर आप इसे और संक्षिप्त रूप में चाहते हैं, तो यह रहा' followed by a duplicate summary - an apparent copy-paste of an AI-assistant reply. Kept verbatim in text_original; flagged."
+    },
+    {
+      "unit_id": "U32", "slides": [56],
+      "title_en": "Mobile air pump (innovator not named)",
+      "text_en": "[Slide 56] 'A mobile (moving-around) air pump' - title on photographs of the device; the innovator is not named on the slide.",
+      "entities": ["INN-MOBILE-AIR-PUMP"],
+      "flags": ["innovator_not_named"]
+    },
+    {
+      "unit_id": "U33", "slides": [57, 58, 59, 60],
+      "title_en": "Mahua seed decorticating machine by Shri Dharmveer (Yamunanagar, Haryana) - prototypes and field trials",
+      "text_en": "[Slide 57] 'A step towards a solution' - Prototype (initial model) 1 (photos of women breaking mahua seeds by hand and of a first machine). [Slide 58] Prototype (initial model) 2. [Slide 59] Prototype (initial model) 3. [Slide 60] For thousands of years tribal communities have been breaking mahua seeds one by one with stones; this process is not only hard but also time- and labour-consuming. When Shri Dharmveer of Yamunanagar (Haryana), honoured with the President's award, reached tribal areas such as Jhabua, Alirajpur and Chhota Udepur through the Shodhyatra, Dharmveer saw this difficulty closely and felt it deeply. Dharmveer first built a machine that runs on electricity, but soon understood that the unavailability of electricity in poor tribal areas is a big obstacle. So, with tireless effort, Dharmveer made a hand-operated, simple and affordable machine that can efficiently break mahua seeds without electricity. Together with colleagues of the SRISTI organisation, Dharmveer went to various villages, demonstrated the machine and received people's experiences and blessings. Today the mahua seed breaking machine was successfully demonstrated in Chhota Udepur, Alirajpur and Dahod. The success rate of the machine was about 80%: some seeds broke more than necessary, and very small mahua fruits could not be broken fully. Even so, local villagers expressed happiness and gave useful suggestions: 1. the place for putting in mahua fruit should be somewhat bigger; 2. special care should be taken that seeds do not break into very small pieces. Based on these suggestions Dharmveer will now make the necessary improvements in a second model, so that the machine becomes more effective and useful. Villagers said emotionally: \"A person in whose village there is not a single mahua tree is making a mahua machine for us. This is a matter of pride for us.\"",
+      "entities": ["PER-DHARMVEER-SY53", "INN-MAHUA-DECORTICATOR", "ORG-SRISTI", "AWD-PRESIDENTIAL-UNSPECIFIED", "PLC-YAMUNANAGAR", "PLC-JHABUA", "PLC-ALIRAJPUR", "PLC-CHHOTA-UDEPUR", "PLC-DAHOD", "EVT-SY53"],
+      "flags": [],
+      "notes": "No surname is given for Shri Dharmveer. Possible but UNCONFIRMED link to 'Dharamveer Khambojji' in the 51st Shodhyatra article - see relationships (status: unverified)."
+    },
+    {
+      "unit_id": "U34", "slides": [62, 63],
+      "title_en": "Uday Bilwal - free Soldier Physical Academy, Jhabua",
+      "text_en": "[Slide 62] Uday Bilwal (group photo). [Slide 63] \"The dream that was mine is now the dream of every youth of Jhabua\" - the story of Uday Bilwal. Born in Pipliapada, a small village of Jhabua district, Uday Bilwal dreamed since childhood of serving the country in uniform. Uday's father was a teacher, so Uday understood the importance of education from childhood; alongside studies Uday had a deep interest in sports, and the Jhabua College ground witnessed that hard work. In 2013 there was an MP Police recruitment drive. Uday saw that more than 120 tribal youths of Jhabua district took part, but not a single one was selected - because nobody here had proper guidance and training. That day Uday's dream broke, but a new resolve was born: \"If I could not wear the uniform, I will send the children of Jhabua into the nation's service wearing the uniform.\" With this thought, in 2015 Uday started the free (nihshulk) Soldier Physical Academy Jhabua - no fees, no facilities, only dedication and hard work - preparing youth for physical tests such as running, shot put and long jump. Today the results are visible: more than 410 youths have been selected for services such as the army, police, Agniveer and jail guard. For the first time since independence two youths from Jhabua district were selected as para commandos. Uday Bilwal has one dream: \"one son or daughter from every house of Jhabua in the nation's service.\"",
+      "entities": ["PER-UDAY-BILWAL", "ORG-SOLDIER-ACADEMY-JHABUA", "INN-FREE-PHYSICAL-TRAINING", "PLC-PIPLIAPADA", "PLC-JHABUA", "ORG-JHABUA-COLLEGE"],
+      "flags": []
+    },
+    {
+      "unit_id": "U35", "slides": [64],
+      "title_en": "Seema Trivedi ji - PMC Girls School enrolment growth",
+      "text_en": "[Slide 64] Seema Trivedi ji. Under the leadership of Seema Trivedi ji, the number of girl students at PMC Girls School rose from 1100 to 1450 in 2024. Because of activity-based learning and excellent results, a student of the school secured second place in the H.S.C. state board, and there is now competition for admission to the school.",
+      "entities": ["PER-SEEMA-TRIVEDI", "ORG-PMC-GIRLS-SCHOOL", "INN-ACTIVITY-BASED-LEARNING"],
+      "flags": [],
+      "notes": "The school's location is not stated on the slide."
+    },
+    {
+      "unit_id": "U36", "slides": [65],
+      "title_en": "Shri Renu Kachhawa - teaching-learning materials (TLM), Khandiyakhawal primary school",
+      "text_en": "[Slide 65] Shri Renu Kachhawa. Shri Renu Kachhawa is an assistant teacher at the primary school of village Khandiyakhawal, Jhabua district, and has made many TLMs (teaching-learning materials) so that children learn through play, which makes children enjoy studying. Renu Kachhawa is also helping children progress through various examinations.",
+      "entities": ["PER-RENU-KACHHAWA", "INN-TLM-KACHHAWA", "PLC-KHANDIYAKHAWAL", "PLC-JHABUA"],
+      "flags": ["inconsistent_gender_marking"],
+      "notes": "Honorific 'श्री' with a feminine verb form ('कर रही है'); gender is not inferred."
+    },
+    {
+      "unit_id": "U37", "slides": [66, 67],
+      "title_en": "Makwana Jagdishbhai Naranbhai - education through Bhavai folk theatre (Rojkuva Primary School, Chhota Udaipur)",
+      "text_en": "[Slide 66] Makwana Jagdishbhai Naranbhai - the teacher lighting the lamp of education through Bhavai. Place: Rojkuva Primary School, Chhota Udaipur (Gujarat). Jagdishbhai Makwana is an innovative teacher who does not stay limited to books but keeps making new experiments to make children's education lively and effective. The most unique experiment is giving education and social messages through Bhavai (Gujarat's traditional folk-theatre form). Jagdishbhai teaches children and also tries, through Bhavai, to make parents understand that education is not just a degree but a means of shaping the whole family's future. When invited to a village, Jagdishbhai prepares a team of children who perform there; the team presents Bhavai based on education, cleanliness, health and social issues, which inspires the children and creates a positive impact in the whole village. This unique effort has been appreciated by local people, and the government and media have also praised it. This innovation shows that if teachers want, they can combine tradition and innovation to make education a people's movement. [Slide 67] Photographs (no text).",
+      "entities": ["PER-JAGDISHBHAI-MAKWANA", "INN-BHAVAI-EDUCATION", "ORG-ROJKUVA-SCHOOL", "PLC-CHHOTA-UDEPUR", "PLC-GUJARAT"],
+      "flags": []
+    },
+    {
+      "unit_id": "U38", "slides": [68],
+      "title_en": "Jitubhai Patel - teacher at Gunata Primary School; pension linkage for 450 women",
+      "text_en": "[Slide 68] 'Jitubhai Patel - an example of service and dedication'. Jitubhai Patel currently works as a dedicated teacher at Gunata Primary School. Jitubhai earlier worked as a PSI in the police department; although it was a prestigious post, most of the time was spent in contact with criminals. With a constant urge to do positive work for society, Jitubhai left the police job and chose the path of social service as a teacher. After joining teaching, Jitubhai developed the school with full dedication into a model school: today more than 400 students study there, and Jitubhai has worked day and night to make the school green, well-equipped and child-friendly. Inspired by Jitubhai, the student Mehul gave shape to a love of art by setting up a small art museum (kalamuseum) in the school. Besides school work, Jitubhai is active in social service: seeing that many government schemes were not reaching needy people, Jitubhai personally linked 450 women to old-age pension and widow pension schemes; because of these efforts more than 400 women are receiving financial assistance today. In gratitude these women presented Jitubhai with a 100-gram silver bracelet (kada) as a symbol of respect and love. Jitubhai Patel's life shows that with a resolve to serve, a person can bring change in society in any field.",
+      "entities": ["PER-JITUBHAI-PATEL", "ORG-GUNATA-SCHOOL", "PLC-GUNATA", "PER-MEHUL-RATHWA", "INN-SCHOOL-ART-MUSEUM", "INN-PENSION-LINKAGE"],
+      "flags": [],
+      "notes": "The 'student Mehul' of Gunata Primary School is linked to Mehul Rathwa (slide 34, student at the Gunata village school) with status 'probable' - same first name, same school, both about his art."
+    },
+    {
+      "unit_id": "U39", "slides": [69, 70],
+      "title_en": "Dineshbhai Rathwa - Rathwa dialect word booklet for teachers",
+      "text_en": "[Slide 69] Dineshbhai Rathwa (photo). [Slide 70] 'Dineshbhai Rathwa - the teacher who built a bridge for understanding the local language'. Dineshbhai Rathwa is a far-sighted and sensitive teacher who, understanding the problems of the local dialect of the Rathwa tribal community, has taken a very important initiative. The Rathwa dialect has many words that do not match common Gujarati, so teachers coming from outside to teach in tribal areas have difficulty understanding the language; as a result children's education suffers and communication is blocked. Understanding this challenge, Dineshbhai compiled words that are usually difficult for outside teachers and prepared a word-guide (booklet) with their meanings. This initiative was published by the Bhasha Kendra, and with the support of the Collector the book was distributed to all tribal schools. Because new teachers come to these areas every year and often do not know the local language, the Collector now personally asks these teachers to read the book, after which they are also examined, to ensure that teachers can communicate with children in their mother tongue and teach them better. Local language is not only a medium of understanding for children but also the basis of their confidence. Dineshbhai's initiative offers a practical solution to a big problem and strengthens linguistic inclusion in education - truly a 'language bridge' between teachers and students.",
+      "entities": ["PER-DINESHBHAI-RATHWA", "INN-RATHWA-WORD-BOOKLET", "ORG-BHASHA-KENDRA"],
+      "flags": []
+    },
+    {
+      "unit_id": "U40", "slides": [71, 72],
+      "title_en": "Ramanbhai Rathwa - Harpalpur Primary School built with Rs 2 lakh of personal money",
+      "text_en": "[Slide 71] \"Where nobody wanted to go, Ramanbhai settled a future.\" Ramanbhai Rathwa, working at Harpalpur Primary School in Gujarat, did what many think of but lack the courage to do. When Ramanbhai reached that village, conditions were very difficult: government employees did not want to go there, because the villagers considered themselves the government - no rules, no system. Ramanbhai did not stop and alone began teaching children in the village, where there was neither a school nor an environment for it. Gradually the children were educated and the whole atmosphere of the village changed. Today, if the administration has to do any work in the village, nothing happens without Ramanbhai's cooperation. Ramanbhai spent Rs 2 lakh of personal money to prepare an excellent school. Now there is not only education in that village but all necessary facilities, including a hostel - through one teacher's vision and dedication. [Slide 72] Photograph (no text).",
+      "entities": ["PER-RAMANBHAI-RATHWA", "ORG-HARPALPUR-SCHOOL", "INN-HARPALPUR-SCHOOL-BUILDING", "PLC-GUJARAT"],
+      "flags": []
+    },
+    {
+      "unit_id": "U41", "slides": [73, 74],
+      "title_en": "Nikhil bhai Rathwa, Riteshbhai Darji and Chakabhai - school supplies to 100+ schools",
+      "text_en": "[Slide 73] 'An example of selfless service - the team of Nikhil bhai Rathwa, Riteshbhai Darji and Chakabhai'. Nikhil bhai Rathwa, Riteshbhai Darji and Chakabhai are doing excellent work in their own schools and are also delivering essential facilities to needy children in other schools of the border areas. So far they have delivered essential items such as school bags, sports material, notebooks, sweaters and clothes to children in more than 100 schools; the estimated cost of all these items is more than Rs 1 crore 13 lakh. The donation is given by a dedicated group of bank employees and chartered accountants of Vadodara, who fully trust this team to deliver their support to the right place and the right hands. Personal resources are also used: a house that could have been rented out has been converted by the team into a storage and documentation office so that all work is organised. For the last three years they have done this service with full transparency and selflessness - not even a pen has been used for themselves. Items reach the neediest schools first and their own school's children last. [Slide 74] Photographs of distributions (no text on the slide).",
+      "entities": ["PER-NIKHILBHAI-RATHWA", "PER-RITESHBHAI-DARJI", "PER-CHAKABHAI", "INN-SCHOOL-SUPPLIES-NETWORK", "PLC-VADODARA"],
+      "flags": []
+    },
+    {
+      "unit_id": "U42", "slides": [75],
+      "title_en": "Aadesh (class 6, Rangpur Primary School) - sensitivity to nature",
+      "text_en": "[Slide 75] 'Aadesh's sensitivity - time to learn from nature'. Aadesh, studying in class 6 at Rangpur Primary School (Chhota Udaipur), noticed something unusual: a river lay between a peacock's chicks and their food. Aadesh then thought: \"Perhaps the villagers should bring its food close to it...\" This thought was not just compassion but a new vision of understanding nature's needs.",
+      "entities": ["PER-AADESH", "ORG-RANGPUR-SCHOOL", "PLC-CHHOTA-UDEPUR"],
+      "flags": []
+    },
+    {
+      "unit_id": "U43", "slides": [76],
+      "title_en": "Rinku Rathwa - young sports talent at Gunata school (stop on 8 June)",
+      "text_en": "[Slide 76] 'Rinku Rathwa - the Harmanpreet Kaur of tomorrow!' During the 53rd Shodhyatra, on 8 June, our halt was at Gunata school. That day we had completed a walk of about 21 kilometres and everyone was tired, but our young shodhyatri Akshar Vasani's energy did not drop - Akshar kept playing with the children with the same enthusiasm. Meanwhile a little girl surprised everyone with amazing sporting skill: her agility, grip on the ball and excellent shot-making style enchanted everyone. Her name was Rinku Rathwa. Seeing her sportsmanship and style, it felt as if we were watching the future Harmanpreet Kaur play.",
+      "entities": ["PER-RINKU-RATHWA", "PER-AKSHAR-VASANI", "ORG-GUNATA-SCHOOL", "PLC-GUNATA", "EVT-SY53"],
+      "flags": [],
+      "notes": "NOT the same person as 'Rinku Jeji' (51st Shodhyatra idea competition, Rajasthan)."
+    },
+    {
+      "unit_id": "U44", "slides": [77],
+      "title_en": "Two children of Gunata build a moving toy car in 2.5 minutes",
+      "text_en": "[Slide 77] 'A wonder made in 2.5 minutes - a lesson from two children of Gunata'. That day of the Shodhyatra will always be remembered. We were walking on the road to Gunata; sweat was pouring, but curiosity and hope grew with every step. At one place we saw two small children sitting in the dirt with some scattered materials - a cold-drink bottle and caps, broken slippers, wire and pieces of wood. We went close and asked, \"What are you making?\" The children smiled and, without answering, got on with their work. Just 2 minutes 30 seconds later they had a moving toy car in their hands that ran here and there when pushed. The IIT students walking with us were amazed. Rajkush said proudly, \"They made this car in front of us in 2.5 minutes.\" An IIT student replied with a smile: \"We take two days to make such a toy...\" That moment was silent but said a lot: what these children made without any training, resources or technical facilities taught us that innovation is born not only from degrees but from curiosity and imagination.",
+      "entities": ["INN-TOY-CAR-GUNATA", "PLC-GUNATA", "PER-RAJKUSH", "EVT-SY53"],
+      "flags": ["innovator_not_named"]
+    },
+    {
+      "unit_id": "U45", "slides": [79, 80],
+      "title_en": "Kamleshji Patel - 5000 trees on Hathipav hill, Jhabua",
+      "text_en": "[Slide 79] Kamleshji Patel. Kamleshji Patel, the Vyapari Mahasangh (traders' federation) and other collaborators together planted 5000 trees on the Hathipav ghati (hill) in Jhabua and nurtured them, and today have also done very big work for birds. Work has also been done for the people who come there. Complete arrangements of water and food have been made for animals and birds. [Slide 80] Photographs (no text).",
+      "entities": ["PER-KAMLESHJI-PATEL", "ORG-VYAPARI-MAHASANGH", "INN-HATHIPAV-PLANTATION", "PLC-HATHIPAV", "PLC-JHABUA"],
+      "flags": []
+    },
+    {
+      "unit_id": "U46", "slides": [81],
+      "title_en": "Mahendra Sharma and Prafulji Sharma - Good Morning Club",
+      "image_text": [{"slide": 81, "lang": "hi", "text": "Newspaper clipping headline: गुडमार्निंग क्लब ने मनाया अपना रजत जयंती समारोह"}],
+      "text_en": "[Slide 81] Mahendra Sharma and Prafulji Sharma. Through the Good Morning Club, Mahendra Sharma and Prafulji Sharma have made people aged 35 to 65 aware of health. Through the club, women have succeeded in showing their talent up to the national level. A newspaper clipping on the slide is headlined 'Good Morning Club celebrated its silver jubilee'.",
+      "entities": ["PER-MAHENDRA-SHARMA", "PER-PRAFULJI-SHARMA", "ORG-GOOD-MORNING-CLUB"],
+      "flags": ["visual_transcription"]
+    },
+    {
+      "unit_id": "U47", "slides": [83],
+      "title_en": "Rajendra Shrivastav - 20 years of helping mentally ill and destitute people; 500+ reunited with families",
+      "image_text": [{"slide": 83, "lang": "hi", "text": "Newspaper clipping: बीस साल से मानसिक रूप से विक्षिप्त और असहाय लोगों की कर रहे हैं मदद | मदद के बारे में... बिछड़े हुए को परिजन से भी मिलवा रहे | झाबुआ | जिले के मेघनगर में रहने वाले राजेंद्र श्रीवास्तव (नीरज) 20 सालों से मानसिक रूप से विक्षिप्त और असहाय लोगों की मदद कर रहे हैं ... देश के करीब 10 राज्यों के करीब 500 लोगों को वे उनके घर पहुंचा चुके हैं। | caption: असहाय लोगों की सेवा राजेंद्र श्रीवास्तव निस्वार्थ भाव से कर रहे हैं।"}],
+      "text_en": "[Slide 83] Rajendra Shrivast[av]. For 20 years Rajendra Shrivastav has been finding mentally ill and helpless people and, out of more than 800 people from about 10 states, has reunited more than 500 with their families; 300 people have been successfully taken to various ashrams. Rajendra works fully to solve whatever health problems there are nearby. Even today Rajendraji's financial condition is not strong, but the work continues; there is not even a good vehicle. If you would like to help anyone in this service, please contact us. (A newspaper clipping on the slide says Rajendra Shrivastav (Neeraj), who lives in Meghnagar, Jhabua district, has been helping mentally ill and destitute people for 20 years and has taken about 500 people from about 10 states back to their homes.)",
+      "entities": ["PER-RAJENDRA-SHRIVASTAV", "INN-REUNIFICATION-RAJENDRA", "PLC-MEGHNAGAR", "PLC-JHABUA"],
+      "flags": ["name_variant", "visual_transcription"],
+      "notes": "Slide title spells the surname 'श्रीवास्त' (truncated); the clipping in the slide image spells 'श्रीवास्तव' and adds '(नीरज)' and Meghnagar."
+    },
+    {
+      "unit_id": "U48", "slides": [84],
+      "title_en": "Sandhya Kulkarni - cycling records",
+      "image_text": [{"slide": 84, "lang": "hi", "text": "Newspaper clipping (masthead: झाबुआ-आलीराजपुर पत्रिका; patrika.com पत्रिका इंदौर, मंगलवार, 03 जून, 2025): 62 साल की संध्या के जीवन में साइकिल लेकर आई 'नया सवेरा' | साइकिल से रेकॉर्ड... इंडिया गेट टू गेट वे ऑफ इंडिया तक वर्चुअल स्पर्धा में 1423 किमी की दूरी निर्धारित समय में पूरी करते हुए ई सर्टिफिकेट और मेडल प्राप्त किया | उज्जैन में हुई साइकिल यात्रा में 118 किमी एक दिन में पूर्ण कर 2023 और 2024 में सबसे उम्रदराज महिला प्रतिभागी का सम्मान प्राप्त किया | लीप ईयर में ... उस दिन 25 किमी की दूरी 2 घंटे 25 मिनट में पूरी की | लक्ष्य लेकर बढ़ रहीं आगे: झाबुआ जैसे आदिवासी क्षेत्र में विगत 40 सालों से शासकीय सेवक के रूप में सेवाएं दे रही हैं ... - संध्या कुलकर्णी, साइक्लिस्ट"}],
+      "text_en": "[Slide 84] Sandhya Kulkarni. 'Sadhyaji' [as written] is a nature lover who has done a lot of work in life and keeps healthy by cycling, and has set records of 123 km in one day and 25 km in 2 hours 25 minutes. A newspaper clipping on the slide (Patrika, Indore edition, Tuesday 03 June 2025) is headlined 'Cycle brought a new dawn into the life of 62-year-old Sandhya'; it says she completed 1423 km in a virtual India Gate to Gateway of India event (e-certificate and medal), completed 118 km in one day in a cycle yatra in Ujjain and received the honour of oldest woman participant in 2023 and 2024, covered 25 km in 2 hours 25 minutes on the extra leap-year day, and has served as a government employee in the tribal area of Jhabua for 40 years.",
+      "entities": ["PER-SANDHYA-KULKARNI", "INN-CYCLING-SANDHYA", "PLC-JHABUA", "PUB-PATRIKA"],
+      "flags": ["name_variant", "visual_transcription", "conflicting_values"],
+      "notes": "Slide body writes 'साध्यजी' for Sandhya. Slide text says 123 km in one day; the clipping says 118 km in one day (Ujjain cycle yatra) - possibly different events; both kept as stated."
+    },
+    {
+      "unit_id": "U49", "slides": [85],
+      "title_en": "Gopal bhai Rathwa - retired soldier training youth for army/police recruitment; training women in organic processing",
+      "text_en": "[Slide 85] 'Gopal bhai Rathwa - came back to the village, brought change'. After retiring from the army most people choose a life of rest, but Gopal bhai Rathwa returned to the village and chose a different path - the path of change. Direction for youth: Gopal bhai now gives the village's youth free training for army and police recruitment, preparing children every morning in physical exercise, discipline and selection. Because children coming from nearby villages had difficulty arriving on time, Gopal bhai has also started a small hostel at personal expense where children can stay and prepare. Employment for women: Gopal bhai has also opened a path to employment for the village's women, training them in organic farming and processing - such as pickles, spices and processing of medicinal plants - so that women can become self-reliant.",
+      "entities": ["PER-GOPALBHAI-RATHWA", "INN-FREE-RECRUITMENT-TRAINING-GOPAL", "INN-WOMEN-ORGANIC-PROCESSING-TRAINING"],
+      "flags": []
+    },
+    {
+      "unit_id": "U50", "slides": [86],
+      "title_en": "Dal Paniya - traditional tribal dish of Jhabua and Alirajpur",
+      "text_en": "[Slide 86] Dal Paniya is a traditional and beloved tribal dish, especially popular in the Jhabua and Alirajpur districts of Madhya Pradesh. The dish is deeply connected with Jhabua's cultural identity and rural way of life.",
+      "entities": ["INN-DAL-PANIYA", "PLC-JHABUA", "PLC-ALIRAJPUR", "PLC-MADHYA-PRADESH"],
+      "flags": []
+    },
+    {
+      "unit_id": "U51", "slides": [87],
+      "title_en": "Kuliyari ki bhaji - traditional monsoon greens",
+      "text_en": "[Slide 87] Traditional dish - Kuliyari ki bhaji. Kuliyari ki bhaji is a nutritious and traditional dish eaten in tribal and rural areas. It is found especially in the rainy season, when this vegetable grows naturally in forests and fields.",
+      "entities": ["INN-KULIYARI-BHAJI"],
+      "flags": []
+    },
+    {
+      "unit_id": "U52", "slides": [88],
+      "title_en": "Forest fruits (photos)",
+      "text_en": "[Slide 88] 'Jungle ke phal' (forest fruits) - title on photographs of six wild fruits; the fruits are not named on the slide.",
+      "entities": [],
+      "flags": []
+    },
+    {
+      "unit_id": "U53", "slides": [89],
+      "title_en": "From tradition to transformation - poster exhibition",
+      "text_en": "[Slide 89] 'From tradition to transformation' - title on photographs of villagers looking at a poster exhibition.",
+      "entities": ["EVT-SY53"],
+      "flags": []
+    },
+    {
+      "unit_id": "U54", "slides": [90],
+      "title_en": "Promotion and dissemination of the Honey Bee database method",
+      "text_en": "[Slide 90] 'Promotion and dissemination of the Honey Bee database method' - title on photographs of posters being put up on walls and a box of rolled posters.",
+      "entities": ["ORG-HBN", "EVT-SY53"],
+      "flags": []
+    },
+    {
+      "unit_id": "U55", "slides": [91],
+      "title_en": "Mahua seed problem solved; other problems remain",
+      "text_en": "[Slide 91] 'The problem of mahua seeds has been solved, but other problems remain.' - title on photographs of women at work (ploughing with bullocks, carrying loads, sorting seeds).",
+      "entities": ["INN-MAHUA-DECORTICATOR"],
+      "flags": []
+    },
+    {
+      "unit_id": "U56", "slides": [92, 93],
+      "title_en": "Amar Shaheed Chandrashekhar Azad (born at Bhavra, Alirajpur)",
+      "text_en": "[Slide 92] Amar Shaheed Chandrashekhar Azad. Born: 23 July 1906 at Bhavra, district Alirajpur. Father: Shri Sitaram Tiwari; mother: Jagrani Devi. Martyrdom: 27 February 1931. [Slide 93] Amar Shaheed Chandrashekhar Azad was the Commander-in-Chief of the Hindustan Socialist Republican Army. He lit the flame of armed revolution in the Indian revolutionary movement and prepared a generation of revolutionaries, envisioning taking the freedom struggle to independence through armed revolution. After the Kakori conspiracy and the hanging, as its consequence, of Ramprasad Bismil, Rajendra Lahiri, Ashfaq Ulla Khan, Thakur Roshan Singh and others, he led almost the entire armed revolutionary movement from 1925 to 1931. He began his revolutionary life in 1921 in Banaras by taking part in the Non-Cooperation Movement; [the slide states he turned towards armed revolution from Pt. Jawaharlal Nehru, son of Motilal Nehru - as written]. Joining the Hindustan Republican Army led by Ramprasad Bismil, he carried out many revolutionary actions. After successfully carrying out the Kakori incident on 9 August 1925, the killing of Saunders in Lahore on 15 December 1928 and the Assembly bomb incident of 8 April 1929, he planned safe places for revolutionaries to defend the Lahore accused, and planned training for a Balochistan revolution and delivery of a bomb list. After these actions he made Allahabad, Banaras, Shahjahanpur, Ghazipur, Ilalabad [as written], Jhansi, Bulandshahr, Ramgarh, Ballia, Agra, Tekariganj, Kanpur, Delhi, Lahore and other places centres of revolution, and filled youth with enthusiasm for freedom. On 27 February 1931, together with fellow revolutionary Sukhdev Raj, when surrounded by police at Alfred Park in Allahabad, he fired the last bullet at himself and sacrificed his life, living up to the name 'Azad' and becoming immortal.",
+      "entities": ["PER-CHANDRASHEKHAR-AZAD", "PER-SITARAM-TIWARI", "PER-JAGRANI-DEVI", "PLC-BHAVRA", "PLC-ALIRAJPUR", "ORG-HSRA"],
+      "flags": ["unverified_historical_claims"],
+      "notes": "Historical biography as printed on the slides; some statements are unusual (e.g., the Nehru sentence, 'इलालाबाद', repeated city names). Stored verbatim with attribution, not corrected from outside knowledge."
+    }
+  ]
+}
